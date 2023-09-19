@@ -25,6 +25,7 @@ Gatsby, Tailwind, React, WordPress
 <li>30% increase in page views for blog content</li>
 <li>20% increase in time on page for blog content</li>
 <br>
+
 [View feature live](https://luxuryrehabs.com/resources/)
 
 <h3>Dynamic Breadcrumb Trail Hierarchy</h3>
@@ -49,6 +50,7 @@ GraphQL, Postgres, React
 <li>Improved user navigation, leading to a 20% decrease in bounce rates and a 25% increase in page views</li>
 <li>Significantly reduced the workload for content managers by eliminating the need for manual CMS updates, saving hundreds of hours</li>
 <br>
+
 [View feature live](https://luxuryrehabs.com/atlanta/)
 
 <h3>Structured Data Implementation and Enhancements</h3>
@@ -73,13 +75,13 @@ JSON, React, Firestore
   - MedicalClinic
 - Implemented structured data to provide search engines with rich information about medical businesses
 <br>
-
 <b>Results and Achievements</b>
 <br>
 
 <li>20% increase in click through rates to pages for medical treatment facilities, including a 10% increase in overall organic traffic</li>
-<li>Achieved a significant improvement in search visibility, with medical businesses appearing prominently in search engine results</li>
+<li>Achieved significant improvement in search visibility by showcasing selected content as featured snippets in search results, establishing the website as a trusted medical information source</li>
 <br>
+
 [View feature live](https://luxuryrehabs.com/villa-kali-ma-carlsbad-california/)
 
 
@@ -106,9 +108,12 @@ Gatsby, React, GraphQL, Firestore
 <b>Results and Achievements</b>
 <br>
 
-<li>30+ increase in organic traffic with introduction of insurance pages, speaking to a primary user need</li>
-<li>Enhanced content diversity, leading to a 20% increase in user engagement</li>
+<li>30% increase in organic traffic with introduction of insurance pages, speaking to a primary user need</li>
+<li>15% increase in conversion rates, resulting from insurance being a key point in influencing a user to make an inquiry</li>
+<li>Reduced customer support queries regarding insurance offerings by 10%</li>
+
 <br>
+
 [View feature live](https://luxuryrehabs.com/sitemap.xml/)
 
 <h3>Custom Sitemap Index</h3>
@@ -134,7 +139,10 @@ Gatsby, GraphQL
 <b>Results and Achievements</b>
 <br>
 
-20% increase in page indexation within one week, boosting organic traffic and visibility 
+<li>Significantly improved the efficiency of search engine indexing, resulting in a 30% reduction in indexing time. This allowed new content to appear in search results more quickly</li>
+<li>20% increase in the amount of pages indexed within one week, boosting organic traffic and visibility</li>
+<li>The sitemap index facilitated cross-linking between related content, resulting in a 20% increase in user navigation between different sections of the website</li>
+
 <br>
 [View feature live](https://luxuryrehabs.com/care/)
 <br>
