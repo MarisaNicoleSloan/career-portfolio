@@ -5,6 +5,7 @@
 ### Blog Submenu and Category Pages
 
 **Problem Statement**
+
 The primary objective was to improve user navigation on the content-rich blog, which featured hundreds of posts. We aimed to streamline the user experience by crafting a user-centric blog submenu and category pages, making it easier for readers to find and explore content that interested them. The approach was centered on delivering a seamless and user-centric navigation experience. We wanted to ensure that readers could effortlessly discover and access relevant content within the extensive blog library.
 
 **Technologies**
@@ -29,6 +30,7 @@ The primary objective was to improve user navigation on the content-rich blog, w
 ### Dynamic Breadcrumb Trail Hierarchy
 
 **Problem Statement**
+
 The primary aim was to improve user navigation on the website by implementing a dynamic breadcrumb trail hierarchy. This feature would automatically generate breadcrumb sequences, sorting values from broad (e.g., country) to specific (e.g., city), eliminating the need for manual CMS updates and saving valuable time.
 
 **Technologies**
@@ -49,6 +51,7 @@ The primary aim was to improve user navigation on the website by implementing a 
 ### Structured Data Implementation and Enhancements
 
 **Problem Statement**
+
 My primary goal was to enhance the online presence of medical businesses by implementing structured data, thereby improving search visibility, building trust, and attracting targeted traffic. We aimed to provide medical businesses with a more prominent and informative presence in search engine results.
 
 **Technologies**
@@ -74,6 +77,7 @@ My primary goal was to enhance the online presence of medical businesses by impl
 ### URL Routing and Page Categories
 
 **Problem Statement**
+
 The objective was to enhance the user experience, scalability, SEO, and content management by implementing a robust URL routing system and dynamic page categories. The goal was to provide diverse content while maintaining a consistent and efficient template.
 
 **Technologies**
@@ -97,6 +101,7 @@ The objective was to enhance the user experience, scalability, SEO, and content 
 ### Custom Sitemap Index
 
 **Problem Statement**
+
 The goal was to improve the website's structure and organic visibility by implementing a custom sitemap index. This sitemap index would serve as a directory for multiple sitemaps, aiding search engines in understanding the website's hierarchy and improving the visibility of its pages.
 
 **Technologies**
@@ -118,6 +123,7 @@ The goal was to improve the website's structure and organic visibility by implem
 ### Levels of Care Feature for Mental Health and Addiction Treatment Centers
 
 **Problem Statement**
+
 The goal was to improve the user experience for individuals seeking information about addiction and mental health facilities. The existing system lacked clarity in presenting support tiers, spanning outpatient therapy to intensive inpatient options.
 
 **Technologies**
