@@ -1,24 +1,22 @@
-### Blog Submenu and Category Pages
+### Levels of Care Feature for Mental Health and Addiction Treatment Centers
 
 **Problem Statement**
 
-The primary objective was to improve user navigation on the content-rich blog, which featured hundreds of posts. We aimed to streamline the user experience by crafting a user-centric blog submenu and category pages, making it easier for readers to find and explore content that interested them. The approach was centered on delivering a seamless and user-centric navigation experience. We wanted to ensure that readers could effortlessly discover and access relevant content within the extensive blog library.
+The goal was to improve the user experience for individuals seeking information about addiction and mental health facilities. The existing system lacked clarity in presenting support tiers, spanning outpatient therapy to intensive inpatient options.
 
 **Technologies**
+- ReactJS
+- CSS
 - Gatsby
-- Tailwind
-- React
-- WordPress
+- GraphQL
+- Postgres
 
 **Implementation**
-- Utilized Gatsby for routing, ensuring that the navigation system was fast and responsive.
-- Employed React for state management, allowing for a dynamic and interactive submenu.
-- Utilized Tailwind for a responsive and visually appealing design.
-- Designed tabs with menu chips featuring default, hover, and active states for an engaging user experience.
-- Implemented a feature where clicking a button would take users to the corresponding category page and auto-scroll to the section from the previous page for seamless content exploration.
+- Leveraged a database and React to show center specializations across thousands of pages
+- Ensured hyperlinks were conditionally displayed and only led users to pages with ample results, maximizing the user experience during their session
 
 **Results and Achievements**
-- 30% increase in page views for blog content
-- 20% increase in time on page for blog content
+- 50% increase in page views within two weeks of launching the feature
+- Enhanced the platform's reputation as a reliable source for addiction and mental health facility information
 
-[View feature live](https://luxuryrehabs.com/resources/)
+[View feature live](https://luxuryrehabs.com/evolutions-treatment/)
