@@ -10,6 +10,8 @@ The primary objective was to improve user navigation on the content-rich blog, w
 - React
 - WordPress
 
+<img src="https://i.imgur.com/xONWX3N.jpg" height="80%" width="80%" alt="Blog Submenu"/>
+
 **Implementation**
 - Utilized Gatsby for routing, ensuring that the navigation system was fast and responsive.
 - Employed React for state management, allowing for a dynamic and interactive submenu.
