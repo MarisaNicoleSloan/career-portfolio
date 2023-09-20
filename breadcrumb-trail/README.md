@@ -9,6 +9,8 @@ The primary aim was to improve user navigation on the website by implementing a 
 - Postgres
 - React
 
+<img src="https://i.imgur.com/Np9Gitc.png" height="80%" width="80%" alt="breadcrumb trail">
+
 **Implementation**
 - Programmed dynamic URL parsing to generate breadcrumb sequences automatically, regardless of the diverse page templates with varying URL structures.
 - Sorted breadcrumb values from broad categories (e.g., country) to specific categories (e.g., city) for clarity and consistency.
