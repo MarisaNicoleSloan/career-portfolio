@@ -1,8 +1,7 @@
 ### Blog Submenu and Category Pages
 
 **Problem Statement**
-
-The primary objective was to improve user navigation on the content-rich blog, which featured hundreds of posts. We aimed to streamline the user experience by crafting a user-centric blog submenu and category pages, making it easier for readers to find and explore content that interested them. The approach was centered on delivering a seamless and user-centric navigation experience. We wanted to ensure that readers could effortlessly discover and access relevant content within the extensive blog library.
+The goal was to enhance user navigation on a content-rich blog with hundreds of posts. We accomplished this by creating a user-centric blog submenu and category pages, ensuring readers could effortlessly find and explore relevant content.
 
 **Technologies**
 - Gatsby
