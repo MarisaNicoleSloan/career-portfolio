@@ -1,10 +1,9 @@
-### Levels of Care Feature for Mental Health and Addiction Treatment Centers
+# Levels of Care Feature for Mental Health and Addiction Treatment
 
-**Problem Statement**
+## Problem Statement
+Many individuals seeking information about addiction and mental health facilities often struggle to find clear and comprehensive information about the available support tiers, which can range from outpatient therapy to intensive inpatient options. The existing system lacked clarity in presenting these support tiers, making it difficult for users to make informed decisions about their treatment.
 
-The goal was to improve the user experience for individuals seeking information about addiction and mental health facilities. The existing system lacked clarity in presenting support tiers, spanning outpatient therapy to intensive inpatient options.
-
-**Technologies**
+## Technologies
 - ReactJS
 - CSS
 - Gatsby
@@ -13,12 +12,24 @@ The goal was to improve the user experience for individuals seeking information 
 
 <img src="https://i.imgur.com/6PtX7Nh.png" height="80%" width="80%"/>
 
-**Implementation**
-- Leveraged a database and React to show center specializations across thousands of pages
-- Ensured hyperlinks were conditionally displayed and only led users to pages with ample results, maximizing the user experience during their session
+## Implementation
 
-**Results and Achievements**
-- 50% increase in page views within two weeks of launching the feature
-- Enhanced the platform's reputation as a reliable source for addiction and mental health facility information
+In order to address the issues mentioned above, we implemented the following key features:
+
+1. **Database Integration**: Leveraged a PostgreSQL database to store and manage information about addiction and mental health facilities, including their specializations, treatment options, and support tiers.
+
+2. **React-Based User Interface**: Built a dynamic and user-friendly interface using ReactJS to display information about these facilities. This allowed users to easily navigate and explore the options available to them.
+
+3. **Conditional Hyperlinks**: Implemented a feature that conditionally displayed hyperlinks to related pages based on user preferences and the availability of relevant results. This optimization ensured that users were directed to pages with ample results, enhancing their overall experience.
+
+## Results and Achievements
+
+Our efforts in improving the user experience for individuals seeking addiction and mental health facility information yielded significant results:
+
+- **50% Increase in Page Views**: Within just two weeks of launching the feature, we observed a remarkable 50% increase in page views. This demonstrated that our enhancements were effective in engaging users and providing them with the information they needed.
+
+- **Enhanced Reputation**: Our platform has gained recognition as a reliable and valuable source of information for addiction and mental health facilities. Users now trust our platform to provide clear and comprehensive data, reinforcing our reputation as a go-to resource in this critical domain.
+
+By addressing the clarity and accessibility issues in the existing system and leveraging modern technologies, we have successfully improved the user experience and made valuable contributions to the field of addiction and mental health support.
 
 [View feature live](https://luxuryrehabs.com/evolutions-treatment/)
