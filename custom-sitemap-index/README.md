@@ -8,6 +8,10 @@ The goal was to improve the website's structure and organic visibility by implem
 - Gatsby
 - GraphQL
 
+<img src="https://i.imgur.com/cBQFUqp.png" height="80%" width="80%"/>
+
+<img src="https://i.imgur.com/6630vKV.png" height="80%" width="80%"/>
+
 **Implementation**
 - Configured GraphQL queries to fetch content data, ensuring that the sitemap index accurately represented the website's structure
 - Utilized React components to dynamically generate XML sitemaps, making it easy to update and maintain the sitemap index
