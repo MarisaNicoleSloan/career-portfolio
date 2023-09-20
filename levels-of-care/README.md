@@ -11,6 +11,8 @@ The goal was to improve the user experience for individuals seeking information 
 - GraphQL
 - Postgres
 
+<img src="https://i.imgur.com/6PtX7Nh.png" height="80%" width="80%"/>
+
 **Implementation**
 - Leveraged a database and React to show center specializations across thousands of pages
 - Ensured hyperlinks were conditionally displayed and only led users to pages with ample results, maximizing the user experience during their session
