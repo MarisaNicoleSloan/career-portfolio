@@ -9,6 +9,8 @@ My primary goal was to enhance the online presence of medical businesses by impl
 - React
 - Firestore
 
+<img src="https://i.imgur.com/5xk7SFe.png" height="80%" width="80%"/>
+
 **Implementation**
 - Dynamically extracted data from a database and mapped it to schema.org vocabulary to create structured data
 - Enhanced various structured data types, including:
