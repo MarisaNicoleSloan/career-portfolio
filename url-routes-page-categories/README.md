@@ -10,6 +10,8 @@ The objective was to enhance the user experience, scalability, SEO, and content 
 - GraphQL
 - Firestore
 
+<img src="https://i.imgur.com/OJd1ebt.png" height="80%" width="80%"/>
+
 **Implementation**
 - Developed dynamic route mapping to ensure that content could be easily categorized and accessed through user-friendly URLs
 - Created flexible component templates that could adapt to various content types, maintaining a consistent user interface
