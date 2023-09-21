@@ -13,9 +13,18 @@ The objective was to enhance the user experience, scalability, SEO, and content 
 <img src="https://i.imgur.com/OJd1ebt.png" height="80%" width="80%"/>
 
 ## Implementation
-- Developed dynamic route mapping to ensure that content could be easily categorized and accessed through user-friendly URLs
-- Created flexible component templates that could adapt to various content types, maintaining a consistent user interface
-- Implemented configuration files for seamless content generation, allowing content managers to efficiently publish and update pages
+
+### Dynamic Route Mapping
+
+I developed a dynamic route mapping system to ensure that content could be categorized and accessed through user-friendly URLs. This system allowed us to create logical and intuitive URL structures that improved organic visibility and website navigation.
+
+### Flexible Component Templates
+
+I created flexible component templates that could adapt to various content types while maintaining a consistent user interface. This approach ensured that users had a cohesive experience across different sections of the website.
+
+### Configuration Files for Content Generation
+
+I implemented configuration files to streamline content generation, allowing content managers to efficiently publish and update pages. This feature reduced the time and effort required to manage and update content, resulting in a more agile content management process.
 
 ## Results and Achievements
 - 30% increase in organic traffic with the introduction of insurance pages, speaking to a primary user need
