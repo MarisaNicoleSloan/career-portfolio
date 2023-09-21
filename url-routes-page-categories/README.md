@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-The objective was to enhance the user experience, scalability, SEO, and content management by implementing a robust URL routing system and dynamic page categories. The goal was to provide diverse content while maintaining a consistent and efficient template.
+The objective was to enhance the user experience, scalability, SEO, and content management by implementing a robust URL routing system and dynamic page categories. 
 
 ## Technologies
 - Gatsby
