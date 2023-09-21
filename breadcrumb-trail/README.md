@@ -4,6 +4,10 @@
 
 Navigating complex websites can be a daunting experience for users. The primary aim was to improve user navigation on the website by implementing a dynamic breadcrumb trail hierarchy. This feature would automatically generate breadcrumb sequences, sorting values from broad (e.g., country) to specific (e.g., city), eliminating the need for manual CMS updates and saving valuable time.
 
+## User Research Results
+
+We initiated this project with thorough user research, including user interviews and website analytics analysis. The data indicated that users frequently experienced difficulties in locating specific content and understanding their position within the website's structure. This research served as the foundation for our solution.
+
 ## Technologies
 - GraphQL
 - Postgres
