@@ -4,6 +4,9 @@
 
 The objective was to enhance the user experience, scalability, SEO, and content management by implementing a robust URL routing system and dynamic page categories. 
 
+### User Research Results
+The project began with an analysis of user behavior and content management processes. After consistent feedback from users about difficulties in finding particular content topics, this solution was devised to improve the user experience by enhancing content categorization and simplifying content management for CMS administrators.
+
 ## Technologies
 - Gatsby
 - React
