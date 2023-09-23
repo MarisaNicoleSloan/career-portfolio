@@ -28,7 +28,7 @@ Execution involved several technical components and steps, including the use of 
 
 *Data Retrieval from Firestore*
 
-To ensure that the sitemap index accurately represented the website's structure, I configured GraphQL queries. These queries fetched content data and metadata, crucial for constructing the sitemap index. GraphQL's flexibility allowed us to precisely tailor the data retrieval process to meet the needs of our sitemap.
+To ensure that the sitemap index accurately represented the website's structure, I configured GraphQL queries. These queries fetched content data and metadata, crucial for constructing the sitemap index. GraphQL's flexibility allowed me to precisely tailor the data retrieval process to meet the needs of the various sitemap.
 
 *Utilized React Components for Dynamic Sitemaps*
 
