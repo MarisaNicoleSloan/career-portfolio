@@ -12,13 +12,13 @@ React, Gatsby, GraphQL, Firestore
 The challenges of this project were multifaceted:
 
 - User Experience: Users found it difficult to navigate and discover content tailored to their interests and needs.
-- Scalability: As our content library expanded, managing static routes became increasingly cumbersome.
+- Scalability: As the content library expanded, managing static routes became increasingly cumbersome.
 - SEO: The website's organic traffic potential was diminished due to lack of discoverability 
 - Content Management: Administrators faced challenges updating and organizing content efficiently
 
 <b>Implementation Details</b>
 
-A core part of the solution involved React Router, a popular library that enables declarative routing in React applications. React Router allowed me to define and manage routes within our application, ensuring that specific components were rendered when certain URLs were accessed. Here's how I approached dynamic route creation for our specific content categories:
+A core part of the solution involved React Router, a popular library that enables declarative routing in React applications. React Router allowed me to define and manage routes within the application, ensuring that specific components were rendered when certain URLs were accessed. Here's how I approached dynamic route creation for the specific content categories:
 
 *Route Configuration*
 
