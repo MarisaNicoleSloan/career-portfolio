@@ -25,6 +25,8 @@ To create dynamic routes, I dynamically generated route definitions based on the
 
 GraphQL played a crucial role in this process by providing the necessary data to populate content pages for insurance offerings, treatment services, and therapies offered by medical facilities. When a user accessed a particular URL, GraphQL queries were executed to fetch the relevant content for that category. This seamless integration ensured that the content remained up-to-date and accurate.
 
+<img src="https://i.imgur.com/OJd1ebt.png">
+
 <b>Benefits and Achievements</b>
 
 - 30% increase in organic traffic with the introduction of insurance pages, speaking to a primary user need
