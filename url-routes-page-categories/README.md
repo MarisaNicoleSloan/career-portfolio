@@ -1,4 +1,4 @@
-# Dynamic Route Creation in React
+# Dynamic Page Routes and Categories
 
 <b>Problem Statement</b>
 
