@@ -8,6 +8,10 @@ Navigating complex websites can be a daunting experience for users. The primary 
 
 Usability test results and web analytics analyses indicated that users frequently experienced difficulties in locating specific content and understanding their position within the website's structure. 
 
+In addition, the breadcrumb trail had some logical inconsistencies depending on what page template a user was on.
+
+<img src="https://i.imgur.com/OWy50qS.png">
+
 <b>Technologies Used</b>
 
 React, GraphQL, Postgres, Jest
