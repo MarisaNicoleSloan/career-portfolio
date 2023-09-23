@@ -20,11 +20,11 @@ In order to address the issues mentioned above, I implemented the following key 
 
 <b>Database Integration</b>
 
-I leveraged PostgreSQL, a relational database, to store and manage information about addiction and mental health facilities. This database included details about specializations, treatment options, and support tiers. This structured approach allowed us to provide users with comprehensive and up-to-date information. GraphQL queries were configured to efficiently retrieve data from the database and present it in an organized manner.
+I leveraged PostgreSQL, a relational database, to store and manage information about addiction and mental health facilities. This database included details about specializations, treatment options, and support tiers. This structured approach provided users with comprehensive and up-to-date information, since the data was refreshed on a daily basis. GraphQL queries were configured to efficiently retrieve data from the database and present it in an organized manner.
 
 <b>React-Based User Interface</b>
 
-Built a dynamic and user-friendly interface using ReactJS to display information about these facilities. This allowed users to easily navigate and explore the treatment options available to them. The user interface was designed to be intuitive and accessible, catering to a diverse user base.
+I built the interface using ReactJS to display information about these facilities. This allowed users to easily navigate and explore the treatment options available to them. 
 
 <b>Conditional Hyperlinks</b>
 
@@ -34,4 +34,4 @@ To further enhance the user experience, I implemented a feature that conditional
 
 - 50% Increase in Page Views: Within just two weeks of launching the feature, I observed a remarkable 50% increase in page views. This demonstrated that the enhancements were effective in engaging users and providing them with the information they needed.
 
-- Enhanced Reputation: The platform has gained recognition as a reliable and valuable source of information for addiction and mental health facilities. Users now trust the platform to provide clear and comprehensive data, reinforcing the website's reputation as a go-to resource in this critical domain.
+- Enhanced Reputation: Surfacing this information reinforced the domains' reputation as a trusted platform in the mental health addiction space as a comprehensive online resource that was always patient-first.
