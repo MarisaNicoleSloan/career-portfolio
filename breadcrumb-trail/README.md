@@ -6,13 +6,13 @@ Navigating complex websites can be a daunting experience for users. The primary 
 
 <b>User Research Results</b>
 
-We initiated this project with thorough user research, including user interviews and website analytics analysis. The data indicated that users frequently experienced difficulties in locating specific content and understanding their position within the website's structure. This research served as the foundation for our solution.
+Usability test results and web analytics analyses indicated that users frequently experienced difficulties in locating specific content and understanding their position within the website's structure. 
 
 <b>Technical Challenges</b>
 
 *Handling Diverse Page Templates and URL Structures*
 
-One of the core challenges was handling diverse page templates with varying URL structures. For example, different sections of the website had URLs structured differently, making it challenging to extract meaningful breadcrumb information consistently. To tackle this, we implemented dynamic URL parsing. This feature automatically generates breadcrumb sequences, ensuring accuracy and consistency across the website.
+One of the core challenges was handling diverse page templates with varying URL structures. For example, different sections of the website had URLs structured differently, making it challenging to extract meaningful breadcrumb information consistently. 
 
 *Integration of GraphQL, Postgres, and React*
 
@@ -20,7 +20,7 @@ Integrating GraphQL for data retrieval, Postgres for database storage, and React
 
 *Extending Existing Breadcrumb Functionality*
 
-The original breadcrumbs were configured to work across certain page templates. Extending the new dynamic breadcrumb functionality without causing regressions for the old templates was a significant challenge. We needed to ensure that the existing system continued to function as expected while introducing new features.
+The original breadcrumbs were configured to work across certain page templates. Extending the new dynamic breadcrumb functionality without causing regressions for the old templates was crucial.
 
 <b>Technologies Used</b>
 
@@ -28,11 +28,11 @@ React, GraphQL, Postgres, Jest
 
 <b>Database Schema</b>
 
-The database schema was a critical component of our solution. It was designed to store information about the website's content, including categories, subcategories, and their relationships. The schema included tables for content pages, categories, and mappings that linked pages to categories.
+The database schema was a critical component of the solution. It was designed to store information about the website's content, including categories, subcategories, and their relationships. The schema included tables for content pages, categories, and mappings that linked pages to categories.
 
 <b>GraphQL Integration</b>
 
-To access data from the Postgres database, we utilized GraphQL as the query language. We defined GraphQL queries and resolvers that allowed us to retrieve relevant information for breadcrumb generation. GraphQL provided flexibility in fetching only the necessary data, reducing over-fetching, and optimizing query performance.
+To access data from the Postgres database, I utilized GraphQL as the query language. I defined GraphQL queries and resolvers that allowed me to retrieve relevant information for breadcrumb generation. GraphQL provided flexibility in fetching only the necessary data, reducing over-fetching, and optimizing query performance.
 
 <b>Implementation Details</b>
 
@@ -42,15 +42,13 @@ To address the URL structure challenge, our team implemented dynamic URL parsing
 
 *Sorting for Clarity*
 
-To enhance user understanding, we sort breadcrumb values from broad to specific categories. This clear and logical order simplifies navigation and ensures users always know where they are on the site. The sorting process involved custom algorithms that analyzed the relationships between content categories.
+To enhance user understanding, breadcrumb values are sorted in order of specificity. This clear and logical order simplifies navigation and ensures users always know where they are on the site. 
 
 <b>Testing and Quality Assurance</b>
 
-Automated testing frameworks were used to validate the accuracy of breadcrumb generation.</b>
+Jest was implemented as an automated testing framework to validate the accuracy of breadcrumb generation.</b>
 
 <b>Results and Achievements</b>
 
-The technical implementation of the dynamic breadcrumb trail hierarchy led to significant improvements:
-
-Improved user navigation, leading to a 20% decrease in bounce rates and a 25% increase in page views.
-Significantly reduced the workload for content managers by eliminating the need for manual CMS updates, saving hundreds of hours.
+- Improved user navigation, leading to a 20% decrease in bounce rates and a 25% increase in page views.
+- Significantly reduced the workload for content managers by eliminating the need for manual CMS updates, saving hundreds of hours.
