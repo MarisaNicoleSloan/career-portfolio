@@ -40,6 +40,12 @@ One of the critical aspects of this project was the necessity for filtering. The
 
 The filtering mechanism played a pivotal role in excluding non-indexable pages from the sitemap index. This selective approach ensured that only relevant and indexable content was included, preventing search engines from wasting resources on non-indexable pages with largely duplicate content. As a result, the custom sitemap index served as an efficient and streamlined directory, facilitating improved search engine indexing and enhancing the website's visibility.
 
+<img src="https://i.imgur.com/cBQFUqp.png">
+
+One a user clicked on one of the high-level sitemaps, they could see all the URLs associated with a particular category. This example is a snapshot of all the locations on the site stored in the locations sitemap.
+
+<img src="https://i.imgur.com/6630vKV.png">
+
 <b>Benefits and Achievements</b>
 
 - 20% increase in the number of pages indexed by search engines. This boost in indexing contributed to increased organic traffic and visibility.
