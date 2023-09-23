@@ -34,11 +34,13 @@ GraphQL played a crucial role in this process by providing the necessary data to
 
 <img src="https://i.imgur.com/OJd1ebt.png">
 
-
 These routes were achieved for 3 categories, each critical decision points in users seeking treatment for addiction or mental health issues.
 
-In addition to the insurance routes, there were also routes for treatment services and treatment therapy offerings. The layout of the pages followed the same layout as the insurance pages.
+In addition to the insurance routes, there were also routes for treatment services and treatment therapy offerings. The layout of the pages followed the same layout as the insurance pages and use the same components as well, including popular destinations tagged with the relevant category as well as a feed of results for centers offering the chosen category.
 
+<img src="https://i.imgur.com/HnydjmI.png">
+
+<img src="https://i.imgur.com/VsavQRj.png">
 
 <b>User Feedback</b>
 
