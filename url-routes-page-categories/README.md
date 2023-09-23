@@ -1,10 +1,12 @@
 # Dynamic Route Creation in React
 
 <b>Problem Statement</b>
+
 The objective was to enhance the user experience, scalability, SEO, and content management by implementing a robust URL routing system and dynamic page categories.
 After consistent feedback from users about difficulties in finding particular content topics, this solution was devised to improve the user experience by enhancing content categorization and simplifying content management for CMS administrators.
 
 <b>Technologies Used</b>
+
 React, Gatsby, GraphQL, Firestore
 
 <b>Implementation Details</b>
