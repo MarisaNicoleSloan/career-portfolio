@@ -31,13 +31,13 @@ Creating category pages and tagging articles presented challenges related to con
 *Design Iteration 1: Submenu Concept*
 
 The first design iteration involved the concept of introducing a submenu. Providing users with a quick way to navigate to specific categories would alleviate the issue of content overload.
-After receiving feedback following the first design iteration, I made several enhancements to the submenu. Some additional functionality and styling were built upon this initial mockup. Specifically, I addressed the following issues:
+After receiving feedback following the first design iteration, I made several enhancements to the submenu. Some additional functionality and styling were built upon this initial mockup. 
 
-- The gray divider line was made continuous for a more cohesive visual experience
--I adjusted the purple selected line to coordinate with the size of the title, ensuring it aligned with the content
+<img src="https://i.imgur.com/upjGlHc.png" height="80%" width="80%" alt="Blog Submenu"/>
   
 After some feedback from the design team, I recognized a need for improved user navigation between parent and subcategory pages. To address this, I made the following refinements:
-
+- The gray divider line was made continuous for a more cohesive visual experience
+-I adjusted the purple selected line to coordinate with the size of the title, ensuring it aligned with the content
 - When a chip (e.g., "Symptoms") is selected, it now shows as selected on the "Symptoms" page, providing users with a clear indication of their current location within the navigation.
 - Clicking on a tab immediately takes users to a parent page of that title, eliminating confusion caused by sub-categories being initially displayed.
 - Once on the parent page (e.g., "Gathering Information"), users can easily select a subcategory to narrow down results. To facilitate this, we introduced an additional chip labeled "All," which is selected by default when clicking on a tab.
