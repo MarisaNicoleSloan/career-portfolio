@@ -1,6 +1,6 @@
 <b>Custom Sitemap Index Implementation</b>
 
-This initiative was undertaken to enhance the website's structure and organic visibility through the implementation of a custom sitemap index. This innovative solution aimed to serve as a directory for multiple sitemaps, aiding search engines in comprehending the website's hierarchy and thereby improving the visibility of its pages. Prior to this project, our website faced challenges in efficiently communicating its structure to search engines and maximizing organic traffic.
+Prior to this project, the website faced challenges in efficiently communicating its structure to search engines and maximizing organic traffic. This initiative was undertaken to enhance the website's structure and organic visibility through the implementation of a custom sitemap index. This innovative solution aimed to serve as a directory for multiple sitemaps, aiding search engines in comprehending the website's hierarchy and thereby improving the visibility of its pages. 
 
 <b>Technologies Used</b>
 
@@ -8,16 +8,19 @@ Gatsby, GraphQL, Firestore
 
 <b>Discovery Findings</b>
 
-Our project commenced with a comprehensive analysis of the website's organic visibility and search engine indexing. This analysis included:
+The project commenced with a comprehensive analysis of the website's organic visibility and search engine indexing. This analysis included:
 
 *Organic Visibility Assessment*
+
 I closely examined the website's current organic visibility, identifying areas where improvements were needed to enhance the website's structure and SEO performance.
 
 *Search Engine Indexing Analysis*
-I assessed how search engines were indexing our website. This evaluation revealed opportunities to provide search engines with a clearer understanding of our content hierarchy.
+
+I assessed how search engines were indexing the website. This evaluation revealed opportunities to provide search engines with a clearer understanding of the content hierarchy.
 
 *User Behavior Analysis*
-Delved into user behavior data, uncovering the fact that users often struggled to navigate between different sections of the website effectively. This highlighted the need for improved cross-linking and navigation.
+
+Results from user tests revealed that users often struggled to navigate between different sections of the website effectively. This highlighted the need for improved cross-linking and navigation.
 
 <b>Implementation Details</b>
 
@@ -25,7 +28,7 @@ Execution involved several technical components and steps, including the use of 
 
 *Data Retrieval from Firestore*
 
-To ensure that the sitemap index accurately represented the website's structure, we configured GraphQL queries. These queries fetched content data and metadata, crucial for constructing the sitemap index. GraphQL's flexibility allowed us to precisely tailor the data retrieval process to meet the needs of our sitemap.
+To ensure that the sitemap index accurately represented the website's structure, I configured GraphQL queries. These queries fetched content data and metadata, crucial for constructing the sitemap index. GraphQL's flexibility allowed us to precisely tailor the data retrieval process to meet the needs of our sitemap.
 
 *Utilized React Components for Dynamic Sitemaps*
 
@@ -39,6 +42,5 @@ The filtering mechanism played a pivotal role in excluding non-indexable pages f
 
 <b>Benefits and Achievements</b>
 
-- Efficient Search Engine Indexing: We significantly improved the efficiency of search engine indexing, resulting in a 30% reduction in indexing time. This expedited the appearance of new content in search results, enhancing our website's visibility.
-
-- Increased Page Indexing: Within just one week of implementing the custom sitemap index, we observed a remarkable 20% increase in the number of pages indexed by search engines. This boost in indexing contributed to increased organic traffic and visibility.
+- 20% increase in the number of pages indexed by search engines. This boost in indexing contributed to increased organic traffic and visibility.
+- 30% reduction in indexing time. This expedited the appearance of new content in search results, enhancing the website's visibility.
