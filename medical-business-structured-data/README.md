@@ -1,4 +1,4 @@
-# Enhancing SEO with Multiple Structured Data Types
+# Enhancing Medical Facilities' Online Presence with Structured Data
 
 <b>Problem Statement</b>
 
