@@ -12,6 +12,8 @@ The project began with extensive user research, including surveys and user inter
 
 ReactJS, Tailwind CSS, Gatsby, GraphQL, PostgreSQL
 
+<img src="https://i.imgur.com/6PtX7Nh.png" height="80%" width="80%"/>
+
 <b>Implementation Details</b>
 
 In order to address the issues mentioned above, I implemented the following key technical features:
