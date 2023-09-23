@@ -8,33 +8,29 @@ Navigating complex websites can be a daunting experience for users. The primary 
 
 Usability test results and web analytics analyses indicated that users frequently experienced difficulties in locating specific content and understanding their position within the website's structure. 
 
+<b>Technologies Used</b>
+
+React, GraphQL, Postgres, Jest
+
 <b>Technical Challenges</b>
 
 *Handling Diverse Page Templates and URL Structures*
 
 One of the core challenges was handling diverse page templates with varying URL structures. For example, different sections of the website had URLs structured differently, making it challenging to extract meaningful breadcrumb information consistently. 
 
-*Integration of GraphQL, Postgres, and React*
-
-Integrating GraphQL for data retrieval, Postgres for database storage, and React for the frontend presented its own set of challenges. Ensuring seamless communication between these technologies and maintaining data consistency required careful planning and execution.
-
 *Extending Existing Breadcrumb Functionality*
 
 The original breadcrumbs were configured to work across certain page templates. Extending the new dynamic breadcrumb functionality without causing regressions for the old templates was crucial.
 
-<b>Technologies Used</b>
+<b>Implementation Details</b>
 
-React, GraphQL, Postgres, Jest
-
-<b>Database Schema</b>
+*Database Schema*
 
 The database schema was a critical component of the solution. It was designed to store information about the website's content, including categories, subcategories, and their relationships. The schema included tables for content pages, categories, and mappings that linked pages to categories.
 
-<b>GraphQL Integration</b>
+*GraphQL Integration*
 
 To access data from the Postgres database, I utilized GraphQL as the query language. I defined GraphQL queries and resolvers that allowed me to retrieve relevant information for breadcrumb generation. GraphQL provided flexibility in fetching only the necessary data, reducing over-fetching, and optimizing query performance.
-
-<b>Implementation Details</b>
 
 *Dynamic URL Parsing*
 
@@ -47,6 +43,8 @@ To enhance user understanding, breadcrumb values are sorted in order of specific
 <b>Testing and Quality Assurance</b>
 
 Jest was implemented as an automated testing framework to validate the accuracy of breadcrumb generation.</b>
+
+<img src="https://i.imgur.com/Np9Gitc.png">
 
 <b>Results and Achievements</b>
 
