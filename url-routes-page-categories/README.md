@@ -2,12 +2,19 @@
 
 <b>Problem Statement</b>
 
-The objective was to enhance the user experience, scalability, SEO, and content management by implementing a robust URL routing system and dynamic page categories.
-After consistent feedback from users about difficulties in finding particular content topics, this solution was devised to improve the user experience by enhancing content categorization and simplifying content management for CMS administrators.
+To enhance user experience, scalability, SEO, and content management, I implemented a robust URL routing system and dynamic page categories. This solution addressed user feedback on content discoverability and simplified content management for administrators, all with the goal of creating a better user experience.
 
 <b>Technologies Used</b>
 
 React, Gatsby, GraphQL, Firestore
+
+<b>Challenges Faced</b>
+The challenges of this project were multifaceted:
+
+- User Experience: Users found it difficult to navigate and discover content tailored to their interests and needs.
+- Scalability: As our content library expanded, managing static routes became increasingly cumbersome.
+- SEO: The website's organic traffic potential was diminished due to lack of discoverability 
+- Content Management: Administrators faced challenges updating and organizing content efficiently
 
 <b>Implementation Details</b>
 
@@ -26,6 +33,16 @@ To create dynamic routes, I dynamically generated route definitions based on the
 GraphQL played a crucial role in this process by providing the necessary data to populate content pages for insurance offerings, treatment services, and therapies offered by medical facilities. When a user accessed a particular URL, GraphQL queries were executed to fetch the relevant content for that category. This seamless integration ensured that the content remained up-to-date and accurate.
 
 <img src="https://i.imgur.com/OJd1ebt.png">
+
+
+These routes were achieved for 3 categories, each critical decision points in users seeking treatment for addiction or mental health issues.
+
+In addition to the insurance routes, there were also routes for treatment services and treatment therapy offerings. The layout of the pages followed the same layout as the insurance pages.
+
+
+<b>User Feedback</b>
+
+User feedback was overwhelmingly positive. Users reported it easier to discover relevant content, and administrators appreciated the simplified content management process.
 
 <b>Benefits and Achievements</b>
 
