@@ -10,7 +10,7 @@ Addiction Treatment and Mental Health
 
 <b>Project Scale</b>
 
-Approximately 4,000 pages incorporated this module
+This submenu impacted about 400 blog posts and required significant database modifications for implementation.
 
 <b>Business Challenge and User Need</b>
 
