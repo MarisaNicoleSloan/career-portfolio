@@ -10,7 +10,7 @@ Addiction Treatment and Mental Health
 
 <b>Project Scale</b>
 
-Approximately 40,000 pages were touched in order to be included or excluded from the sitemap index.
+Approximately 40,000 pages were evaluated in order to be included or excluded from the sitemap index.
 
 <b>Business Challenge and User Need</b>
 
@@ -37,7 +37,7 @@ Results from user tests revealed that users often struggled to navigate between 
 Execution involved several technical components and steps, including the use of loops to iterate through URLs tagged with specific taxonomies in each sitemap category, and a special configuration to filter out pages missing a robots noindex tag.
 
 The sitemap index was developed to reflect the business model of the site, which was a directory of treatment centers and other medical facilities offering treatment for various conditions. Each sitemap was created based on a key offering and corresponding URL path:
-- <b>Location</b>: Locations were medical facilities were located
+- <b>Location</b>: Locations where medical facilities were located
 - <b>Condition</b>: Conditions that facilities treated. Example URL paths were /condition/depression/, /condition/schizophrenia/, etc.
 - <b>Taxonomies</b>: This encompassed multiple categories, including treatment therapies, insurance providers, and types of clientele.
 - <b>Resources</b>: All blog posts. Example path would be /resources/what-is-rehab/
