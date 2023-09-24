@@ -8,6 +8,10 @@ RehabPath
 
 Addiction Treatment and Mental Health
 
+<b>Project Scale</b>
+
+Approximately 4,000 pages incorporated this module
+
 <b>Business Challenge and User Need</b>
 
 Efficient organization and sorting are pivotal for a seamless blog user experience, driving reader retention and content exploration. The previous blog lacked these essential features, leading to reduced traffic and usage. To address these issues, I developed a user-friendly submenu with category pages.
