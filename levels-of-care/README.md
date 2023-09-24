@@ -1,4 +1,4 @@
-# Levels of Care Feature for Mental Health and Addiction Treatment
+# Levels of Care Feature for Mental Health and Addiction Treatment Centers
 
 <b>Client</b>
 
