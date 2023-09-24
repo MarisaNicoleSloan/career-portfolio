@@ -20,7 +20,8 @@
 - [Structured Data Implementation and Enhancements](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/medical-business-structured-data)
 
 
-Technologies
+<b>Technologies</b>
+
 - Languages: Python, SQL, JavaScript, HTML, CSS, XML, GraphQL
 - Libraries and Frameworks: React.js, Express.js, Node.js, Gatsby, Tailwind
 - Databases: PostgreSQL, MongoDB, Firestore
