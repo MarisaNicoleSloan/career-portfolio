@@ -8,7 +8,7 @@ RehabPath
 
 Addiction Treatment and Mental Health
 
-<b></b>Project Scale</b>
+<b>Project Scale</b>
 
 Approximately 4,000 pages incorporated this module.
 
