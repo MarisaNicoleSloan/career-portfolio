@@ -1,4 +1,4 @@
-# Blog Submenu and Category Pages
+# Blog Submenu and Category Pages for an Extensive Content Library
 
 <b>Client</b>
 
