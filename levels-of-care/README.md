@@ -28,15 +28,15 @@ ReactJS, Tailwind CSS, Gatsby, GraphQL, PostgreSQL
 
 In order to address the issues mentioned above, I implemented the following key technical features:
 
-<b>Database Integration</b>
+*Database Integration*
 
 I leveraged PostgreSQL, a relational database, to store and manage information about addiction and mental health facilities. This database included details about specializations, treatment options, and support tiers. This structured approach provided users with comprehensive and up-to-date information, since the data was refreshed on a daily basis. GraphQL queries were configured to efficiently retrieve data from the database and present it in an organized manner.
 
-<b>React-Based User Interface</b>
+*React-Based User Interface*
 
 I built the interface using ReactJS to display information about these facilities. This allowed users to easily navigate and explore the treatment options available to them. 
 
-<b>Conditional Hyperlinks</b>
+*Conditional Hyperlinks*
 
 To further enhance the user experience, I implemented a feature that conditionally displayed hyperlinks to related pages based on user preferences and the availability of relevant results. This optimization ensured that users were directed to pages with ample results, enhancing their overall experience and minimizing frustration. 
 
@@ -46,7 +46,6 @@ Figuring out the placement of the module and its destination links involved wire
 
 The design team initially suggested a grid approach, but design and development decided to not move forward with that iteration as it became more apparent what core offerings would be shown in that module.
 <img src="https://i.imgur.com/JfzY8PS.png">
-
 
 The module in its final form ended up going on every center profile right beneath the center overview panel. This treatment prioritized educating the user about treatment options before delving into the specialties of a specific center.
 
