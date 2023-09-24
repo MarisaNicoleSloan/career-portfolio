@@ -12,8 +12,6 @@ The project began with extensive user research, including surveys and user inter
 
 ReactJS, Tailwind CSS, Gatsby, GraphQL, PostgreSQL
 
-<img src="https://i.imgur.com/6PtX7Nh.png" height="80%" width="80%"/>
-
 <b>Implementation Details</b>
 
 In order to address the issues mentioned above, I implemented the following key technical features:
@@ -30,8 +28,9 @@ I built the interface using ReactJS to display information about these facilitie
 
 To further enhance the user experience, I implemented a feature that conditionally displayed hyperlinks to related pages based on user preferences and the availability of relevant results. This optimization ensured that users were directed to pages with ample results, enhancing their overall experience and minimizing frustration. 
 
+<img src="https://i.imgur.com/6PtX7Nh.png"/>
+
 <b>Benefits and Achievements</b>
 
-- 50% Increase in Page Views: Within just two weeks of launching the feature, I observed a remarkable 50% increase in page views. This demonstrated that the enhancements were effective in engaging users and providing them with the information they needed.
-
-- Enhanced Reputation: Surfacing this information reinforced the domains' reputation as a trusted platform in the mental health addiction space as a comprehensive online resource that was always patient-first.
+- 50% increase in pageviews within just two weeks of launching the feature
+- Surfacing this information reinforced the domains' reputation as a trusted platform in the mental health addiction space as a comprehensive online resource that was always patient-first.
