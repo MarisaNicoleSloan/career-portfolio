@@ -33,4 +33,4 @@ To further enhance the user experience, I implemented a feature that conditional
 <b>Benefits and Achievements</b>
 
 - 50% increase in pageviews within just two weeks of launching the feature
-- Surfacing this information reinforced the domains' reputation as a trusted platform in the mental health addiction space as a comprehensive online resource that was always patient-first.
+- Surfacing this information reinforced the brand's reputation as a trusted platform in the mental health addiction space as a comprehensive online resource that was always patient-first.
