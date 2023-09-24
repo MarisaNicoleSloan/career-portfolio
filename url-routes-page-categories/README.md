@@ -9,6 +9,7 @@ To enhance user experience, scalability, SEO, and content management, I implemen
 React, Gatsby, GraphQL, Firestore
 
 <b>Challenges Faced</b>
+
 The challenges of this project were multifaceted:
 
 - User Experience: Users found it difficult to navigate and discover content tailored to their interests and needs.
@@ -23,6 +24,8 @@ A core part of the solution involved React Router, a popular library that enable
 *Route Configuration*
 
 I established a route configuration system that mapped content categories to specific React components. This configuration acted as a blueprint for defining how different categories of content would be displayed. React Router's Route component was used to match URLs to the appropriate component based on the route configuration.
+
+An example of mapping a taxonomy (category) to a route included insurance. Since the insurance route (path) was /insurance/, any insurance page included that path (e.g. /insurance/aetna/, /insurance/cigna/, etc.) Now a page could be made for any insurance provider and a URL would be generated for it, ensuring proper optimization for search engines and making it easier for CMS administrators to edit any page.
 
 *Dynamic Routes*
 
