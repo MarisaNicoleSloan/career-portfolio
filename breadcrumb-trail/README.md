@@ -38,7 +38,7 @@ To access data from the Postgres database, I utilized GraphQL as the query langu
 
 *Dynamic URL Parsing*
 
-To address the URL structure challenge, our team implemented dynamic URL parsing. This involved creating a URL parsing engine that could adapt to various URL structures. It intelligently extracted relevant information to construct breadcrumb sequences. We encountered instances where page URLs included query parameters and dynamically generated content, which required careful handling to ensure accuracy.
+To address the URL structure challenge, I implemented dynamic URL parsing that could adapt to various URL structures. It intelligently extracted relevant information to construct breadcrumb sequences. 
 
 *Sorting for Clarity*
 
