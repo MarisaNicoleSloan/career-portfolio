@@ -24,15 +24,15 @@ Results from user tests revealed that users often struggled to navigate between 
 
 <b>Implementation Details</b>
 
-Execution involved several technical components and steps, including the use of loops to iterate through URLs tagged with specific taxonomies in each sitemap category, and a special configuration to filter out pages missing a noindex robots tag:
+Execution involved several technical components and steps, including the use of loops to iterate through URLs tagged with specific taxonomies in each sitemap category, and a special configuration to filter out pages missing a robots noindex tag:
 
 *Data Retrieval from Firestore*
 
-To ensure that the sitemap index accurately represented the website's structure, I configured GraphQL queries. These queries fetched content data and metadata, crucial for constructing the sitemap index. GraphQL's flexibility allowed me to precisely tailor the data retrieval process to meet the needs of the various sitemap.
+To ensure that the sitemap index accurately represented the website's structure, I configured GraphQL queries. These queries fetched content data and metadata, crucial for constructing the sitemap index. GraphQL's flexibility allowed me to precisely tailor the data retrieval process to meet the needs of the various sitemaps.
 
 *Utilized React Components for Dynamic Sitemaps*
 
-React components were instrumental in the dynamic generation of XML sitemaps. This approach allowed me to efficiently update and maintain the sitemap index as the website evolved. It ensured that every page, regardless of its depth within the website, was included in the sitemap index, thereby maximizing SEO benefits.
+React components were instrumental in the dynamic generation of XML sitemaps. This approach allowed me to efficiently update and maintain the sitemap index as the website evolved. It ensured that every page that met certain criteria, regardless of its depth within the website, was included in the sitemap index, thereby maximizing SEO benefits.
 
 *Filtering Out Non-Indexable Pages*
 
@@ -42,7 +42,7 @@ The filtering mechanism played a pivotal role in excluding non-indexable pages f
 
 <img src="https://i.imgur.com/cBQFUqp.png">
 
-One a user clicked on one of the high-level sitemaps, they could see all the URLs associated with a particular category. This example is a snapshot of all the locations on the site stored in the locations sitemap.
+Once a user clicked on one of the high-level sitemaps, they could see all the URLs associated with a particular category. This example is a snapshot of all the locations on the site stored in the locations sitemap.
 
 <img src="https://i.imgur.com/6630vKV.png">
 
