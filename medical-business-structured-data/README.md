@@ -58,8 +58,14 @@ To reinforce the domain's authority in the addiction treatment industry, I added
 
 To ensure the accuracy and effectiveness of the structured data implementation, I conducted extensive testing. This included validation against schema.org standards, verification of rich snippet previews in search engine tools, and monitoring for any errors or warnings in Google Search Console.
 
-
 <img src="https://i.imgur.com/5xk7SFe.png">
+
+
+<b>Appearance in Search Results</b>
+
+Enhancements to this center listing can be seen in the breadcrumb along with review and ratings below the meta description.
+
+<img src="https://i.imgur.com/ik5Wj4c.png">
 
 <b>Results and Achievements</b>
 
