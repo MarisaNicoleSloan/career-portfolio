@@ -1,5 +1,13 @@
 # Dynamic Breadcrumb Trail Hierarchy Implementation
 
+<b>Client</b>
+
+RehabPath
+
+<b>Client Industry</b>
+
+Addiction Treatment and Mental Health
+
 <b>Business Challenge and User Need</b>
 
 Navigating complex websites can be a daunting experience for users. The primary aim was to improve user navigation on the website by implementing a dynamic breadcrumb trail hierarchy. This feature would automatically generate breadcrumb sequences, sorting values from broad (e.g., country) to specific (e.g., city), eliminating the need for manual CMS updates and saving valuable time.
