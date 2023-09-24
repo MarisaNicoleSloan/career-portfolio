@@ -1,4 +1,4 @@
-# Dynamic Breadcrumb Trail Hierarchy Implementation
+# Dynamic Breadcrumbs
 
 <b>Client</b>
 
@@ -7,6 +7,10 @@ RehabPath
 <b>Client Industry</b>
 
 Addiction Treatment and Mental Health
+
+<b>Project Scale</b>
+
+Approximately 8,000 pages were changed while another 40,000 had exclusions in place to avoid regressions
 
 <b>Business Challenge and User Need</b>
 
@@ -26,11 +30,7 @@ React, GraphQL, Postgres, Jest
 
 <b>Technical Challenges</b>
 
-*Handling Diverse Page Templates and URL Structures*
-
 One of the core challenges was handling diverse page templates with varying URL structures. For example, different sections of the website had URLs structured differently, making it challenging to extract meaningful breadcrumb information consistently. 
-
-*Extending Existing Breadcrumb Functionality*
 
 The original breadcrumbs were configured to work across certain page templates. Extending the new dynamic breadcrumb functionality without causing regressions for the old templates was crucial.
 
@@ -42,23 +42,32 @@ The database schema was a critical component of the solution. It was designed to
 
 *GraphQL Integration*
 
-To access data from the Postgres database, I utilized GraphQL as the query language. I defined GraphQL queries and resolvers that allowed me to retrieve relevant information for breadcrumb generation. GraphQL provided flexibility in fetching only the necessary data, reducing over-fetching, and optimizing query performance.
+To access data from the Postgres database, I utilized GraphQL as the query language. I defined GraphQL queries that allowed me to retrieve relevant information from the database for breadcrumb generation. GraphQL provided flexibility in fetching only the necessary data, reducing over-fetching, and optimizing query performance.
 
 *Dynamic URL Parsing*
 
-To address the URL structure challenge, I implemented dynamic URL parsing that could adapt to various URL structures. It intelligently extracted relevant information to construct breadcrumb sequences. 
+To address the URL structure challenge, I implemented dynamic URL parsing that could adapt to various URL structures depending on what page template the user was on. It intelligently extracted relevant information to construct breadcrumb sequences. 
 
 *Sorting for Clarity*
 
-To enhance user understanding, breadcrumb values are sorted in order of specificity. This clear and logical order simplifies navigation and ensures users always know where they are on the site. 
+To enhance user understanding, breadcrumb values are sorted in order of specificity. The values are sorted from broad, such as continent or country level, to the most specific and recent page in the trail, which would be the city that the user is searching for.
+
+Thus, the breadcrumb always follow the pattern in this order:
+- Continent
+- Country
+- State (if applicable)
+- Region (if applicable), such as New England
+- City or Province
+
+<img src="https://i.imgur.com/prQqAh6.png">
+
+This clear and logical order simplifies navigation and ensures users always know where they are on the site. 
 
 <b>Testing and Quality Assurance</b>
 
-Jest was implemented as an automated testing framework to validate the accuracy of breadcrumb generation.</b>
-
-<img src="https://i.imgur.com/Np9Gitc.png">
+Jest was implemented as an automated testing framework to validate the accuracy of breadcrumb generation on each page template. 
 
 <b>Results and Achievements</b>
 
-- Improved user navigation, leading to a 20% decrease in bounce rates and a 25% increase in page views.
-- Significantly reduced the workload for content managers by eliminating the need for manual CMS updates, saving hundreds of hours.
+- Improved user navigation, leading to a 20% decrease in bounce rates and a 25% increase in page views
+- Significantly reduced the manual workload for content managers by eliminating the need for manual CMS updates involving breadcrumb structure, saving hundreds of hours
