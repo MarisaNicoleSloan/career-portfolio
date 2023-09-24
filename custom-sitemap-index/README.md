@@ -18,7 +18,7 @@ Prior to this project, the website faced challenges in efficiently communicating
 
 <b>Technologies Used</b>
 
-Gatsby, GraphQL, Firestore
+JavaScript (ES6), Gatsby, GraphQL, Firestore
 
 <b>Discovery Findings</b>
 
@@ -54,10 +54,6 @@ This example is a snapshot of all the locations on the site stored in the locati
 *Data Retrieval from Firestore*
 
 I configured GraphQL queries to fetch content data and metadata, crucial for constructing the sitemap index. GraphQL's flexibility allowed me to precisely tailor the data retrieval process to meet the needs of the various sitemaps.
-
-*Utilized React Components for Dynamic Sitemaps*
-
-React components were instrumental in the dynamic generation of XML sitemaps. This approach allowed me to efficiently update and maintain the sitemap index as the website evolved. It ensured that every page that met certain criteria, regardless of its depth within the website, was included in the sitemap index, thereby maximizing SEO benefits.
 
 *Filtering Out Non-Indexable Pages*
 
