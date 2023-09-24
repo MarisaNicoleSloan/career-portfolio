@@ -1,6 +1,6 @@
 # Enhancing Medical Facilities' Online Presence with Structured Data
 
-<b>Problem Statement</b>
+<b>Business Challenge and User Need</b>
 
 In the fiercely competitive online environment, achieving strong search engine rankings is paramount for a website's visibility and success. To bolster the website's search engine optimization (SEO) performance, the primary goal was to implement various types of structured data across the website. Structured data would enable search engines to better understand and present the website content in rich snippets and other enhanced search results, ultimately driving more organic traffic.
 
