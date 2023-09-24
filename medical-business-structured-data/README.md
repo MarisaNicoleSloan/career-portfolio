@@ -22,7 +22,7 @@ The project began with extensive user research, encompassing user surveys, keywo
 
 <b>Technologies Used</b>
 
-React, GraphQL, Gatsby, JSON-LD
+React, GraphQL, Gatsby, JSON-LD, Postgres
 
 <b>Technical Challenges</b>
 
