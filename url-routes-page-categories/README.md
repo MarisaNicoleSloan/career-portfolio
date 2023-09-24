@@ -36,11 +36,13 @@ To create dynamic routes, I dynamically generated route definitions based on the
 
 GraphQL played a crucial role in this process by providing the necessary data to populate content pages for insurance offerings, treatment services, and therapies offered by medical facilities. When a user accessed a particular URL, GraphQL queries were executed to fetch the relevant content for that category. This seamless integration ensured that the content remained up-to-date and accurate.
 
-<img src="https://i.imgur.com/OJd1ebt.png">
 
 These routes were achieved for 3 categories, each critical decision points in users seeking treatment for addiction or mental health issues.
 
-In addition to the insurance routes, there were also routes for treatment services and treatment therapy offerings. The layout of the pages followed the same layout as the insurance pages and use the same components as well, including popular destinations tagged with the relevant category as well as a feed of results for centers offering the chosen category.
+This is the final presentation of the insurance route. 
+<img src="https://i.imgur.com/OJd1ebt.png">
+
+The routes for treatment services and treatment therapy offerings followed the same layout as the insurance pages and use the same components as well, including popular destinations tagged with the relevant category as well as a feed of results for centers offering the chosen category.
 
 <img src="https://i.imgur.com/HnydjmI.png">
 
