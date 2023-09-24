@@ -24,11 +24,11 @@ Results from user tests revealed that users often struggled to navigate between 
 
 <b>Implementation Details</b>
 
-Execution involved several technical components and steps, including the use of loops to iterate through URLs tagged with specific taxonomies in each sitemap category, and a special configuration to filter out pages missing a robots noindex tag:
+Execution involved several technical components and steps, including the use of loops to iterate through URLs tagged with specific taxonomies in each sitemap category, and a special configuration to filter out pages missing a robots noindex tag.
 
 *Data Retrieval from Firestore*
 
-To ensure that the sitemap index accurately represented the website's structure, I configured GraphQL queries. These queries fetched content data and metadata, crucial for constructing the sitemap index. GraphQL's flexibility allowed me to precisely tailor the data retrieval process to meet the needs of the various sitemaps.
+I configured GraphQL queries to fetch content data and metadata, crucial for constructing the sitemap index. GraphQL's flexibility allowed me to precisely tailor the data retrieval process to meet the needs of the various sitemaps.
 
 *Utilized React Components for Dynamic Sitemaps*
 
