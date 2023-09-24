@@ -8,6 +8,10 @@ RehabPath
 
 Addiction Treatment and Mental Health
 
+<b>Project Scale</b>
+
+Over 100 new pages were added to the site while approximately 2,000 pages were updated to reflect these new service offerings.
+
 <b>Business Challenge and User Need</b>
 
 The website was struggling to rank for important offerings related to patient needs, particularly insurance, treatment therapies, and treatment services such as detox or residential programs. Since there were no unique pages and URLs for these offerings, not only could they not be found by search engines by CMS administrators could not enhance individual pages.
