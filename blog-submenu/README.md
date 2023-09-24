@@ -1,6 +1,6 @@
 # Blog Submenu and Category Pages
 
-<b>Problem Statement</b>
+<b>Business Challenge and User Need</b>
 
 Efficient organization and sorting are pivotal for a seamless blog user experience, driving reader retention and content exploration. The previous blog lacked these essential features, leading to reduced traffic and usage. To address these issues, I developed a user-friendly submenu with category pages.
 
