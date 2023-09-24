@@ -1,6 +1,6 @@
 # Dynamic Page Routes and Categories
 
-<b>Problem Statement</b>
+<b>Business Challenge and User Need</b>
 
 The website was struggling to rank for important offerings related to patient needs, particularly insurance, treatment therapies, and treatment services such as detox or residential programs. Since there were no unique pages and URLs for these offerings, not only could they not be found by search engines by CMS administrators could not enhance individual pages.
 In order to address these issues, I implemented a system for defining and managing URLs and their associated content. This system allowed for the creation of distinct pages on the website, each with its own unique URL.
@@ -8,15 +8,6 @@ In order to address these issues, I implemented a system for defining and managi
 <b>Technologies Used</b>
 
 React, Gatsby, GraphQL, Firestore
-
-<b>Challenges Faced</b>
-
-The challenges of this project were multifaceted:
-
-- User Experience: Users found it difficult to navigate and discover content tailored to their interests and needs.
-- Scalability: As the content library expanded, managing static routes became increasingly cumbersome.
-- SEO: The website's organic traffic potential was diminished due to lack of discoverability 
-- Content Management: Administrators faced challenges updating and organizing content efficiently
 
 <b>Implementation Details</b>
 
