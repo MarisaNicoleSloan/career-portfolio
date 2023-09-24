@@ -8,6 +8,10 @@ RehabPath
 
 Addiction Treatment and Mental Health
 
+<b></b>Project Scale</b>
+
+Approximately 4,000 pages incorporated this module.
+
 <b>Business Challenge and User Need</b>
 
 Many individuals seeking information about addiction and mental health facilities often struggle to find clear and comprehensive information about the available support tiers, which can range from outpatient therapy to intensive inpatient options. The existing system lacked clarity in presenting these support tiers, making it difficult for users to make informed decisions about their treatment.
