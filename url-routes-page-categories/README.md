@@ -1,4 +1,4 @@
-# Dynamic Page Routes and Categories
+# Dynamic Page Routes and Categories for Critical Patient Needs
 
 <b>Client</b>
 
