@@ -35,6 +35,8 @@ An example of mapping a taxonomy (category) to a route included insurance. Since
 
 To create dynamic routes, I dynamically generated route definitions based on the available content categories. This allowed me to scale the routing system as new categories were added.
 
+This meant that whenever a new category, such as a new type of insurance provider, needed a web page, that page did not have to be created manually in the codebase. Instead, the system would automatically generate the page and assign it a unique URL. For example, if a CMS administrator added a new insurance provider called "Aetna," the system would create a page for it with a URL like "luxuryrehabs.com/insurance/aetna."
+
 *GraphQL Integration*
 
 GraphQL played a crucial role in this process by providing the necessary data to populate content pages for insurance offerings, treatment services, and therapies offered by medical facilities. When a user accessed a particular URL, GraphQL queries were executed to fetch the relevant content for that category. This seamless integration ensured that the content remained up-to-date and accurate.
