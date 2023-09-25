@@ -31,7 +31,7 @@
 - Automated Testing: Jest, Postman, Cypress
 
 <b>Certifications</b>
-- ISTQB Certified Tester, Foundation Level (CTFL)
+- [ISTQB Certified Tester, Foundation Level (CTFL)](https://atsqa.org/certified-testers/profile/e34943465bd243a7888b69b7ffdcac49)
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/870949cd-a6f4-48fe-8443-541ae36451e6?source=linked_in_profile)
 - [Professional Scrum Master (PSM) 1 Certification](https://www.credly.com/badges/89dc0792-3636-43ed-ac76-9955e66c15b0?source=linked_in_profile)
 
