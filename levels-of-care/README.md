@@ -65,10 +65,10 @@ User feedback following the launch of the feature was overwhelmingly positive. U
 
 Here is one example of the how helped someone achieve more clarity about the continnum of care when perusing profiles of treatment facilities. Please click on the image to view the user interaction.
 
-<a href="https://drive.google.com/file/d/1sCRUGweHWsJYjoLGQ0c186nQ_8ylOK9y/view?usp=sharing" title="Link Title"><img src="https://i.imgur.com/6vbFpC8.png"/></a>
+<a href="https://drive.google.com/file/d/1sCRUGweHWsJYjoLGQ0c186nQ_8ylOK9y/view?usp=sharing" title="Levels of Care Module"><img src="https://i.imgur.com/6vbFpC8.png"/></a>
 
 
 <b>Benefits and Achievements</b>
 
 - 30% increase in pageviews within just two weeks of launching the feature
-- Surfacing this information reinforced the brand's reputation as a trusted platform in the mental health addiction space as a comprehensive online resource that was always patient-first.
+- Surfacing this information reinforced the brand's reputation as a trusted platform in the mental health addiction space as a comprehensive online resource that was always patient-first
