@@ -53,7 +53,20 @@ The module in its final form ended up going on every center profile right beneat
 
 In order to maximize value to the user, the core services of the continuum of care were always shown whether the provider offered it or not in order to educate the patient. The hyperlink went to a faceted location, meaning that users were directed to a page featuring centers in a location along with a specific specialty, such as detox treatment. This decision kept the results contextually relevant to the user, since they were directed to a page in the same location as the center they had just viewed.
 
+This is how the final block appeared.
+
+
 <img src="https://i.imgur.com/6PtX7Nh.png"/>
+
+
+<b>User Reception</b>
+
+User feedback following the launch of the feature was overwhelmingly positive. Users appreciated the platform's commitment to providing transparent and accessible information, making their search for mental health and addiction resources more manageable and less daunting.
+
+Here is one example of the how helped someone achieve more clarity about the continnum of care when perusing profiles of treatment facilities. Please click on the image to view the user interaction.
+
+<a href="https://drive.google.com/file/d/1sCRUGweHWsJYjoLGQ0c186nQ_8ylOK9y/view?usp=sharing" title="Link Title"><img src="https://i.imgur.com/6vbFpC8.png"/></a>
+
 
 <b>Benefits and Achievements</b>
 
