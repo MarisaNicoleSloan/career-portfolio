@@ -12,13 +12,13 @@ Addiction Treatment and Mental Health
 
 Approximately 40,000 pages were evaluated in order to be included or excluded from the sitemap index.
 
-<b>Business Challenge and User Need</b>
-
-Prior to this project, the website faced challenges in efficiently communicating its structure to search engines and maximizing organic traffic. This initiative was undertaken to enhance the website's structure and organic visibility through the implementation of a custom sitemap index. This innovative solution aimed to serve as a directory for multiple sitemaps, aiding search engines in comprehending the website's hierarchy and thereby improving the visibility of its pages. 
-
 <b>Technologies Used</b>
 
 JavaScript (ES6), Gatsby, GraphQL, Firestore
+
+<b>Business Challenge and User Need</b>
+
+Prior to this project, the website faced challenges in efficiently communicating its structure to search engines and maximizing organic traffic. This initiative was undertaken to enhance the website's structure and organic visibility through the implementation of a custom sitemap index. This innovative solution aimed to serve as a directory for multiple sitemaps, aiding search engines in comprehending the website's hierarchy and thereby improving the visibility of its pages. 
 
 <b>Discovery Findings</b>
 
