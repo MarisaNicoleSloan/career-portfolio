@@ -100,5 +100,4 @@ Indiana Tech, Subway, Ivy Tech, Farmers & Merchants State Bank, Saint Mary's Col
 - Professional Scrum Master (PSM) 1 Certification
 
 ### Education
-Ball State University, May 2019
-Bachelor of Arts in English
+Ball State University, May 2019 | Bachelor of Arts in English
