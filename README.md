@@ -1,4 +1,4 @@
-# Marisa Sloan, Technical SEO Manager and Associate Developer
+# Technical SEO Manager and Associate Developer
 
 ## Skills
 
