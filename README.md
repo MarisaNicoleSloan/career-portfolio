@@ -54,7 +54,7 @@ Indiana Tech, Subway, Ivy Tech, Farmers & Merchants State Bank, Saint Mary's Col
 ## Software Development Projects
 
 ### Front-End
-#### [Levels of Care Module for Treatment Centers](https:marisanicolesloan.github.io/career-portfolio/levels-of-care/)
+#### [Levels of Care Module for Treatment Centers](/levels-of-care/)
  - Developed a mental health and addiction treatment module that simplifies treatment tiers and terminology for patients
  - Feature drove a 30% increase in user engagement within two weeks of launch
 
