@@ -37,7 +37,6 @@ Paychex, Webroot, American Greetings (focus on Jacquie Lawson and Blue Mountain 
 ### Search Engine Optimization Specialist (Contract)
 Crowe | May 2021 – November 2021 
 
-#### Key Achievements
 - Oversaw content quality as SEO point of contact, increasing SEO-aligned content production by 20%
 - Implemented on-page and technical SEO best practices, elevating search engine ranking positions (SERPs) by 15% for critical keywords and contributing to a 12% growth in overall website conversions.
 - Supported SEO manager in optimizing agency relationships, leading to a 15% increase in agency-driven SEO improvements, and translated keyword analysis into a 10% overall organic traffic increase across the customer journey
@@ -45,7 +44,6 @@ Crowe | May 2021 – November 2021
 ### Digital Copywriter and Web Content Specialist
 Asher Agency | June 2019 – May 2021
 
-#### Key Achievements
 - Created company's first technical SEO and content strategy products, driving a 22% increase in new business development and renewal sales per contract 
 - Managed SEO campaigns end-to-end, achieving a 35% rise in organic traffic and a 25% improvement in keyword rankings within six months for service area businesses
 - Collaborated with agile teams throughout the project lifecycle, guiding requirements, wireframes, QA processes, and post-launch monitoring, resulting in a 25% increase in website traffic and a 15% boost in conversion rates for financial services businesses
