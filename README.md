@@ -28,7 +28,7 @@ Seer Interactive | November 2021 – July 2022
 
 - Conducted detailed technical audits on 10 enterprise websites, resulting in an average 20% improvement in page load times and a 15% increase in mobile user engagement
 - Developed and executed strategies that led to a 10% increase in keyword rankings and a 15% growth in organic traffic, outperforming industry competitors
-- Spearheaded the implementation of structured data markup on 10 client websites, resulting in a 30% increase in click-through rates on search engine results pages (SERPs)
+- Implemented structured data markup on client websites, boosting click-through rates by 30%
 - Conducted quality assurance tests on staging and production sites, collaborating with cross-functional teams to resolve regressions
 
 #### Enterprise Clients
