@@ -81,8 +81,8 @@ Indiana Tech, Subway, Ivy Tech, Farmers & Merchants State Bank, Saint Mary's Col
 - Boosted click-through rates by 15%, increasing organic traffic and brand visibility
 
 ## Education
-Ball State University, May 2019 | Bachelor of Arts in English
-
+Bachelor of Arts in English (Summa Cum Laude)
+Ball State University, May 2019
 
 
 
