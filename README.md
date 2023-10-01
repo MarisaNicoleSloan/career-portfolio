@@ -38,7 +38,7 @@ Paychex, Webroot, American Greetings (focus on Jacquie Lawson and Blue Mountain 
 Crowe | May 2021 – November 2021 
 
 - Oversaw content quality as SEO point of contact, increasing SEO-aligned content production by 20%
-- Implemented on-page and technical SEO best practices, elevating search engine ranking positions (SERPs) by 15% for critical keywords and contributing to a 12% growth in overall website conversions.
+- Implemented on-page and technical SEO best practices, elevating search engine ranking positions (SERPs) by 15% for critical keywords and contributing to a 12% growth in overall website conversions
 - Supported SEO manager in optimizing agency relationships, leading to a 15% increase in agency-driven SEO improvements, and translated keyword analysis into a 10% overall organic traffic increase across the customer journey
 
 ### Digital Copywriter and Web Content Specialist
