@@ -1,6 +1,6 @@
 # Marisa Sloan
-Technical SEO Manager and Associate Developer
-https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/resume
+## Technical SEO Manager and Associate Developer
+
 ### Technologies
 - Languages: Python, SQL, JavaScript, HTML, CSS, XML, GraphQL
 - Libraries and Frameworks: React.js, Express.js, Node.js, Gatsby, Tailwind
