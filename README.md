@@ -84,6 +84,11 @@ Indiana Tech, Subway, Ivy Tech, Farmers & Merchants State Bank, Saint Mary's Col
 Bachelor of Arts in English (Summa Cum Laude)
 Ball State University, May 2019
 
+### Relevant Coursework
+- Introduction to Computer Science (Algorithms, Data Structures)
+- Introduction to HTML/CSS (Web Design and Styling)
+- Introduction to PHP and JavaScript (Server-Side and Client-Side Scripting)
+
 
 
 
