@@ -34,7 +34,7 @@ Seer Interactive | November 2021 – July 2022
 #### Enterprise Clients
 Paychex, Webroot, American Greetings (focus on Jacquie Lawson and Blue Mountain sub brands)
 
-### Search Engine Optimization Specialist (Contract)
+### SEO Specialist (Contract)
 Crowe | May 2021 – November 2021 
 
 - Oversaw content quality as SEO point of contact, increasing SEO-aligned content production by 20%
