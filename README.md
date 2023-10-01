@@ -5,8 +5,6 @@
 - Languages: Python, SQL, JavaScript, HTML, CSS, XML, GraphQL
 - Libraries and Frameworks: React.js, Express.js, Node.js, Gatsby, Tailwind
 - Databases: PostgreSQL, MongoDB, Firestore
-- Version Control: Git
-- Build Tools: Yarn, Grunt, Gulp
 - Cloud Computing: Amazon Web Services
 - Automated Testing: Jest, Postman, Cypress
 
@@ -58,7 +56,12 @@ Indiana Tech, Subway, Ivy Tech, Farmers & Merchants State Bank, Saint Mary's Col
 ## Software Development Projects
 
 ### Front-End
-- [Levels of Care Module for Mental Health and Addiction Treatment Centers](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/levels-of-care)
+#### [Levels of Care Module for Mental Health and Addiction Treatment Centers](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/levels-of-care)
+ - Mental health and addiction treatment module that simplifies treatment tiers and terminology for patients
+ - Feature drove a 30% increase in user engagement within two weeks, establishing RehabPath as a trusted mental health resource
+
+
+ 
 - [Blog Submenu and Category Pages for Resource Library](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/blog-submenu)
 
 ### Back-End
