@@ -57,15 +57,15 @@ Indiana Tech, Subway, Ivy Tech, Farmers & Merchants State Bank, Saint Mary's Col
 
 ## Software Development Projects
 
-<b>Front-End</b>
+### Front-End
 - [Levels of Care Module for Mental Health and Addiction Treatment Centers](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/levels-of-care)
 - [Blog Submenu and Category Pages for Resource Library](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/blog-submenu)
 
-<b>Back-End</b>
+### Back-End
 - [URL Routing and Page Categories](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/url-routes-page-categories)
 - [Custom Sitemap Index](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/custom-sitemap-index)
 
-<b>Data Management</b>
+### Data Management
 - [Dynamic Breadcrumb Trail Hierarchy](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/breadcrumb-trail)
 - [Structured Data Implementation and Enhancements](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/medical-business-structured-data)
 
