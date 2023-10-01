@@ -54,29 +54,29 @@ Indiana Tech, Subway, Ivy Tech, Farmers & Merchants State Bank, Saint Mary's Col
 ## Software Development Projects
 
 ### Front-End
-#### [Levels of Care Module for Treatment Centers](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/levels-of-care)
+#### [Levels of Care Module for Treatment Centers](https:marisanicolesloan.github.io/career-portfolio/levels-of-care/)
  - Developed a mental health and addiction treatment module that simplifies treatment tiers and terminology for patients
  - Feature drove a 30% increase in user engagement within two weeks of launch
 
-#### [Blog Submenu and Category Pages for Resource Library](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/blog-submenu)
+#### [Blog Submenu and Category Pages for Resource Library](https:marisanicolesloan.github.io/career-portfolio/blog-submenu/)
 - Transformed a content library with 400+ posts by developing a user-friendly submenu and category pages, enhancing content exploration and reader retention
 - Implemented dynamic features using React and streamlined WordPress integration, resulting in a 30% increase in page views and a 20% increase in time on page for blog content
 
 ### Back-End
-#### [URL Routing and Page Categories](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/url-routes-page-categories)
+#### [URL Routing and Page Categories](https:marisanicolesloan.github.io/career-portfolio/url-routes-page-categories/)
 - Utilized React Router and GraphQL to generate 100+ new pages primarily around insurance providers, enhancing search and simplifying content management
 - Achieved 30% increase in organic traffic, 15% increase in conversion rates, and 10% decrease in customer queries
   
-#### [Custom Sitemap Index](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/custom-sitemap-index)
+#### [Custom Sitemap Index](https:marisanicolesloan.github.io/career-portfolio/custom-sitemap-index/)
 - Created a custom sitemap index for 40,000 pages, boosting organic traffic by 20%
 - Implemented efficient filtering, increasing indexed pages and organic traffic while reducing indexing time by 30%
 
 ### Data Management
-#### [Dynamic Breadcrumb Trail Hierarchy](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/breadcrumb-trail)
+#### [Dynamic Breadcrumb Trail Hierarchy](https:marisanicolesloan.github.io/career-portfolio/breadcrumb-trail/)
 - Employed React, GraphQL, and Postgres to create dynamic breadcrumbs for 8,000 pages, enhancing navigation and reducing bounce rates by 20% while increasing page views by 25%
 - Automated breadcrumb updates saved content managers hundreds of hours and improved overall website usability
 
-#### [Structured Data Implementation and Enhancements](https://github.com/MarisaNicoleSloan/career-portfolio/tree/main/medical-business-structured-data)
+#### [Structured Data Implementation and Enhancements](https:marisanicolesloan.github.io/career-portfolio/medical-business-structured-data/)
 - Implemented structured data on 8,000 pages for articles, FAQs, products, medical clinics, and businesses
 - Boosted click-through rates by 15%, increasing organic traffic and brand visibility
 
