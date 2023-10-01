@@ -12,6 +12,10 @@ Addiction Treatment and Mental Health
 
 This submenu impacted about 400 blog posts and required significant database modifications for implementation.
 
+<b>Technologies Used</b>
+
+React, Tailwind CSS, Gatsby, WordPress
+
 <b>Business Challenge and User Need</b>
 
 Efficient organization and sorting are pivotal for a seamless blog user experience, driving reader retention and content exploration. The previous blog lacked these essential features, leading to reduced traffic and usage. To address these issues, I developed a user-friendly submenu with category pages.
@@ -22,9 +26,6 @@ Usability tests uncovered a common challenge: users frequently felt overwhelmed 
 
 <img src="https://i.imgur.com/qvLhXCk.png"/>
 
-<b>Technologies Used</b>
-
-React, Tailwind CSS, Gatsby, WordPress
 
 <b>Challenges and Iterative Design</b>
 
