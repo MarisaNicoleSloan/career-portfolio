@@ -12,6 +12,10 @@ Addiction Treatment and Mental Health
 
 Approximately 4,000 pages incorporated this module.
 
+<b>Technologies Used</b>
+
+ReactJS, Tailwind CSS, Gatsby, GraphQL, PostgreSQL
+
 <b>Business Challenge and User Need</b>
 
 Many individuals seeking information about addiction and mental health facilities often struggle to find clear and comprehensive information about the available support tiers, which can range from outpatient therapy to intensive inpatient options. The existing system lacked clarity in presenting these support tiers, making it difficult for users to make informed decisions about their treatment.
@@ -19,10 +23,6 @@ Many individuals seeking information about addiction and mental health facilitie
 <b>User Research Results</b>
 
 The project began with extensive user research, including surveys and user interviews. The findings revealed that users faced challenges in understanding the different levels of care available for mental health and addiction treatment. They expressed a need for clear and accessible information to make informed decisions about their treatment options.
-
-<b>Technologies Used</b>
-
-ReactJS, Tailwind CSS, Gatsby, GraphQL, PostgreSQL
 
 <b>Implementation Details</b>
 
