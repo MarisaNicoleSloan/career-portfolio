@@ -23,6 +23,14 @@ RehabPath | July 2022 – Present
 - Boosted blog engagement with a user-friendly submenu, resulting in a 30% increase in page views and a 20% longer time spent on blog content
 - Improved organic traffic and conversions by 30% and 15%, respectively, through dynamic page routes and category implementations while reducing insurance-related customer support queries by 10%
 
+#### Core Responsibilities
+- Develop and maintain responsive, cross-platform web applications with TypeScript, JavaScript, Tailwind, and Gatsby
+- Conduct data retrieval operations via GraphQL and REST APIs with both relational (Postgres) and NoSQL (Firestore) databases
+- Collaborate with product managers, designers, and sales teams throughout the project lifecycle, including requirement gathering, technical feasibility assessment, and achieving a 1:1 match between designs and feature implementation
+- Ensure code quality through reviews, providing constructive feedback, and writing clean, performant, maintainable code per industry standards
+- Implement and maintain automated tests to ensure the reliability and stability of applications
+- Act as the product owner for SEO deliverables using agile Scrum and Shape Up methodologies
+
 ### SEO and Technical SEO Manager
 Seer Interactive | November 2021 – July 2022 
 
