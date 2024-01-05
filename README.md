@@ -1,4 +1,4 @@
-# Technical SEO Manager and Associate Developer
+# Software Engineer and SEO Integration Lead
 
 ## Skills
 
@@ -15,10 +15,24 @@
 
 ## Work Experience
 
-### Technical SEO Manager for Engineering Division
-RehabPath | July 2022 – Present 
+### Software Engineer and SEO Integration Lead
+RehabPath | January 2024 – Present
 
-#### Key Achievements Within First Year
+#### Core Responsibilities
+- Develop and maintain high-quality software solutions, meeting and exceeding project requirements within specified timelines and budget constraints
+- Collaborate with cross-functional teams, including product managers and QA, to scope feature development and ensure seamless integration of software components
+- Participate in code reviews to ensure code quality, adherence to coding standards, and knowledge sharing within the team
+- Implement and optimize algorithms for improved system performance and responsiveness
+- Provide production support for client-facing teams, resolving issues promptly and retrieving data across SQL and NoSQL databases to discover discrepancies
+- Utilize version control systems (i.e., Git) to manage and track changes in the codebase with complex merges
+- Integrate third-party APIs and services to enhance product functionality and features
+- Spearhead the integration of SEO best practices into engineering standards and testing requirements
+
+### Technical SEO Manager for Engineering Division
+RehabPath | July 2022 – January 2024 
+
+#### Key Achievements
+- Led a site migration resulting in a domain switch and consolidation of multiple web properties with no downtime or performance regressions
 - Achieved 70% YoY increase in overall traffic through strategic optimizations, including dynamic page routes, user-friendly features, custom sitemaps, and more
 - Boosted blog engagement with a user-friendly submenu, resulting in a 30% increase in page views and a 20% longer time spent on blog content
 - Improved organic traffic and conversions by 30% and 15%, respectively, through dynamic page routes and category implementations while reducing insurance-related customer support queries by 10%
