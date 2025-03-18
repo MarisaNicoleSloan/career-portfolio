@@ -1,8 +1,8 @@
-# Blog Submenu and Category Pages for an Extensive Content Library
+# Content Hub Submenu and Category Pages for a Behavioral Health Directory
 
 <b>Client</b>
 
-RehabPath
+Recovery.com
 
 <b>Client Industry</b>
 
