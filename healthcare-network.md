@@ -4,144 +4,86 @@
 
 Led the optimization of **10,000+ pages**, with ongoing improvements to an additional **40,000 pages** to ensure consistency and prevent regressions, supporting a seamless user experience across the entire network.
 
-- **Role:** Full-stack Developer, Lead Technical Architect  
+- **Role:** Full-stack Developer, Project Manager
 - **Timeline:** 1 Sprint (2 weeks)  
 
-I managed every aspect of this project, from initial research and technical implementation to final testing and deployment.
-
----
-
-## Business Challenge
-
-In a competitive online landscape, improving search engine visibility is crucial for medical facilities. The primary goal was to integrate structured data to better present content in search results, ultimately boosting organic traffic and improving user engagement.
-
----
-
-## User Research Insights
-
-Surveys, keyword analysis, and competitive research revealed that visibility in featured snippets and rich search results was vital for attracting user attention. Our goal was to ensure that the medical facility's content was well-represented in these results.
+Managed all aspects of the project, from research and technical architecture to implementation, testing, and deployment.
 
 ---
 
 ## Tech Stack
 
-- ReactJS  
-- TypeScript  
-- GraphQL  
-- Gatsby  
-- PostgreSQL  
-- Jest  
-- Apollo Client  
-- Google Structured Data Testing Tool  
-- Lighthouse  
+React, TypeScript, GraphQL, Gatsby, PostgreSQL, Jest, Graph QL(Apollo Client), Cypress, Yarn, Git, GitHub Actions, Schema Markup Validator, Google's Structured Data Testing Tool, Lighthouse  
 
 ---
 
-## Technical Challenges
+## Business Challenge
 
-### Content Diversity  
-Different content types (articles, FAQs, product pages) required custom structured data markups. I developed flexible, reusable schema templates to handle this complexity efficiently.
-
-### Schema Integration  
-Implementing Schema.org vocabulary across thousands of pages and content types required custom solutions for automation and consistency.
+In a competitive online landscape, improving search engine visibility is crucial for medical facilities. The goal was to enhance search result presentation—boosting organic traffic, increasing conversions, and improving user engagement.
 
 ---
 
-## Problem-Solving and Technical Details
+## User Research Insights
 
-### Schema Validation Issue  
-Used Google’s Structured Data Testing Tool to identify and fix schema markup errors. Implemented **automated Jest tests** for regression checks, maintaining schema integrity at scale.
-
-### Optimizing GraphQL Queries  
-Utilized **Apollo Client caching** to reduce data request overhead, improving page load speeds and performance.
+Surveys, keyword analysis, and competitive research revealed that appearing in rich results and featured snippets significantly influenced user behavior. Improving schema coverage across the site was key to visibility and growth.
 
 ---
 
-## Implementation
+## Key Challenges and Solutions
 
-### JSON-LD Scripts  
-Developed dynamic JSON-LD scripts for:
-- Articles
-- Products
-- FAQs
-- Medical Clinics
-- Businesses
+### 1. Diverse Content Types & Schema Integration
+Challenge: Multiple page types (articles, FAQs, product pages, clinic listings) required custom schema configurations.
+Solution: Built reusable, dynamic JSON-LD templates using React components. Integrated with Gatsby’s SSR for pre-rendered structured data across 10,000+ pages, with automation scaling to an additional 40,000.
 
-### Schema Types Implemented  
-- `Breadcrumb`  
-- `Review`  
-- `FAQ`  
-- `MedicalClinic`  
-- `MedicalBusiness`
+### 2. Schema Validation at Scale
+Challenge: Manual schema validation wasn't scalable and risked compliance errors.
+Solution: Used Google’s Structured Data Testing Tool to detect issues, then introduced Jest-based regression testing to ensure schema accuracy throughout CI/CD.
 
-### Dynamic Breadcrumbs  
-Implemented auto-generated breadcrumbs reflecting page hierarchy, reducing manual updates.
+### 3. GraphQL Query Optimization
+Challenge: Performance bottlenecks from complex GraphQL queries.
+Solution: Tuned Apollo Client caching and restructured Firestore queries to reduce data-fetching overhead, improving both load speed and reliability.
 
-- **Custom Sitemap Index:** Categorized URLs by location, condition, taxonomies, and resources  
-- **Exclusion of Non-Indexable Pages:** Filtered out noindex-tagged and parameterized URLs  
-- **Data Retrieval:** Queried content from Firestore via GraphQL  
+### 4. Crawlability & Indexing
+Challenge: Low-priority and parameterized pages were inflating crawl budgets.
+Solution: Built categorized sitemap indexes grouped by taxonomy, condition, and location. Excluded noindex and tracking-parameter pages to reduce crawl waste and accelerate indexing.
 
----
+## Technical Implementation Overview
 
-## Technical Implementation
+### Dynamic Schema Generation
+Developed JSON-LD scripts for Articles, FAQs, Products, Clinics, and Businesses
+Integrated Schema.org types: FAQPage, BreadcrumbList, Review, MedicalClinic, MedicalBusiness
+Used React components to dynamically generate markup per content type
+Enabled SSR via Gatsby to pre-render schema and enhance SEO
 
-### React & Gatsby for Dynamic Rendering  
-Used React components to dynamically render schema markup based on content type.
+### GraphQL & Firestore Integration
+Queried structured content (e.g., clinic details, FAQs) from Firestore using GraphQL
+Ensured data consistency across front-end content and schema fields
 
-### Server-Side Rendering (SSR) with Gatsby  
-Enabled pre-rendered JSON-LD to improve SEO and page performance.
+### Breadcrumb Automation
+Auto-generated breadcrumb trails based on real-time page hierarchy (e.g., Home > Services > Cardiology > Clinic Name)
+Paired with BreadcrumbList schema to support enhanced listings in search results
 
-### GraphQL Integration  
-Built schema from the same data source as content. For example, GraphQL fetched clinic details to populate `MedicalClinic` and `MedicalBusiness` schema types.
-
----
-
-## Breadcrumbs Implementation
-
-Auto-generated breadcrumbs reflected site hierarchy dynamically (e.g., `Home > Services > Cardiology > Clinic Name`).
-
-- Integrated `BreadcrumbList` schema with React components to support search result enhancements.
+### Index and Performance Optimization
+Built custom sitemap indexes categorized by topic, condition, and location
+Removed low-value (thin content) pages and noindex pages (robots tag contains noindex),to improve crawl efficiency
+Implemented SSR and optimized bundle delivery to maintain high page speed and make the pages easily crawlable by search engines.
 
 ---
 
-## JSON-LD Schema Integration
+## Quality Assurance and Performance Testing
 
-Used JSON-LD for ease of integration without disrupting layout. Implemented schema types:
+### Unit Testing (Jest)
+Covered edge cases, mocked incomplete GraphQL data to ensure graceful degradation.
 
-- `Breadcrumb` – site navigation  
-- `FAQPage` – featured snippets  
-- `Review` – medical service credibility  
-- `MedicalBusiness`, `MedicalClinic` – accurate facility representation  
+### End-to-End Testing (Cypress)
+Simulated user flows and verified schema rendering in live environments.
 
----
-
-## Optimizing for Search Engine Indexing
-
-- **SSR with Gatsby** for pre-rendered structured data  
-- **Google Structured Data Testing Tool** for validation  
-- Ensured full schema compliance and indexability  
-
----
-
-## Quality Assurance and Testing
-
-### Unit Testing with Jest  
-- Tested schema edge cases and integration  
-- Mocked GraphQL responses for incomplete/malformed data  
-
-### End-to-End Testing with Cypress  
-- Simulated user journeys  
-- Validated correct schema rendering in search snippets  
-
-### Performance Auditing with Lighthouse  
-- Monitored SEO and load time metrics  
-- Tuned SSR to maintain high performance  
+### Performance Auditing (Lighthouse, PageSpeedInsights, SpeedCurve, WebPage Test)
+Ran staging environment links through several tests to validate that the new implementation did not introduce any performance regressions.
 
 ---
 
 ## Results
-
-### Key Metrics
 
 - **+15% click-through rate** → more organic traffic  
 - **+20% increase in lead generation** for appointments  
@@ -154,8 +96,7 @@ Used JSON-LD for ease of integration without disrupting layout. Implemented sche
 
 ## Impact on Business
 
-- **Rich snippets (reviews, FAQs)** drove higher traffic and conversions  
-- **Automated schema generation** reduced manual work by 60%  
-- Boosted productivity and streamlined content management workflows  
-
-
+- +60% reduction in manual work through automated schema generation, boosting developer velocity and freeing up time for higher-impact initiatives
+- +25% improvement in content team productivity by streamlining content management workflows and reducing schema-related bottlenecks
+- +20% increase in rich snippet visibility (FAQs, reviews), driving higher traffic and improved conversion rates
+- +30% improvement in discoverability via structured data integration, contributing to long-term SEO performance and governance strategy
