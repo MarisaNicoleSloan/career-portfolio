@@ -1,4 +1,4 @@
-# Scalable Content Platform with Gatsby, GraphQL, and Headless Content Management Systems
+# Scaling Enterprise Content Management for a Digital Healthcare Platform
 <b>Role</b>: Development Lead, QA, Project Manager
 <b>Collaborators</b>: UX Researcher, Product Designer, Engineering Manager, Product Owner, Chief Producter Officer (for project and budget approval)
 
@@ -12,7 +12,7 @@ Led the redesign of a healthcare resource hub serving over 10,000 pages of medic
 ## Tech Stack 
 - Frontend: ReactJS, TypeScript, Tailwind CSS, Gatsby, Webpack
 - Routing & Pages: React Router, Gatsby’s createPages API
-- Backend: WordPress, Postgres, GraphQL, Firestore
+- Backend: WordPress, Sanity, Postgres, GraphQL, Firestore
 - State Management: Local, derived, and synced state via Redux
 - Testing & Optimization: Jest, Cypress
 - CI/CD: GitHub Actions, Netlify, Vercel
@@ -47,6 +47,7 @@ User testing and data analytics surfaced major friction points:
 
 ### CMS & Data Architecture
 
+- Sanity: Used Sanity as the headless CMS for product and service pages, allowing flexible content modeling and dynamic content delivery. Extended it with custom fields and syncing content to PostgreSQL for relational querying and historical data storage
 - Modeled WordPress as a headless CMS, extended with custom fields and synced to PostgreSQL for relational querying and historical data storage  
 - Integrated Firestore for real-time admin workflows, allowing non-technical editors to update content without redeploys  
 - Built custom WordPress plugins for managing editorial workflows and structured metadata
@@ -98,29 +99,27 @@ User testing and data analytics surfaced major friction points:
 - Ensured cross-device compatibility and robust CI/CD pipelines for continuous quality assurance
 
 ---
-
 ### System Architecture
 
 - Architected a modular, scalable content system powered by WordPress, PostgreSQL, Firestore, and GraphQL  
 - Designed schema structures and content flows that minimized database load and maximized editorial flexibility
 
-
 ## User Feedback
-Patients: Found the improved structure and dynamic pages easier to navigate, leading to faster access to relevant insurance details and treatment options during the evaluation stage of their journey.
 
-Administrators: Benefited from an optimized content management process, with fewer manual updates required and a more streamlined workflow for managing content at scale.
+### Patients
+Found the improved structure and dynamic pages easier to navigate, leading to faster access to relevant insurance details and treatment options during the evaluation stage of their journey.
+
+### Administrators
+Benefited from an optimized content management process, with fewer manual updates required and a more streamlined workflow for managing content at scale.
 
 ---
 
-## Visuals
+## Internal Navigation on Resource Hub
 
-### Mockup Design  
-<img src="https://i.imgur.com/xONWX3N.jpg" alt="Mockup Design" width="600"/>
-
-### Before Implementation  
+### Before Implementation
 <img src="https://i.imgur.com/qvLhXCk.png" alt="Before Screenshot" width="600"/>
 
-### After Implementation  
+### After Implementation
 <img src="https://i.imgur.com/xONWX3N.jpg" alt="After Screenshot" width="600"/>
 
 ---
