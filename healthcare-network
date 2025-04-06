@@ -8,30 +8,17 @@ Business Challenge
  In a competitive online landscape, improving search engine visibility is crucial for medical facilities. The primary goal was to integrate structured data to better present content in search results, ultimately boosting organic traffic and improving user engagement.
 User Research Insights
  Through surveys, keyword analysis, and competitive research, we found that visibility in featured snippets and rich search results was vital for attracting user attention. Our goal was to ensure that the medical facility's content was well-represented in these results, driving organic traffic.
+
 Technologies Used
 ReactJS
-
-
+TypeScript
 GraphQL
-
-
 Gatsby
-
-
 PostgreSQL
-
-
 Jest
-
-
 Apollo Client (for GraphQL data management)
-
-
 Google Structured Data Testing Tool
-
-
 Lighthouse (for performance auditing)
-
 
 Technical Challenges
 Content Diversity: Different types of content (articles, FAQs, product pages) required different structured data markups. Developing a flexible, reusable schema was critical to meet these requirements efficiently.
@@ -56,6 +43,10 @@ Schema Types Implemented: Implemented and tested multiple Schema types, includin
 
 Dynamic Breadcrumbs: Designed and implemented a dynamic breadcrumb system for easy navigation across complex medical content. This feature auto-generates breadcrumb sequences based on content categories, reducing manual updates.
 
+• 𝗖𝘂𝘀𝘁𝗼𝗺 𝗦𝗶𝘁𝗲𝗺𝗮𝗽 𝗜𝗻𝗱𝗲𝘅: Created a dynamic sitemap index using loops to categorize URLs by location, condition, taxonomies, and resources.
+• 𝗘𝘅𝗰𝗹𝘂𝘀𝗶𝗼𝗻 𝗼𝗳 𝗡𝗼𝗻-𝗜𝗻𝗱𝗲𝘅𝗮𝗯𝗹𝗲 𝗣𝗮𝗴𝗲𝘀: Filtered out pages with robots noindex tags and URL parameters to prevent indexing of duplicate or irrelevant content.
+• 𝗗𝗮𝘁𝗮 𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹: Configured GraphQL queries to pull content and metadata from Firestore for sitemap construction.
+
 
 Quality Assurance and Testing
 Unit Testing in Jest
@@ -77,15 +68,11 @@ Performance Auditing: Used Lighthouse to monitor the performance impact of the s
 Results
 Key Metrics
 15% increase in click-through rates, driving more organic traffic to the website. This increase directly contributed to a 20% growth in lead generation for medical appointments.
-
-
 25% increase in page views, reflecting enhanced content discoverability and better user navigation. Additionally, user session duration increased by 18%, indicating improved user engagement with the site’s content.
-
-
 Improved organic search visibility: Structured data implementation led to higher rankings in search engine results, particularly for local and specific medical queries.
-
-
 Reduced manual workload by 60% for content management teams, as the automated structured data generation minimized manual updates.
+• 𝟮𝟬% 𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲 𝗶𝗻 𝗶𝗻𝗱𝗲𝘅𝗲𝗱 𝗽𝗮𝗴𝗲𝘀, resulting in enhanced organic traffic.
+• 𝟯𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝗶𝗻 𝗶𝗻𝗱𝗲𝘅𝗶𝗻𝗴 𝘁𝗶𝗺𝗲, leading to faster content visibility in search results.
 
 
 Impact on Business
