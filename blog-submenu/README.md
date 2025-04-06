@@ -1,26 +1,15 @@
-# Sitewide Content Overhaul and Resource Hub Redesign for Healthcare Marketplace: Scalable Architecture, SEO Optimization, and Enhanced UX
+# Healthcare Resource Hub Redesign and Content Overhaul
+
+<b>Role</b>: Development Lead, QA, Project Manager
+<b>Collaborators</b>: UX Researcher, Product Designer, Engineering Manager, Product Owner, Chief Producter Officer (for project and budget approval)
+
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Business Challenge](#business-challenge)
-- [User Research Insights](#user-research-insights)
-- [Technologies Used](#technologies-used)
-- [Architecture & Implementation](#architecture--implementation)
-  - [Content Architecture](#content-architecture)
-  - [Dynamic Routing and Page Creation](#dynamic-routing-and-page-creation)
-  - [State Management](#state-management)
-- [Results](#results)
-- [Before & After](#before--after)
-
 ## Background
-Led the redesign of a healthcare resource hub, improving information architecture, navigation, and user interaction. Used Gatsby, GraphQL, Postgres, and WordPress to enhance content discoverability and engagement, scaling to 10,000+ healthcare pages.
+Led the redesign of a healthcare resource hub serving over 10,000 pages of medical content. Led frontend architecture, routing logic, content modeling, and custom CMS workflows. Focused on improving information architecture, navigation, SEO, and content discoverability across treatment options, insurance offerings, and clinic details. 
 
-The redesign focused on improving content delivery, search engine performance, and user experience across treatment options, insurance offerings, and clinic details. The goal was to streamline content organization, improve discoverability, and enhance SEO for better online visibility.
 
-Role: Development Lead, QA, Project Manager
-Collaborators: UX Researcher, Product Designer, Engineering Manager, Product Owner, Chief Producter Officer (for project and budget approval)
+
 
 ---
 
@@ -28,54 +17,106 @@ Collaborators: UX Researcher, Product Designer, Engineering Manager, Product Own
 - Frontend: ReactJS, TypeScript, Tailwind CSS, Gatsby, Webpack
 - Routing & Pages: React Router, Gatsby’s createPages API
 - Backend: WordPress, Postgres, GraphQL, Firestore
-- State Management: Local, derived, and synced state with Redux
+- State Management: Local, derived, and synced state via Redux
 - Testing & Optimization: Jest, Cypress
-- Version Control: Git, GitHub
 - CI/CD: GitHub Actions, Netlify, Vercel
+- Version Control: Git, GitHub
 
 ## Business Challenge  
-The existing site lacked clear content organization and routing, hindering user navigation. SEO performance was also impacted by duplicate URLs and inefficient metadata, affecting organic traffic. The challenge was to implement a scalable content structure and improve search engine rankings.
+The existing site struggled with poor content organization, duplicate URLs, and inefficient metadata—hindering SEO, user navigation, and scalability. Manual management of 10,000+ pages led to content drift and a fragmented user experience.
 
 ### Key issues:
  - Poor content discoverability and inconsistent routing
- - Manual management of 10,000+ pages, limiting scalability and increasing the risk of content drift
+ - Manual workflows for content management
  - Lack of visibility in search results (e.g., rich snippets, featured content)
  - Suboptimal user flow, leading to higher bounce rates and lower conversions
  - Cluttered navigation and inefficient content structure across 10,000+ pages
 ---
 
 ## User Research & Insights  
-User testing and data analytics indicated key pain points:
+User testing and data analytics surfaced major friction points:
 
- - Users found it difficult to navigate the massive catalog of treatment options, insurance plans, and clinics.
+ - Users were overwhelmed navigating treatment options, clinics, and insurance providers
  - Key user feedback highlighted frustration with unclear category labels and a lack of filtering options.
- - Search results were inconsistent, with important content buried deep within the site.
- - Through keyword analysis and competitive benchmarking, we identified opportunities to improve on-page SEO by incorporating schema for rich snippets and focusing on better taxonomies for healthcare topics.
+ - Category labels were unclear, and filter options were limited
+ - Keyword and competitor analysis revealed SEO opportunities using rich snippets and structured data
 
 ## Technical Execution
 
-### Content Organization & Navigation  
-- Built a **dynamic hierarchical category system** using GraphQL to reduce content overload.
-- Designed a **submenu UI** for quick access to relevant topics.
-- Designed a **hierarchical taxonomy** for content categories, then mapped that to Gatsby’s page generation system.  
-- Built **category landing pages** and **individual article pages** dynamically on the server
+Routing & Page Generation
+Used Gatsby’s createPages API and React Router to dynamically generate routes like /insurance/aetna/
+Implemented templates for services, clinics, FAQs that scaled automatically as new content was added
+Structured GraphQL queries to fetch category- and author-specific content
+Added pagination and deep linking for efficient client-side navigation
 
-### Routing & State  
-- Used **React Router** for custom client-side routing and deep linking across categories.  
-- Handled submenu navigation state locally, while syncing global content filters via GraphQL.  
-- Managed UI state (expanded menus, selected filters) in a scalable, reusable pattern.
-  
-### Performance & Scalability  
-- Refactored data layer using **Postgres** for relational efficiency.
-- Used **GraphQL** to fetch only the data needed, improving speed and responsiveness.
-- Structured GraphQL queries to fetch content by category and author.  
-- Used **Cloudflare caching and lazy loading** to keep load times under 2s, even for large datasets.  
-- Enabled pagination for long category archives to reduce client load.
+State Management
+Local state for interactivity (menu toggles, filter chips)
+Derived state for route context and UI conditions
+Synced state for dynamic content via GraphQL
 
-### Seamless CMS Integration  
-- Developed custom WordPress plugins for syncing with Postgres.
-- Preserved editorial workflows while modernizing the content delivery stack.
+Backend & CMS Integration
+Extended WordPress with custom fields and synced content to Postgres
+Integrated Firestore for real-time updates and lightweight admin workflows
+Built custom WordPress plugins to support editorial workflows with modern delivery
 
+Performance & Scalability
+Refactored the data layer with Postgres for relational efficiency
+Fetched only needed content using optimized GraphQL queries
+Implemented Cloudflare caching and lazy loading to maintain sub-2s load times
+Enabled scalable page generation and low-overhead content expansion
+
+Testing & CI
+Wrote unit and integration tests using Jest and Cypress
+Validated routing and data hydration across devices
+Incorporated schema validation, linting, and automated tests into CI/CD pipelines
+
+SEO Enhancements & Structured Data
+Created SEO-friendly URLs with clean, descriptive paths
+
+Added meta tags, OG tags, and JSON-LD structured data for articles, clinics, insurance providers, reviews, breadcrumbs, and FAQs
+
+Automated schema generation at build time and validated using Google Rich Results Test and Search Console
+
+
+Information Architecture & Routing
+Created dynamic nested routing (/insurance/aetna/, /clinics/tx/houston) via Gatsby’s createPages API and React Router
+
+Built custom taxonomy system and submenu UI powered by GraphQL
+
+Integrated pagination and query-based filtering using Gatsby node APIs and local/derived state
+
+⚛️ Component System & State
+Built modular, accessible UI components with React + Tailwind
+
+Managed local (UI), derived (route-driven), and synced (GraphQL) state
+
+Integrated Redux for shared global state where needed (e.g. filters, breadcrumbs)
+
+🧱 CMS & Data Layer
+Modeled WordPress as a headless CMS, syncing to Postgres for performant querying
+
+Wrote custom WP plugins for editorial fields and used Firestore for lightweight real-time admin tools
+
+Optimized GraphQL queries to fetch only what’s needed per route context
+
+📈 SEO & Structured Data
+Generated clean URLs, meta tags, and dynamic JSON-LD for articles, clinics, providers, FAQs
+
+Validated structured data with Google Rich Results Tool and automated schema injection at build time
+
+Improved organic visibility and content indexing for 1000s of pages
+
+🚀 Performance & Scalability
+Refactored queries and image handling for build speed and <2s TTI
+
+Cached pages with Cloudflare and implemented lazy loading
+
+Scaled automated page generation and CMS-driven updates with minimal dev overhead
+
+🧪 Testing & CI
+Wrote unit tests (Jest) and E2E flows (Cypress) for routing, content rendering, and UI state
+
+Integrated schema validation, linting, and tests into GitHub Actions + Netlify deploy previews
 ---
 
 1. **System Architecture**  
@@ -119,9 +160,9 @@ User testing and data analytics indicated key pain points:
 
 ## Dynamic Routing System and Page Generation
 
-Route Configuration: Using React Router, I created a system for mapping content categories (e.g., /insurance/aetna/) to specific React components. This allowed for dynamic page generation based on category-specific data fetched from GraphQL.
-Dynamic Pages: Designed dynamic routes using Gatsby’s Page Query to ensure that the content for each page was pulled directly from a data source (Firestore/GraphQL). As new service pages were added, the route system would automatically handle them, keeping the site scalable.
-GraphQL API: Integrated GraphQL queries to ensure that every route was dynamically populated with the latest information, such as insurance plan details or treatment therapies. This enabled better content synchronization and accuracy across the website.
+- Route Configuration: Used React Router to create a system for mapping content categories (e.g., /insurance/aetna/) to specific React components. This allowed for dynamic page generation based on category-specific data fetched from GraphQL.
+- Dynamic Pages: Designed dynamic routes using Gatsby’s Page Query to ensure that the content for each page was pulled directly from a data source (Firestore/GraphQL). As new service pages were added, the route system would automatically handle them, keeping the site scalable.
+- GraphQL API: Integrated GraphQL queries to ensure that every route was dynamically populated with the latest information, such as insurance plan details or treatment therapies. This enabled better content synchronization and accuracy across the website.
 
 ### SEO Enhancements
 - Unique, Descriptive URLs: Worked on SEO-friendly URL structure (e.g., /insurance/aetna/) to make each page more easily discoverable by search engines and users.
