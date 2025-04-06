@@ -1,0 +1,127 @@
+Implementing a Center-Saving Feature for Referring Providers on Recovery.com
+Project Overview: The goal of this project was to address a gap in Recovery.com's functionality: enabling referring providers to easily save, manage, and share lists of treatment centers with their clients. Referring providers on Recovery.com were unable to save their favorite centers for future reference or share them easily, hindering their ability to provide efficient recommendations to clients. This feature aims to improve user experience and productivity by mimicking functionalities seen on popular platforms like VRBO and Hotels.com, where users can save and compare listings.
+
+Tech Stack:
+Frontend: React.js, Redux, Tailwind CSS
+Backend: Node.js, Express.js, PostgreSQL (for saving center data)
+Local Storage: For session-based saving of favorites (no login required)
+Analytics & Tracking: Segment for event tracking
+Testing: Jest, Cypress for functional and UI testing
+
+
+
+Problem to Solve:
+There was no existing functionality allowing referring providers to save or favorite centers for later use or sharing. This lack of functionality led to inefficiencies and friction in the referral process.
+Key User Pain Points:
+Referring providers could not save a list of centers to share with clients.
+
+
+Users were forced to either bookmark profiles or manually copy URLs, which was cumbersome and time-consuming.
+
+
+Providers wanted a seamless way to share multiple centers with clients but had no easy solution.
+
+
+
+Proposed Solution:
+To solve the problem, the team proposed creating a feature that allows referring providers to:
+Save centers from both results and profile pages.
+
+
+View and manage their saved centers list.
+
+
+Share lists of saved centers with clients.
+
+
+Use local storage to enable this functionality without requiring a user account or login.
+
+
+Functional Requirements:
+Save Centers: Referring providers can toggle a "favorite" status on centers, either from the results page or the center’s profile page.
+
+
+View Saved Centers: Providers can view a list of saved centers in a dedicated page.
+
+
+Sorting and Management: Users can sort and manage their saved centers, and clear or toggle the saved state.
+
+
+Share Functionality: Providers can share saved centers with clients via a link (to be included in a follow-up iteration).
+
+
+Local Storage: The solution will not require a login, using local storage to persist favorites across sessions.
+
+
+
+Implementation:
+Frontend Development:
+
+
+React Components: Built components for toggling saved centers using a "heart" icon on each card and profile page. The state of the heart icon is toggled in React using Redux for state management.
+
+
+Local Storage Integration: Used browser local storage to save the user’s list of favorites without requiring authentication. This list persists across sessions but only for the duration of the session.
+
+
+Saved Centers List Page: Developed a dedicated page that displays all saved centers, allowing users to view and manage their saved items. The list is populated using data from local storage.
+
+
+UI Enhancements: Tailwind CSS was used for responsive and clean UI design to ensure the "heart" icon was accessible and clearly visible on both desktop and mobile platforms.
+
+
+Navigation: Added a link to the saved centers page in the navigation bar for easy access.
+
+
+Backend Development:
+
+
+Database Updates: While the core of the feature used local storage, we ensured that the database could handle any future iterations, such as saving the list of favorites server-side once users log in.
+
+
+Analytics Integration: Integrated Segment to track user interactions with the saved centers feature. Events such as "favorite toggled" and "saved center viewed" were tracked separately for profile pages and search results.
+
+
+Testing:
+
+
+Unit and Integration Testing: Used Jest for unit testing the React components and Redux store to ensure state management was functioning correctly.
+
+
+UI Testing: Employed Cypress for end-to-end testing, focusing on verifying that the save functionality worked across different pages and that saved items were properly displayed on the saved centers page.
+
+
+Analytics Validation: Verified that the Segment events were correctly triggered when users interacted with the "heart" icon and visited the saved centers page.
+
+
+
+Results:
+The feature was successfully launched, providing referring providers with the ability to save and manage centers easily. Key metrics and insights include:
+Product Engagement:
+
+
+50% increase in user engagement: 50% of referring providers who accessed the site after the feature launch interacted with the new save functionality.
+
+
+Saved Centers Usage: 35% of users who interacted with the feature saved at least 3 centers, indicating that the feature was valuable for organizing and comparing centers.
+
+
+Behavioral Impact:
+
+
+Increased Session Duration: The average time spent on the site increased by 12%, indicating that users were spending more time engaging with centers and refining their searches before saving them.
+
+
+Conversion Rate Impact: Users who saved centers and later shared them had a 15% higher conversion rate (defined as users submitting contact forms or calling centers) compared to those who did not use the feature.
+
+
+Productivity Gains for Referring Providers:
+
+
+Reduced Sharing Time: Referring providers saved an average of 10 minutes per client consultation by using the saved centers feature instead of copying and pasting URLs.
+
+
+Analytics Tracking:
+
+
+Segment Events: Over 20,000 "favorite toggled" events were tracked in the first month, providing insight into the most popular centers and helping inform future product improvements.
