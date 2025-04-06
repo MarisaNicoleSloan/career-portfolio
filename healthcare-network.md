@@ -1,6 +1,6 @@
 # Optimizing an Enterprise Healthcare Network: Site Structure, Navigation, and SEO
 
-## Project Scale
+## Project Scope and Scale
 
 Led the optimization of **10,000+ pages**, with ongoing improvements to an additional **40,000 pages** to ensure consistency and prevent regressions, supporting a seamless user experience across the entire network.
 
@@ -43,7 +43,7 @@ Solution: Used Google’s Structured Data Testing Tool to detect issues, then in
 Challenge: Performance bottlenecks from complex GraphQL queries.
 Solution: Tuned Apollo Client caching and restructured Firestore queries to reduce data-fetching overhead, improving both load speed and reliability.
 
-### 4. Crawlability & Indexing
+### 4. Crawlability and Indexing
 Challenge: Low-priority and parameterized pages were inflating crawl budgets.
 Solution: Built categorized sitemap indexes grouped by taxonomy, condition, and location. Excluded noindex and tracking-parameter pages to reduce crawl waste and accelerate indexing.
 
@@ -55,7 +55,7 @@ Integrated Schema.org types: FAQPage, BreadcrumbList, Review, MedicalClinic, Med
 Used React components to dynamically generate markup per content type
 Enabled SSR via Gatsby to pre-render schema and enhance SEO
 
-### GraphQL & Firestore Integration
+### GraphQL and Firestore Integration
 Queried structured content (e.g., clinic details, FAQs) from Firestore using GraphQL
 Ensured data consistency across front-end content and schema fields
 
