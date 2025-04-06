@@ -7,7 +7,7 @@ Recovery.com
 Behavioral Health (Addiction Treatment and Mental Health)
 
 <b>Tech Stack</b>
-React, TypeScript, Tailwind CSS, Gatsby, GraphQL, PostgreSQL, Yarn, Git, Jest, Cypress, Sanity
+React.js, TypeScript, Tailwind CSS, Gatsby, GraphQL, PostgreSQL, Yarn, Git, Jest, Cypress, Sanity
 
 <b>Project Background</b>
 
