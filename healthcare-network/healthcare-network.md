@@ -5,7 +5,6 @@
 Led the optimization of **10,000+ pages**, with ongoing improvements to an additional **40,000 pages** to ensure consistency and prevent regressions, supporting a seamless user experience across the entire network.
 
 - **Role:** Full-stack Developer, Project Manager
-- **Timeline:** 1 Sprint (2 weeks)  
 
 Managed all aspects of the project, from research and technical architecture to implementation, testing, and deployment.
 
@@ -13,7 +12,7 @@ Managed all aspects of the project, from research and technical architecture to 
 
 ## Tech Stack
 
-React, TypeScript, GraphQL, Gatsby, PostgreSQL, Jest, Graph QL(Apollo Client), Cypress, Yarn, Git, GitHub Actions, Schema Markup Validator, Google's Structured Data Testing Tool, Lighthouse  
+React.js, TypeScript, GraphQL, Gatsby, PostgreSQL, Jest, Graph QL(Apollo Client), Cypress, Yarn, Git, GitHub Actions, Schema Markup Validator, Google's Structured Data Testing Tool, Lighthouse  
 
 ---
 
