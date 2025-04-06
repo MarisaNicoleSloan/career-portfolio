@@ -1,15 +1,20 @@
 Project Scale
 Led the optimization of 10,000+ pages, with ongoing improvements to an additional 40,000 pages to ensure consistency and prevent regressions, supporting a seamless user experience across the entire network.
+
 Role and Timeline
  Role: Full-stack Developer, Lead Technical Architect
- Timeline: 1 Sprint (2 weeks)
- I managed every aspect of this project, from initial research and technical implementation to final testing and deployment.
-Business Challenge
- In a competitive online landscape, improving search engine visibility is crucial for medical facilities. The primary goal was to integrate structured data to better present content in search results, ultimately boosting organic traffic and improving user engagement.
-User Research Insights
- Through surveys, keyword analysis, and competitive research, we found that visibility in featured snippets and rich search results was vital for attracting user attention. Our goal was to ensure that the medical facility's content was well-represented in these results, driving organic traffic.
 
-Technologies Used
+ Timeline: 1 Sprint (2 weeks)
+
+I managed every aspect of this project, from initial research and technical implementation to final testing and deployment.
+
+Business Challenge
+In a competitive online landscape, improving search engine visibility is crucial for medical facilities. The primary goal was to integrate structured data to better present content in search results, ultimately boosting organic traffic and improving user engagement.
+
+User Research Insights
+Through surveys, keyword analysis, and competitive research, we found that visibility in featured snippets and rich search results was vital for attracting user attention. Our goal was to ensure that the medical facility's content was well-represented in these results, driving organic traffic.
+
+Tech Stack
 ReactJS
 TypeScript
 GraphQL
