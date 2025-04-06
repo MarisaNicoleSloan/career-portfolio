@@ -1,7 +1,11 @@
 # Optimizing User Journeys for a Digital Healthcare Platform with a Dynamic Patient Assessment Form
 
-## Project Overview
+## Project Background
 Implemented a multi-step patient assessment form to guide users through a tailored search process, improving navigation and providing relevant treatment provider results.
+
+Role: Development Lead, Project Manager
+
+**Tech Stack:** React,js, TypeScript, Tailwind CSS, Gatsby, WordPress, Jest, Cloudflare
 
 ## Business Challenge
 Users struggled with navigating a large volume of content to find relevant treatment providers, leading to:
@@ -18,7 +22,6 @@ Inefficient Experience: Users felt "lost" during the search process, impacting e
 - Ensured mobile-friendly design with a prominent call-to-action (CTA) and smooth user experience.
 
 ## Functional Requirements & Solution Implementation
-**Tech Stack:** ReactJS, TypeScript, Tailwind CSS, Gatsby, WordPress, Jest, Cloudflare
 
 ### Multi-Step Form
 Developed a dynamic form that asks users about location (IP-based) and treatment needs. This allows for customized search results based on responses.
