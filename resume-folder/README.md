@@ -1,13 +1,13 @@
 # Marisa Sloan
-## Technical SEO Manager and Associate Developer
+## Software Engineer and Web Product Consultant
 
 ### Technologies
-- Languages: Python, SQL, JavaScript, HTML, CSS, XML, GraphQL
-- Libraries and Frameworks: React.js, Express.js, Node.js, Gatsby, Tailwind
-- Databases: PostgreSQL, MongoDB, Firestore
+- Languages: Python, SQL, JavaScript, TypeScript, HTML, CSS, XML, GraphQL
+- Libraries and Frameworks: React.js, Express.js, Node.js, Gatsby, Tailwind CSS, SASS
+- Databases and ORMs: PostgreSQL, MongoDB, Firestore, Prisma, TypeORM
 - Version Control: Git
 - Build Tools: Yarn, Grunt, Gulp
-- Cloud Computing: Amazon Web Services
+- Cloud Computing: AWS (S3, EC2, Lambda)
 - Automated Testing: Jest, Postman, Cypress
 
 ## Work Experience
