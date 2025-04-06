@@ -1,3 +1,5 @@
+# Maximizing Productivity with Automatic CMS Field Updates
+
 ## Project Scope and Scale
 The goal of this project was to address challenges surrounding the management of default FAQs for rehab centers. Specifically, the issue was that custom FAQs were overriding default FAQs for 20,000+ pages in the CMS, causing unnecessary maintenance and potentially outdated information. The solution needed to ensure that default FAQs could populate in the Admin Panel and allow for easy editing, while also ensuring that key variables (such as price and insurance details) could be automatically updated when changed in the system.
 
