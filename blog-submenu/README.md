@@ -9,7 +9,6 @@ Dynamic Page Routes, SEO Optimization, and Content Management for Healthcare Ser
 
 ## Table of Contents
 
-
 - [Overview](#overview)
 - [Business Challenge](#business-challenge)
 - [User Research Insights](#user-research-insights)
@@ -129,14 +128,16 @@ Route Configuration: Using React Router, I created a system for mapping content 
 Dynamic Pages: Designed dynamic routes using Gatsby’s Page Query to ensure that the content for each page was pulled directly from a data source (Firestore/GraphQL). As new service pages were added, the route system would automatically handle them, keeping the site scalable.
 GraphQL API: Integrated GraphQL queries to ensure that every route was dynamically populated with the latest information, such as insurance plan details or treatment therapies. This enabled better content synchronization and accuracy across the website.
 
-SEO Enhancements
+### SEO Enhancements
 - Unique, Descriptive URLs: Worked on SEO-friendly URL structure (e.g., /insurance/aetna/) to make each page more easily discoverable by search engines and users.
 - Meta Tags & Structured Data: Added meta tags, OG tags, and structured data to ensure that each page had optimized content for search engines, social media platforms, and third-party applications.
 - Content Management System Enhancements
 
-Firestore Integration: Integrated Firestore as the backend database to store content for each category. This allowed real-time updates and easy content management without requiring heavy backend logic or manual updates, enabling non-technical administrators to manage content more efficiently.
+### Firestore Integration
+Integrated Firestore as the backend database to store content for each category. This allowed real-time updates and easy content management without requiring heavy backend logic or manual updates, enabling non-technical administrators to manage content more efficiently.
 
-PostgreSQL for Data Storage: Used PostgreSQL to store historical data and ensure consistency across dynamic routes, allowing for more sophisticated querying and content aggregation.
+### PostgreSQL for Data Storage
+Used PostgreSQL to store historical data and ensure consistency across dynamic routes, allowing for more sophisticated querying and content aggregation.
 
 ## User Experience Enhancements
 
