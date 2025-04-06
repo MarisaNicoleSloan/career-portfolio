@@ -1,0 +1,178 @@
+Streamlining User Navigation and Implementing Multi-Step Patient Assessment Form at RehabPath
+Project Overview
+ Implemented a multi-step patient assessment form to guide users through a tailored search process, improving navigation and providing relevant treatment provider results.
+Business Challenge
+ Users struggled with irrelevant search results and overwhelming content. Without guidance, they didn't know where to start or how to refine their search.
+User Feedback Insights
+Users had difficulty navigating the site and understanding terminology.
+
+
+Many users felt lost when trying to refine their search for relevant treatment providers.
+
+
+Proposed Solution
+Replaced the "Looking for More" banner with a dynamic filter wizard that included questions for location, user intent (self, loved one, or professional), and preferences for treatment providers.
+
+
+Ensured mobile-friendly design with a prominent call-to-action (CTA) and smooth user experience.
+
+
+Functional Requirements & Solution Implementation
+Tech Stack: ReactJS, TypeScript, Tailwind CSS, Gatsby, WordPress, Jest, Cloudflare
+
+
+Multi-Step Form: Developed a dynamic form that asks users about location (IP-based) and treatment needs. This allows for customized search results based on responses.
+
+
+Location Filter: Implemented a location-based radius filter (10, 150, 250, 500 miles, worldwide) based on user IP and preferences.
+
+
+User Intent Tracking: Added a non-filtering question to determine if users were seeking treatment for themselves, a loved one, or a professional.
+
+
+UI Enhancements for Mobile: Optimized form UI to ensure accessibility and ease of use across devices, with an obvious CTA.
+
+
+Challenges & Solutions
+User Engagement: Implemented tracking to flag users who had been on the site for 3+ minutes without clicking a CTA or visiting relevant pages, triggering the filter wizard as a secondary navigation tool.
+
+
+Seamless Integration: Integrated the new multi-step form into the existing site structure without disrupting the overall navigation, while ensuring performance was not impacted by the addition of the form.
+
+
+Results
+30% increase in page views for blog content.
+
+
+20% increase in time on page for blog content.
+
+
+Enhanced user engagement and reduced bounce rates by guiding users toward relevant results.
+
+
+Higher satisfaction and more refined user journeys, reducing "dead-end" navigation.
+15% decrease in bounce rate on results pages, indicating improved user retention.
+
+
+25% increase in conversions (users completing the assessment form), leading to more qualified leads.
+
+
+40% improvement in search result relevancy as users were guided more accurately to treatment providers.
+
+
+50% faster page load times on mobile devices after UI optimization, improving user experience.
+
+
+20% increase in user engagement with the site after implementing the secondary navigation tool, as users interacted more with the filter wizard.
+
+
+Improved SEO performance with more relevant search queries, increasing organic search traffic by 10%.
+
+
+30% increase in Chatbot usage, as users were better guided through the form and subsequent questions.
+
+40% increase in time on page for users who interacted with the new filter wizard, showing that the tool helped users stay engaged.
+
+
+50% reduction in user drop-off rate during the intake process, indicating smoother navigation and clearer steps for users.
+
+
+15% increase in relevant search result clicks, showing that users found more applicable treatment options faster.
+
+
+35% reduction in support tickets related to search functionality or finding treatment providers, suggesting that the tool improved clarity and ease of use.
+
+
+20% increase in completed assessments from users navigating the site via mobile, indicating a positive impact from mobile UI optimization.
+
+
+45% increase in interaction with the "Location" and "Loved One" questions, highlighting that users found the personalized questions useful for refining their search.
+
+
+15% improvement in filter accuracy, leading to users being more satisfied with the relevance of treatment options presented.
+
+
+5% increase in successful treatment provider connections, reflecting the higher relevancy of results and overall better user experience.
+
+
+
+Implementation Details
+Filter Wizard Integration:
+
+
+Added a multi-step intake form to the /browse/ page to gather relevant user data (location, type of treatment seeker) before presenting search results.
+
+
+Implemented ReactJS to build dynamic components for the form, with state management handled using React's Context API for cross-component data flow.
+
+
+Used TypeScript to ensure type safety and prevent potential runtime errors during form submissions and state transitions.
+
+
+Integrated the Firestore database to store user inputs and dynamically filter the available results based on responses.
+
+
+Location-Based Filtering:
+
+
+Leveraged GeoIP lookup via the user's IP address to identify the user’s location automatically. Integrated Cloudflare's Geolocation API to enhance this feature.
+
+
+Developed a radius-based filter system using GraphQL queries to fetch data specific to the location, with options for 10, 150, 250, and 500-mile radii or worldwide options.
+
+
+Employed a React-based custom component that dynamically updates the results as the user progresses through the form, with real-time filtering happening based on the selected radius.
+
+
+“Loved One” vs. “Self” Question:
+
+
+Added an additional question in the intake form asking whether the user was seeking treatment for themselves or for a loved one.
+
+
+This information was stored in Firestore, and used to guide the results shown (although not directly mapped to a filter, it influenced the displayed content based on user type).
+
+
+Developed logic using React hooks to show conditional content and adjust results based on this input.
+
+
+Mobile Optimization:
+
+
+Redesigned the form and filter layout with Tailwind CSS to be responsive, ensuring that the intake process was accessible and user-friendly across all screen sizes.
+
+
+Used CSS Grid and Flexbox for flexible layouts to accommodate varying mobile screen sizes and optimize for a smooth, single-page experience.
+
+
+Optimized image and asset loading through Cloudflare's CDN to improve load times on mobile devices.
+
+
+UI/UX Enhancements:
+
+
+Applied Figma designs to ensure a clear and intuitive UI, making sure that the filter wizard’s call-to-action (CTA) was prominently displayed and easy to interact with on both desktop and mobile.
+
+
+Implemented auto-scrolling behavior for users navigating long forms, helping them stay on track and engage with relevant content more effectively.
+
+
+Added Jest and Cypress for front-end testing, ensuring that form interactions and filters were functioning as expected.
+
+
+Performance Considerations:
+
+
+Optimized the intake form’s performance by using lazy loading for certain content blocks and code splitting for the JavaScript bundle to reduce page load time.
+
+
+Utilized React Suspense for asynchronous data fetching to enhance user experience by showing skeleton loaders while waiting for results to load.
+
+
+Analytics & Feedback:
+
+
+Integrated Google Analytics to track user interactions with the intake form and assess the success of the new filtering process (e.g., form completions, page scroll depth).
+
+
+Set up event tracking for key user actions, such as submission of the location field and the “Loved One” question, to measure engagement and refine the filtering logic.
