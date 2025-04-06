@@ -1,11 +1,11 @@
-# Maximizing Productivity with Automatic CMS Field Updates
+# Maximizing Customer Retention Administrator Productivity with Automatic CMS Field Updates
 
 ## Project Scope and Scale
 The goal of this project was to address challenges surrounding the management of default FAQs for rehab centers. Specifically, the issue was that custom FAQs were overriding default FAQs for 20,000+ pages in the CMS, causing unnecessary maintenance and potentially outdated information. The solution needed to ensure that default FAQs could populate in Sanity and allow for easy editing, while also ensuring that key variables (such as price and insurance details) could be automatically updated when changed in the system.
 
 <b>Role</b>: Developer, Project Manager
 
-<b>Collaborators</b>: Customer Success Director, Product Manager, Chief Product Officer (for approval and buy-in)
+<b>Collaborators</b>: Customer Success Director, Product Manager, Chief Product Officer (for buy-in and budget approval)
 
 ## Tech Stack
 React.js, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress, AWS Lambda, Sanity
@@ -44,9 +44,9 @@ React.js, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress,
 - Ran Cypress integration tests to simulate real-world scenarios and ensure that changes to center configurations (such as pricing or insurance) properly triggered updates to FAQs, ensuring end-to-end functionality across the system.
 
 ## Results
-- 50% faster FAQ updates: Admins can now directly edit default FAQs, reducing time spent managing content.
-- 80% less manual maintenance: Automatic updates ensure FAQs are always accurate, cutting the need for frequent manual intervention.
-- 15% lower bounce rate: More relevant, up-to-date FAQs keep users engaged, increasing time spent on center pages.
-- 20% boost in organic traffic: SEO-optimized FAQs align with user queries, driving more visitors to rehab center pages.
-- 50% reduction in FAQ management time: Streamlined editing process enables admins to maintain FAQs efficiently without rebuilding custom entries.
-- Reduced operational overhead: Automating FAQ updates lowers the maintenance burden on project managers and admins.
+- <b>50% faster FAQ updates</b>: Admins can now directly edit default FAQs, reducing time spent managing content.
+- <b>80% less manual maintenance</b>: Automatic updates ensure FAQs are always accurate, cutting the need for frequent manual intervention.
+- <b>15% lower bounce rate</b>: More relevant, up-to-date FAQs keep users engaged, increasing time spent on center pages.
+- <b>20% boost in organic traffic</b>: SEO-optimized FAQs align with user queries, driving more visitors to rehab center pages.
+- <b>50% reduction in FAQ management time: Streamlined editing process enables admins to maintain FAQs efficiently without rebuilding custom entries.
+- <b>Reduced operational overhead</b>: Automating FAQ updates lowers the maintenance burden on project managers and admins.
