@@ -1,8 +1,9 @@
 # Optimizing User Retention and Referrals through Personalization
 
+## Project Background
+
 Role: Developer
 
-## Project Background
 The goal was to address a gap in the user journey: enabling both patients and referring providers to easily save, manage, and share lists of treatment centers. Providers were unable to save their favorite centers for future reference or share them efficiently, hindering their ability to make recommendations. This feature aimed to improve user experience and productivity, mimicking functionalities seen on platforms like VRBO and Hotels.com.
 
 ## Tech Stack
