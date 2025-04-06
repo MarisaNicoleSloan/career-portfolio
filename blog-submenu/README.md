@@ -10,7 +10,7 @@ Led the redesign of a healthcare resource hub serving over 10,000 pages of medic
 ---
 
 ## Tech Stack 
-- Frontend: ReactJS, TypeScript, Tailwind CSS, Gatsby, Webpack
+- Frontend: React.js, TypeScript, Tailwind CSS, Gatsby, Webpack
 - Routing & Pages: React Router, Gatsby’s createPages API
 - Backend: WordPress, Sanity, Postgres, GraphQL, Firestore
 - State Management: Local, derived, and synced state via Redux
