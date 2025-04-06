@@ -3,25 +3,25 @@
 ## Project Background
 Implemented a multi-step patient assessment form to guide users through a tailored search process, improving navigation and providing relevant treatment provider results.
 
-Role: Development Lead, Project Manager
+<b>Role</b>: Development Lead, Project Manager
+<b>Collaborators</b>: Product Manager, UX Designers, Clinical Research Director to approval assessment questions and options
 
 **Tech Stack:** React,js, TypeScript, Tailwind CSS, Gatsby, WordPress, Jest, Cloudflare
 
-## Business Challenge
-Users struggled with navigating a large volume of content to find relevant treatment providers, leading to:
-Irrelevant Search Results: Without personalized filtering, users often found unsuitable treatment options, resulting in frustration.
-Overwhelming Navigation: The lack of clear guidance made it difficult for users to refine their search or know where to start, causing confusion and abandonment.
-Inefficient Experience: Users felt "lost" during the search process, impacting engagement and retention rates.
+## Business Challenge  
+Users faced challenges when trying to navigate through a large volume of content to find relevant treatment providers, leading to:  
 
-## User Feedback Insights
-- Users had difficulty navigating the site and understanding terminology.
-- Many users felt lost when trying to refine their search for relevant treatment providers.
+- **Irrelevant Search Results**: Without personalized filtering, users frequently encountered unsuitable treatment options, causing frustration 
+- **Overwhelming Navigation**: The absence of clear guidance made it difficult for users to refine their searches or even know where to begin, resulting in confusion and abandonment  
+- **Inefficient Experience**: Users often felt "lost" during the search process, negatively affecting engagement and retention  
 
-## Proposed Solution
-- Replaced the "Looking for More" banner with a dynamic filter wizard that included questions for location, user intent (self, loved one, or professional), and preferences for treatment providers.
-- Ensured mobile-friendly design with a prominent call-to-action (CTA) and smooth user experience.
+## User Feedback Insights  
+Usability tests and user interviews were conducted to uncover pain points, revealing the following insights:  
 
-## Functional Requirements & Solution Implementation
+- Users struggled with site navigation and comprehending terminology  
+- Many felt disoriented when attempting to narrow down their search for relevant treatment providers
+
+## Implementation
 
 ### Multi-Step Form
 Developed a dynamic form that asks users about location (IP-based) and treatment needs. This allows for customized search results based on responses.
@@ -35,13 +35,8 @@ Implemented a location-based radius filter (10, 150, 250, 500 miles, worldwide) 
 - Developed logic using React hooks to show conditional content and adjust results according to the answers provided, improving the accuracy and relevance of search results.
 
 ### UI Enhancements for Mobile
-Optimized form UI to ensure accessibility and ease of use across devices, with an obvious CTA.
+Optimized form UI to ensure accessibility and ease of use across devices along with a clear CTA.
 
-## Challenges & Solutions
-- **User Engagement:** Implemented tracking to flag users who had been on the site for 3+ minutes without clicking a CTA or visiting relevant pages, triggering the filter wizard as a secondary navigation tool.
-- **Seamless Integration:** Integrated the new multi-step form into the existing site structure without disrupting the overall navigation, while ensuring performance was not impacted by the addition of the form.
-
-## Implementation Details
 
 ### Filter Wizard Integration:
 - Added a multi-step intake form to the `/browse/` page to gather relevant user data (location, type of treatment seeker) before presenting search results.
