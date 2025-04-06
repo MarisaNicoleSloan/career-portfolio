@@ -1,4 +1,4 @@
-# Sitewide Content Overall: Core Service Lines and Resource Hub Redesign  
+# Sitewide Content Overhaul: Core Service Lines and Resource Hub Redesign  
 **Architecting a Scalable Solution for Optimized Content Organization, Navigation, and User Experience
  Enhancing Online Visibility and Content Structure for 10,000+ Healthcare Pages
 
@@ -25,7 +25,8 @@ Led the redesign of a healthcare resource hub, improving information architectur
 
 The redesign focused on improving content delivery, search engine performance, and user experience across treatment options, insurance offerings, and clinic details. The goal was to streamline content organization, improve discoverability, and enhance SEO for better online visibility.
 
-Role: Developer, QA, Research & Planning, Project Manager
+Role: Development Lead, QA, Project Manager
+Collaborators: UX Researcher, Product Designer, Engineering Manager, Product Owner, Chief Producter Officer (for project and budget approval)
 
 ---
 
@@ -63,7 +64,7 @@ User testing and data analytics indicated key pain points:
 - Built a **dynamic hierarchical category system** using GraphQL to reduce content overload.
 - Designed a **submenu UI** for quick access to relevant topics.
 - Designed a **hierarchical taxonomy** for content categories, then mapped that to Gatsby’s page generation system.  
-- Built **category landing pages** and **individual article pages** dynamically using `gatsby-node.js`.
+- Built **category landing pages** and **individual article pages** dynamically on the server
 
 ### Routing & State  
 - Used **React Router** for custom client-side routing and deep linking across categories.  
@@ -148,9 +149,9 @@ Navigation Optimization: Created intuitive breadcrumb navigation and category-ba
 Feedback Integration: Incorporated user feedback from both patients and site administrators to continually improve the flow of information and make the site easier to navigate.
 
 Dynamic Routing and Page Generation
-Built a scalable routing architecture using React Router + Gatsby to generate dynamic pages (e.g. /insurance/aetna/) that pulled structured data from GraphQL + Firestore.
-Created templates for services, clinics, and FAQs that automatically generated new pages based on backend content updates—enabling content at scale with low engineering overhead.
-Integrated PostgreSQL for structured historical data storage and advanced content filtering.
+- Built a scalable routing architecture using React Router + Gatsby to generate page dynamically on the server (e.g. /insurance/aetna/) that pulled structured data from GraphQL + Firestore.
+- Created templates for services, clinics, and FAQs that automatically generated new pages based on backend content updates—enabling content at scale with low engineering overhead.
+- Integrated PostgreSQL for structured historical data storage and advanced content filtering.
 
 Structured Data & SEO Enhancements
 Developed JSON-LD schemas for:
@@ -193,23 +194,11 @@ Administrators: Benefited from an optimized content management process, with few
 
 ## Results
 
-Active Users: 30% increase in daily active users (DAU) for product features like consultations and booking.
-Feature Adoption: 40% increase in the adoption of newly launched product features, showing user engagement with new functionalities.
-Conversion Rate: 20% improvement in product conversion rate, specifically for high-value actions like form submissions and bookings.
-Product Usage Frequency: 25% more interactions with the core features (e.g., product catalog, bookings) compared to pre-optimization.
-Retention Rate: 15% increase in returning users, reflecting a stronger product experience and customer loyalty.
-Mobile Engagement: 25% more interaction on mobile, ensuring seamless use of product features across devices.
-Product-Specific NPS: Increased Net Promoter Score (NPS) by 10 points in relation to the new feature rollout, showing higher user satisfaction.
-Business Impact
-Revenue: Direct contribution to 15% increase in bookings through product enhancements.
-Operational Efficiency: Optimized backend reducing processing times for user actions by 30%.
-Optimized Content Management: Streamlined processes resulted in a 20% reduction in time spent on content management tasks, allowing for faster content deployment.
-
-Fewer Manual Updates: Automated content updates reduced manual intervention by 40%, minimizing errors and rework.
-
-Improved Workflow Efficiency: Simplified workflows cut content approval and publishing times by 30%, enabling administrators to handle larger content volumes with less effort.
-
-Scalability: Enabled administrators to manage 50% more content without the need for additional resources, improving operational efficiency.
-
-Increased Productivity: Reduced administrative time on manual content management tasks by 25%, allowing for a greater focus on strategic, value-added activities.
-User Feedback: 90% of users reported the new feature solved a key pain point, demonstrating product-market fit.
+- Boosted core feature interactions (e.g., consultations, bookings) by 25%.
+- Improved conversion rate by 20% for high-value actions like bookings and form submissions; bookings alone rose 15% within two cycles.
+- Raised mobile engagement by 25%, ensuring consistent cross-device usability.
+- Increased returning users by 15%, signaling improved product experience and customer loyalty.
+- Lifted Net Promoter Score (NPS) by 10 points after new feature rollout, reflecting higher user satisfaction.
+- Automated content updates reduced manual intervention by 40%, cutting errors and rework.
+- Streamlined workflows cut content approval and publishing times by 30%, enabling greater scalability.
+- Achieved 90% user satisfaction with new feature addressing a key pain point: matching users with the right center.
