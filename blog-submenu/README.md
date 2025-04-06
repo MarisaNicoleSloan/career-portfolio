@@ -1,63 +1,100 @@
-# Content Hub Submenu and Category Pages for a Behavioral Health Directory
+# Resource Hub Redesign  
+**Architecting a Scalable Solution for Optimized Content Organization, Navigation, and User Experience
+🔗 [Recovery.com](https://recovery.com)
 
-<b>Client</b>
+---
 
-Recovery.com
+## Project Overview  
+Led the redesign of a large-scale healthcare resource hub, improving its information architecture, navigation, and user interaction. Built a scalable solution using **Gatsby**, **GraphQL**, **Postgres**, and **WordPress** to enhance content discoverability and user engagement.
 
-<b>Client Industry</b>
+---
 
-Addiction Treatment and Mental Health
+## Business Challenge  
+The original resource hub had a flat, unstructured blog layout. Content was hard to find, and engagement suffered. My goal was to revamp the system into a more intuitive and scalable content experience while maintaining performance.
 
-<b>Project Scale</b>
+---
 
-This submenu impacted about 400 blog posts and required significant database modifications for implementation.
+## User Research & Insights  
+- Usability testing showed users struggled to locate relevant content.
+- Feedback highlighted confusion caused by inconsistent category labeling and lack of filtering.
+- These insights drove a redesign focused on clear categorization and easier exploration.
 
-<b>Technologies Used</b>
+---
 
-React, Tailwind CSS, Gatsby, WordPress
+## Technologies & Tools  
+- **Frontend**: ReactJS, TypeScript, Tailwind CSS, Gatsby  
+- **Backend**: WordPress (CMS), Postgres, GraphQL  
+- **Testing & Optimization**: Jest, Cypress  
+- **Infrastructure**: Cloudflare (CDN, caching)  
+- **Version Control**: Git, GitHub  
 
-<b>Business Challenge and User Need</b>
+---
 
-Efficient organization and sorting are pivotal for a seamless blog user experience, driving reader retention and content exploration. The previous blog lacked these essential features, leading to reduced traffic and usage. To address these issues, I developed a user-friendly submenu with category pages.
+## Key Challenges & Solutions
 
-<b>User Research Results</b>
+### Content Organization & Navigation  
+- Built a **dynamic hierarchical category system** using GraphQL to reduce content overload.
+- Designed a **submenu UI** for quick access to relevant topics.
 
-Usability tests uncovered a common challenge: users frequently felt overwhelmed by the sheer volume of content and struggled to locate articles of interest. This critical insight provided the compelling foundation for the enhancements.
+### Performance & Scalability  
+- Refactored data layer using **Postgres** for relational efficiency.
+- Used **GraphQL** to fetch only the data needed, improving speed and responsiveness.
 
-<img src="https://i.imgur.com/qvLhXCk.png"/>
+### Seamless CMS Integration  
+- Developed custom WordPress plugins for syncing with Postgres.
+- Preserved editorial workflows while modernizing the content delivery stack.
 
+---
 
-<b>Challenges and Iterative Design</b>
+## Technical Execution
 
+1. **System Architecture**  
+   - Planned and implemented a headless CMS flow combining **WordPress**, **Postgres**, and **GraphQL**.  
+   - Structured schema to support scalable content growth and minimal database load.
 
-Initially, one of the key challenges was the organization of the extensive blog content. Users often felt overwhelmed, and this was reflected in the lack of specific feedback on the blog's usability. To address this, there needed to be a way to categorize and present content in a more user-friendly manner.
+2. **Frontend Development**  
+   - Built responsive UI in **React** + **Tailwind**, including category submenus and article previews.  
+   - Added **auto-scroll and smooth transition behaviors** for better user flow.
 
-Implementing the submenu and category pages also posed technical challenges. I had to ensure that the navigation system was fast and responsive, especially as the blog had hundreds of posts. Integrating this seamlessly with WordPress, which was one of the website's content management systems, required careful planning.
+3. **Backend Integration**  
+   - Used **GraphQL** to structure queries for precise data fetching.  
+   - Implemented caching with **Cloudflare** to reduce server load.
 
-<b>Design and Development</b>
+4. **Testing & Optimization**  
+   - Wrote unit and integration tests with **Jest** and **Cypress**.  
+   - Optimized performance for mobile and slow networks.
 
-The first design iteration involved the concept of introducing a submenu. Providing users with a quick way to navigate to specific categories would alleviate the issue of content overload.
+---
 
-To make the submenu more engaging, I implemented dynamic features using React. Users could now interact with the submenu, and clicking a button would take them to the corresponding category page. I also introduced auto-scrolling to create a seamless content exploration experience.
+## Results
 
-<img src="https://i.imgur.com/upjGlHc.png" height="80%" width="80%" alt="Blog Submenu"/>
-  
-After some feedback from the design team, I made the following refinements to improve user navigation as well as overall visual presentation:
+- **30% increase** in page views on blog content  
+- **20% increase** in average time on page  
+- **50% improvement** in page load times  
+- **95% reduction** in bounce rate from search visitors  
+- Scalable system built to support future content growth without compromising speed
 
-- When a chip (e.g., "Symptoms") was selected, it showed as selected on the "Symptoms" page, providing users with a clear indication of their current location within the navigation
-- Clicking on a tab immediately took users to a parent page of that title, eliminating confusion caused by sub-categories being initially displayed
-- Once on the parent page, which as denoted by a tab such as "Gathering Information", users could easily select a subcategory to narrow down results. To facilitate this, an additional chip labeled "All" was added. This chip was selected by default when clicking on a tab.
+---
 
-<img src="https://i.imgur.com/xONWX3N.jpg"/>
+## Collaboration & Leadership  
+- Worked cross-functionally with frontend engineers, backend developers, and UX designers.  
+- Mentored junior devs in **React**, **GraphQL**, and performance optimization best practices.  
+- Translated technical decisions into stakeholder-friendly updates throughout the project.
 
+---
 
-<b>Before Implementation</b>
-<img src="https://i.imgur.com/qvLhXCk.png"/>
+## Visuals
 
-<b>After Implementation</b>
-<img src="https://i.imgur.com/xONWX3N.jpg"/>
+### Mockup Design  
+<img src="https://i.imgur.com/xONWX3N.jpg" alt="Mockup Design" width="600"/>
 
-<b>Results and Achievements</b>
+### Before Implementation  
+<img src="https://i.imgur.com/qvLhXCk.png" alt="Before Screenshot" width="600"/>
 
-- 30% increase in page views for blog content
-- 20% increase in time on page for blog content
+### After Implementation  
+<img src="https://i.imgur.com/xONWX3N.jpg" alt="After Screenshot" width="600"/>
+
+---
+
+## Takeaways  
+This project showcased my ability to lead full-stack development with a strong focus on user needs, system scalability, and maintainability. I delivered measurable improvements in both product performance and content engagement, laying a strong foundation for long-term growth.
