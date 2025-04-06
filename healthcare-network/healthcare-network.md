@@ -79,13 +79,18 @@ Ran staging environment links through several tests to validate that the new imp
 ---
 
 ## Results
-- **+15% click-through rate** → more organic traffic  
-- **+20% increase in lead generation** for appointments  
+
+### SEO & Site Performance Improvements:
+- **+30% increase in visibility** through structured data integration, making content easier to find  
+- **+20% more indexed pages**, with **−30% faster indexing times**  
+- **+20% boost in rich snippet visibility** (FAQs, reviews), driving more traffic  
+- **+15% increase in click-through rate**, leading to more organic traffic
+
+### Efficiency & Productivity Gains:
+- **+60% reduction in manual work** through automated schema generation, boosting developer velocity  
+- **+25% improvement in content team productivity** by streamlining content workflows and reducing schema-related bottlenecks
+
+### User Engagement & Conversions:
 - **+25% increase in page views**  
-- **+18% increase in session duration**  
-- **+20% increase in indexed pages**  
-- **−30% indexing time**  
-- **+60% reduction in manual work** through automated schema generation, boosting developer velocity and freeing up time for higher-impact initiatives
-- **+25% improvement in content team productivity** by streamlining content management workflows and reducing schema-related bottlenecks
-- **+20% increase in rich snippet visibility (FAQs, reviews)**, driving higher traffic and improved conversion rates
-- **+30% improvement in discoverability** via structured data integration, contributing to long-term SEO performance and governance strategy
+- **+18% longer session duration**  
+- **+20% more lead generation** for appointments
