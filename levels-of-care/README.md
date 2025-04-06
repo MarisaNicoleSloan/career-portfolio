@@ -1,12 +1,12 @@
-# Levels of Care Feature for Mental Health and Addiction Treatment Centers
+# Dynamic Treatment Information Module for Mental Health and Addiction Centers
 
-<b>Client</b>
+<b>Company</b>
 
-RehabPath
+Recovery.com
 
-<b>Client Industry</b>
+<b>Industry</b>
 
-Addiction Treatment and Mental Health
+Behavioral Health (Addiction Treatment and Mental Health)
 
 <b>Project Scale</b>
 
@@ -72,3 +72,52 @@ Here is one example of the how helped someone achieve more clarity about the con
 
 - 30% increase in pageviews within just two weeks of launching the feature
 - Surfacing this information reinforced the brand's reputation as a trusted platform in the mental health addiction space as a comprehensive online resource that was always patient-first
+
+Project Scale:
+Implemented a comprehensive treatment levels feature across 4,000+ pages, ensuring accurate, dynamic information on mental health and addiction care is accessible to users.
+
+Business Challenge:
+Users struggled to find clear, comprehensive information about addiction and mental health care options, which affected their ability to make informed decisions about treatment centers.
+
+User Research Insights:
+Research revealed a significant gap in the accessibility and clarity of information related to available treatment levels. Users needed an easy, structured way to compare options, understand care pathways, and find the right fit for their needs.
+
+Technologies Used:
+
+ReactJS: Used for building the dynamic and interactive UI components, ensuring a seamless user experience.
+
+Tailwind CSS: Implemented for fast, responsive styling with utility-first classes, enabling a highly customizable and efficient development process.
+
+Gatsby: Leveraged for static site generation, ensuring fast load times and optimized for SEO.
+
+GraphQL: Utilized to fetch data efficiently from the database, improving performance and scalability.
+
+PostgreSQL: Used to manage and update the facility details, treatment tiers, and specializations, ensuring accurate and timely content.
+
+Implementation:
+
+Database Integration: Used PostgreSQL to store and manage detailed information about treatment centers, including specializations and treatment tiers. Implemented daily data refreshes to ensure the most up-to-date and accurate information was available. Data was retrieved using GraphQL queries, optimizing data fetching and reducing unnecessary load times for users.
+
+React-Based UI: Developed the user interface in ReactJS, focusing on responsiveness and accessibility. The interface was designed to allow users to easily browse through treatment options with minimal friction. Key components were built as reusable React components, allowing for quick updates and scalability.
+
+Conditional Hyperlinks: Integrated dynamic conditional hyperlinks that adapt to user preferences and browsing history, enhancing the accessibility and relevance of content. Links were automatically generated based on factors like location, user interests, and available care options, improving the discoverability of specialized services.
+
+UX Design Process: Led the iterative UX design process, which included wireframing, prototyping, and user testing. The final feature was strategically positioned within the center overview panel on each treatment center profile to maximize visibility and ease of access. Conducted regular user testing to refine and optimize the user flow, ensuring it was intuitive and straightforward.
+
+Value Maximization: Ensured that core services were always displayed within the continuum of care, even for providers that didn’t offer them, helping to educate users about available options. Added links that directed users to location-specific pages containing relevant specialties, further personalizing the user experience and aiding in decision-making.
+
+Results:
+
+30% increase in pageviews within two weeks of launch, indicating improved engagement and content visibility.
+
+Enhanced user trust and retention: Users found the information more accessible, leading to higher levels of engagement and increased trust in the platform’s authority on mental health and addiction care.
+
+Improved decision-making: The clear, structured presentation of treatment options allowed users to make more informed choices, ultimately contributing to a better overall user experience.
+
+Enhanced brand reputation: The project positioned the platform as a reliable source of mental health and addiction care information, enhancing the brand’s credibility and trust within the healthcare community.
+
+Testing and Validation:
+
+Unit Testing: Wrote and ran unit tests using Jest to ensure individual components and features worked as expected, providing robust error handling and stability.
+
+End-to-End Testing: Conducted E2E testing using Cypress to simulate user interactions and validate the entire user journey from start to finish, ensuring that the treatment levels feature functioned seamlessly across different browsers and devices.
