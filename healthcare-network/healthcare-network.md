@@ -1,29 +1,25 @@
-# Optimizing an Enterprise Healthcare Network: Site Structure, Navigation, and SEO
+# Redesigned Information Architecture and Navigation for a Leading Health Network to Maximize Discoverability, Patient Access, and SEO
 
-## Project Scope and Scale
+## Project Background
 
 Led the optimization of **10,000+ pages**, with ongoing improvements to an additional **40,000 pages** to ensure consistency and prevent regressions, supporting a seamless user experience across the entire network.
 
-- **Role:** Full-stack Developer, Project Manager
-
-Managed all aspects of the project, from research and technical architecture to implementation, testing, and deployment.
+- **Role:** Development Lead, Technical Architect, Project Manager
+- **Collaborators:** Engineering Manager, Product Manager, Chief Product Officer (for buy-in and approval), Content Authors updating the CMS
 
 ---
 
 ## Tech Stack
-
 React.js, TypeScript, GraphQL, Gatsby, PostgreSQL, Jest, Graph QL(Apollo Client), Cypress, Yarn, Git, GitHub Actions, Schema Markup Validator, Google's Structured Data Testing Tool, Lighthouse  
 
 ---
 
 ## Business Challenge
-
 In a competitive online landscape, improving search engine visibility is crucial for medical facilities. The goal was to enhance search result presentation—boosting organic traffic, increasing conversions, and improving user engagement.
 
 ---
 
 ## User Research Insights
-
 Surveys, keyword analysis, and competitive research revealed that appearing in rich results and featured snippets significantly influenced user behavior. Improving schema coverage across the site was key to visibility and growth.
 
 ---
@@ -49,23 +45,23 @@ Solution: Built categorized sitemap indexes grouped by taxonomy, condition, and 
 ## Technical Implementation Overview
 
 ### Dynamic Schema Generation
-Developed JSON-LD scripts for Articles, FAQs, Products, Clinics, and Businesses
-Integrated Schema.org types: FAQPage, BreadcrumbList, Review, MedicalClinic, MedicalBusiness
-Used React components to dynamically generate markup per content type
-Enabled SSR via Gatsby to pre-render schema and enhance SEO
+- Developed JSON-LD scripts for Articles, FAQs, Products, Clinics, and Businesses
+- Integrated Schema.org types: FAQPage, BreadcrumbList, Review, MedicalClinic, MedicalBusiness
+- Used React components to dynamically generate markup per content type
+- Enabled SSR via Gatsby to pre-render schema and make it easily discoverable by search engines
 
 ### GraphQL and Firestore Integration
-Queried structured content (e.g., clinic details, FAQs) from Firestore using GraphQL
-Ensured data consistency across front-end content and schema fields
+- Queried structured content (e.g., clinic details, FAQs) from Firestore using GraphQL
+- Ensured data consistency across front-end content and schema fields
 
 ### Breadcrumb Automation
-Auto-generated breadcrumb trails based on real-time page hierarchy (e.g., Home > Services > Cardiology > Clinic Name)
-Paired with BreadcrumbList schema to support enhanced listings in search results
+- Auto-generated breadcrumb trails based on real-time page hierarchy (e.g., Home > Services > Cardiology > Clinic Name)
+- Paired with BreadcrumbList schema to support enhanced listings in search results
 
 ### Index and Performance Optimization
-Built custom sitemap indexes categorized by topic, condition, and location
-Removed low-value (thin content) pages and noindex pages (robots tag contains noindex),to improve crawl efficiency
-Implemented SSR and optimized bundle delivery to maintain high page speed and make the pages easily crawlable by search engines.
+- Built custom sitemap indexes categorized by topic, condition, and location
+- Removed low-value (thin content) pages and noindex pages (robots tag contains noindex),to improve crawl efficiency
+- Implemented SSR and optimized bundle delivery to maintain high page speed and make the pages easily crawlable by search engines.
 
 ---
 
@@ -83,19 +79,13 @@ Ran staging environment links through several tests to validate that the new imp
 ---
 
 ## Results
-
 - **+15% click-through rate** → more organic traffic  
 - **+20% increase in lead generation** for appointments  
 - **+25% increase in page views**  
 - **+18% increase in session duration**  
 - **+20% increase in indexed pages**  
 - **−30% indexing time**  
-
----
-
-## Impact on Business
-
-- +60% reduction in manual work through automated schema generation, boosting developer velocity and freeing up time for higher-impact initiatives
-- +25% improvement in content team productivity by streamlining content management workflows and reducing schema-related bottlenecks
-- +20% increase in rich snippet visibility (FAQs, reviews), driving higher traffic and improved conversion rates
-- +30% improvement in discoverability via structured data integration, contributing to long-term SEO performance and governance strategy
+- **+60% reduction in manual work** through automated schema generation, boosting developer velocity and freeing up time for higher-impact initiatives
+- **+25% improvement in content team productivity** by streamlining content management workflows and reducing schema-related bottlenecks
+- **+20% increase in rich snippet visibility (FAQs, reviews)**, driving higher traffic and improved conversion rates
+- **+30% improvement in discoverability** via structured data integration, contributing to long-term SEO performance and governance strategy
