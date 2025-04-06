@@ -4,6 +4,20 @@
 
 ---
 
+## Table of Contents
+
+
+- [Overview](#overview)
+- [Business Challenge](#business-challenge)
+- [User Research Insights](#user-research-insights)
+- [Technologies Used](#technologies-used)
+- [Architecture & Implementation](#architecture--implementation)
+  - [Content Architecture](#content-architecture)
+  - [Dynamic Routing and Page Creation](#dynamic-routing-and-page-creation)
+  - [State Management](#state-management)
+- [Results](#results)
+- [Before & After](#before--after)
+
 ## Project Overview  
 Led the redesign of a large-scale healthcare resource hub, improving its information architecture, navigation, and user interaction. Built a scalable solution using **Gatsby**, **GraphQL**, **Postgres**, and **WordPress** to enhance content discoverability and user engagement.
 
@@ -22,12 +36,17 @@ The original resource hub had a flat, unstructured blog layout. Content was hard
 ---
 
 ## Technologies & Tools  
-- **Frontend**: ReactJS, TypeScript, Tailwind CSS, Gatsby  
-- **Backend**: WordPress (CMS), Postgres, GraphQL  
+- **Frontend**: ReactJS, TypeScript, Tailwind CSS, Gatsby
+- **Routing & Pages**: React Router, Gatsby’s `createPages` API  
+- **Backend**: WordPress (CMS), Postgres, GraphQL
+- **State Management**:  
+  - Local component state (filters, toggles)  
+  - Derived state (active routes, category context)  
+  - Synced state (content from GraphQL via CMS) 
 - **Testing & Optimization**: Jest, Cypress  
 - **Infrastructure**: Cloudflare (CDN, caching)  
-- **Version Control**: Git, GitHub  
-
+- **Version Control**: Git, GitHub
+  
 ---
 
 ## Key Challenges & Solutions
@@ -35,10 +54,21 @@ The original resource hub had a flat, unstructured blog layout. Content was hard
 ### Content Organization & Navigation  
 - Built a **dynamic hierarchical category system** using GraphQL to reduce content overload.
 - Designed a **submenu UI** for quick access to relevant topics.
+- - Designed a **hierarchical taxonomy** for content categories, then mapped that to Gatsby’s page generation system.  
+- Built **category landing pages** and **individual article pages** dynamically using `gatsby-node.js`.
 
+### Routing & State  
+- Used **React Router** for custom client-side routing and deep linking across categories.  
+- Handled submenu navigation state locally, while syncing global content filters via GraphQL.  
+- Managed UI state (expanded menus, selected filters) in a scalable, reusable pattern.
+- 
 ### Performance & Scalability  
 - Refactored data layer using **Postgres** for relational efficiency.
 - Used **GraphQL** to fetch only the data needed, improving speed and responsiveness.
+- Structured GraphQL queries to fetch content by category and author.  
+- Used **Cloudflare caching and lazy loading** to keep load times under 2s, even for large datasets.  
+- Enabled pagination for long category archives to reduce client load.
+
 
 ### Seamless CMS Integration  
 - Developed custom WordPress plugins for syncing with Postgres.
@@ -63,6 +93,27 @@ The original resource hub had a flat, unstructured blog layout. Content was hard
 4. **Testing & Optimization**  
    - Wrote unit and integration tests with **Jest** and **Cypress**.  
    - Optimized performance for mobile and slow networks.
+  
+   -  **Page & Routing Architecture**  
+   - Used Gatsby’s `createPages` to generate hundreds of category and post pages from CMS content.  
+   - Implemented React Router for clean URL structures and in-app routing between views.
+
+2. **Frontend Engineering**  
+   - Built submenu and filter components in **React** with accessibility and responsiveness in mind.  
+   - Used **Tailwind CSS** for fast UI prototyping and consistent design tokens.
+
+3. **Backend & Data Layer**  
+   - Extended WordPress with custom fields and synced it to a **Postgres** schema.  
+   - Wrote GraphQL queries to fetch categorized content efficiently and support filtering UI.
+
+4. **State Management Strategy**  
+   - Local state for interactive elements (e.g. submenu toggle, filter chips).  
+   - Derived state for current route context and active filters.  
+   - Server-synced state for dynamic content via GraphQL.
+
+5. **Testing & CI**  
+   - Covered UI interactions and edge cases with **Jest** unit tests.  
+   - Wrote integration tests using **Cypress** to ensure routing and data hydration worked across devices.
 
 ---
 
