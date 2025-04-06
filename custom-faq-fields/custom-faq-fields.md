@@ -1,4 +1,4 @@
-# Maximizing Customer Retention Administrator Productivity with Automatic CMS Field Updates
+# Maximizing Customer Success and Administrator Productivity with Automatic CMS Field Updates
 
 ## Project Scope and Scale
 The goal of this project was to address challenges surrounding the management of default FAQs for rehab centers. Specifically, the issue was that custom FAQs were overriding default FAQs for 20,000+ pages in the CMS, causing unnecessary maintenance and potentially outdated information. The solution needed to ensure that default FAQs could populate in Sanity and allow for easy editing, while also ensuring that key variables (such as price and insurance details) could be automatically updated when changed in the system.
@@ -8,14 +8,13 @@ The goal of this project was to address challenges surrounding the management of
 <b>Collaborators</b>: Customer Success Director, Product Manager, Chief Product Officer (for buy-in and budget approval)
 
 ## Tech Stack
-React.js, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress, AWS Lambda, Sanity
+React.js, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress, AWS Lambda, Sanity, Yarn, Git, Netlify
 
 ## Business Challenge
 
-### Default FAQ Overriding
-- Custom FAQs were overriding default FAQs in Sanity, leading to maintenance challenges and outdated information.
-- Customization Needs: Centers needed an easier way to edit default FAQs rather than creating custom FAQs for every minor change.
-- Data Maintenance: Changes in variables (e.g., price, insurance) required manual updates, which were prone to errors and delays.
+### Internal Pain Points
+- <b>Customization Needs</b>: Centers needed an easier way to edit default FAQs rather than creating custom FAQs for every minor change.
+- <b>Data Maintenance</b>: Custom FAQs were overriding default FAQs in Sanity, leading to maintenance challenges and outdated information.Changes in variables (e.g., price, insurance) required manual updates, which were prone to errors and delays.
 
 ### Customer Feedback
 - Centers with standardized operations expressed frustration with manual updates.
