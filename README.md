@@ -1,12 +1,12 @@
-# Software Engineer and SEO Integration Lead
+# Software Engineer and Web Product Consultant
 
 ## Skills
 
-- Languages: Python, SQL, JavaScript, HTML, CSS, XML, GraphQL
-- Libraries and Frameworks: React.js, Express.js, Node.js, Gatsby, Tailwind
+- Languages and APIs: JavaScript, TypeScript, HTML, CSS, XML, Python, SQL, GraphQL, R
+- Libraries and Frameworks: React.js, Express.js, Node.js, Gatsby, Tailwind CSS, Redux, SASS
 - Databases: PostgreSQL, MongoDB, Firestore
-- Cloud Computing: Amazon Web Services
-- Automated Testing: Jest, Postman, Cypress
+- Cloud Computing: Amazon Web Services (Lambda, S3, EC2)
+- Automated Testing: Jest, Postman, Cypress, Selenium
 
 ## Certifications
 - [ISTQB Certified Tester, Foundation Level (CTFL)](https://atsqa.org/certified-testers/profile/e34943465bd243a7888b69b7ffdcac49)
@@ -45,7 +45,7 @@ RehabPath | July 2022 – January 2024
 - Implemented and maintained automated tests to ensure the reliability and stability of applications
 - Served as the product owner for SEO deliverables using agile Scrum and Shape Up methodologies
 
-### SEO and Technical SEO Manager
+### SEO and Technical SEO Account Manager
 Seer Interactive | November 2021 – July 2022 
 
 - Conducted detailed technical audits on 10 enterprise websites, resulting in an average 20% improvement in page load times and a 15% increase in mobile user engagement
@@ -56,14 +56,14 @@ Seer Interactive | November 2021 – July 2022
 #### Enterprise Clients
 Paychex, Webroot, American Greetings (focus on Jacquie Lawson and Blue Mountain sub brands)
 
-### SEO Specialist (Contract)
+### Senior Associate SEO Specialist (Independent Contractor)
 Crowe | May 2021 – November 2021 
 
 - Oversaw content quality as SEO point of contact, increasing SEO-aligned content production by 20%
 - Implemented on-page and technical SEO best practices, elevating search engine ranking positions (SERPs) by 15% for critical keywords and contributing to a 12% growth in overall website conversions
-- Supported SEO manager in optimizing agency relationships, leading to a 15% increase in agency-driven SEO improvements, and translated keyword analysis into a 10% overall organic traffic increase across the customer journey
+- Supported SEO director in optimizing agency relationships, leading to a 15% increase in agency-driven SEO improvements, and translated keyword analysis into a 10% overall organic traffic increase across the customer journey
 
-### Digital Copywriter and Web Content Specialist
+### Content and SEO Strategist
 Asher Agency | June 2019 – May 2021
 
 - Created company's first technical SEO and content strategy products, driving a 22% increase in new business development and renewal sales per contract 
