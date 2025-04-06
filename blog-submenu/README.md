@@ -126,11 +126,11 @@ Benefited from an optimized content management process, with fewer manual update
 
 ## Results
 
-- Boosted core feature interactions (e.g., consultations, bookings) by 25%.
-- Improved conversion rate by 20% for high-value actions like bookings and form submissions; bookings alone rose 15% within two cycles.
-- Raised mobile engagement by 25%, ensuring consistent cross-device usability.
-- Increased returning users by 15%, signaling improved product experience and customer loyalty.
-- Lifted Net Promoter Score (NPS) by 10 points after new feature rollout, reflecting higher user satisfaction.
-- Automated content updates reduced manual intervention by 40%, cutting errors and rework.
-- Streamlined workflows cut content approval and publishing times by 30%, enabling greater scalability.
-- Achieved 90% user satisfaction with new feature addressing a key pain point: matching users with the right center.
+- **Boosted core feature interactions** (e.g., consultations, bookings) by **25%**  
+- **Improved conversion rate** by **20%** for high-value actions like bookings and form submissions; **bookings alone rose 15%** within two cycles  
+- **Raised mobile engagement** by **25%**, ensuring consistent **cross-device usability**  
+- **Increased returning users** by **15%**, reflecting stronger **product experience and customer loyalty**  
+- **Lifted Net Promoter Score (NPS)** by **10 points** post-feature rollout, showing **higher user satisfaction**  
+- **Reduced manual content updates** by **40%** through automation, minimizing **errors and rework**  
+- **Cut content approval and publishing times** by **30%** with streamlined workflows, enabling **greater scalability**  
+- **Achieved 90% user satisfaction** with a new feature solving a key pain point: **matching users with the right center**
