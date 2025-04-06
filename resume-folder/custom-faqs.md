@@ -4,14 +4,7 @@ The goal of this project was to address challenges surrounding the management of
 Role: Developer and Project Manager
 
 ## Tech Stack
-React – Used to build dynamic components for displaying FAQs in the Admin Panel.
-Node.js/Express – Managed backend operations, including fetching and updating FAQs.
-GraphQL – Optimized data fetching to minimize load times and improve performance.
-PostgreSQL – Stored default FAQs and center-specific configurations for dynamic FAQ generation.
-TypeScript – Ensured type safety for components, reducing errors.
-Tailwind CSS – Facilitated rapid UI development for a responsive Admin Panel.
-Jest & Cypress – Utilized for front-end testing, ensuring proper FAQ rendering and functionality.
-AWS Lambda – Enabled serverless functions for automatic updates to variables like pricing and insurance details.
+React, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress, AWS Lambda
 
 ## Business Challenge
 
@@ -26,36 +19,27 @@ Admins sought simpler solutions to adjust FAQ text without needing to rebuild en
 Clients noted that small tweaks to information should not require rebuilding FAQs from scratch.
 
 ## Implementation
-Default FAQ Population:
 
-Developed a Node.js backend API to fetch default FAQ data from PostgreSQL. The API ensured that FAQs were correctly mapped to center-specific configurations.
-
-Implemented a React component to dynamically render FAQs in the Admin Panel. This component displayed the default FAQs with options for editing, allowing the Admin Panel to automatically populate with up-to-date FAQs based on the center’s configuration.
-
-Utilized GraphQL to efficiently query only the necessary FAQ data, reducing unnecessary data load and optimizing performance.
+### Default FAQ Population
+- Developed a Node.js backend API to fetch default FAQ data from PostgreSQL. The API ensured that FAQs were correctly mapped to center-specific configurations.
+- Implemented a React component to dynamically render FAQs in the Admin Panel. This component displayed the default FAQs with options for editing, allowing the Admin Panel to automatically populate with up-to-date FAQs based on the center’s configuration.
+- Utilized GraphQL to efficiently query only the necessary FAQ data, reducing unnecessary data load and optimizing performance.
 
 ## Automatic Variable Updates
 
-Designed a process using AWS Lambda to listen for changes in center-specific data (such as pricing or insurance details) stored in PostgreSQL. This process ensured that any changes automatically triggered updates to the relevant FAQ fields.
-
-Configured Lambda functions to seamlessly update FAQ data in the Admin Panel whenever the center’s configuration was changed, minimizing manual intervention.
-
-GraphQL queries were used to fetch the updated FAQ data, ensuring that only the relevant changes were reflected in the Admin Panel.
+- Designed a process using AWS Lambda to listen for changes in center-specific data (such as pricing or insurance details) stored in PostgreSQL. This process ensured that any changes automatically triggered updates to the relevant FAQ fields.
+- Configured Lambda functions to seamlessly update FAQ data in the Admin Panel whenever the center’s configuration was changed, minimizing manual intervention.
+- GraphQL queries were used to fetch the updated FAQ data, ensuring that only the relevant changes were reflected in the Admin Panel.
 
 ## CMS Enhancements for Editing FAQs:
 
-Built a user-friendly interface using Tailwind CSS for the Admin Panel. This allowed admins to modify FAQ text directly within the default FAQ framework, eliminating the need to create custom FAQs for every minor change.
-
-Focused on providing a responsive UI that worked seamlessly across desktop and mobile devices, ensuring the process of FAQ management was smooth and efficient for admins on all devices.
+- Built a user-friendly interface using Tailwind CSS for the Admin Panel. This allowed admins to modify FAQ text directly within the default FAQ framework, eliminating the need to create custom FAQs for every minor change.
+- Focused on providing a responsive UI that worked seamlessly across desktop and mobile devices, ensuring the process of FAQ management was smooth and efficient for admins on all devices.
 
 ## Testing and Quality Assurance:
 
-Developed unit tests using Jest to ensure the integrity of the FAQ population and editing features. Tests were designed to validate that default FAQs were correctly populated in the Admin Panel and that edits were saved without errors.
-
-Ran Cypress integration tests to simulate real-world scenarios and ensure that changes to center configurations (such as pricing or insurance) properly triggered updates to FAQs, ensuring end-to-end functionality across the system.
-
-
-
+- Developed unit tests using Jest to ensure the integrity of the FAQ population and editing features. Tests were designed to validate that default FAQs were correctly populated in the Admin Panel and that edits were saved without errors.
+- Ran Cypress integration tests to simulate real-world scenarios and ensure that changes to center configurations (such as pricing or insurance) properly triggered updates to FAQs, ensuring end-to-end functionality across the system.
 
 ## Results
 - 50% faster FAQ updates: Admins can now directly edit default FAQs, reducing time spent managing content.
