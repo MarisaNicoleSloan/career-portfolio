@@ -6,7 +6,7 @@ The goal of this project was to address challenges surrounding the management of
 Role: Developer and Project Manager
 
 ## Tech Stack
-React, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress, AWS Lambda
+React.js, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress, AWS Lambda
 
 ## Business Challenge
 
