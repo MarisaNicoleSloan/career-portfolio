@@ -1,4 +1,4 @@
-# Scaling Enterprise Content Management for a Digital Healthcare Platform
+#  Enterprise Healthcare Site Reconstruction: Information Architecture and Content Management System Overhaul
 <b>Role</b>: Development Lead, QA, Project Manager
 
 <b>Collaborators</b>: UX Researcher, Product Designer, Engineering Manager, Product Owner, Chief Producter Officer (for project and budget approval)
