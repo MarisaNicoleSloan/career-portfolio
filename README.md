@@ -1,4 +1,5 @@
-# Software Engineer and Web Product Consultant
+# Marisa Sloan
+## Software Engineer and Web Product Consultant, PSM, ISTQB
 
 Full-stack engineer and web product consultant with experience across SaaS, ecommerce, and marketplaces, supporting organizations from startups to Fortune 500s in digital healthcare and financial services.
 
@@ -52,18 +53,23 @@ Farmers & Merchants State Bank, Parkview Health, Indiana Tech, Subway, Ivy Tech,
 
 ## Portfolio
 
-#### [Levels of Care Module for Treatment Centers](/career-portfolio/levels-of-care/)
- - Developed a mental health and addiction treatment module that simplifies treatment tiers and terminology for patients
- - Feature drove a 30% increase in user engagement within two weeks of launch
+#### [Dynamic Treatment Education Feature for a Digital Healthcare Platform](/career-portfolio/levels-of-care/)
+Developed a dynamic treatment education module for a healthcare provider directory, improving user understanding of available treatment options across 4,000+ pages. The module offered clear, structured data on treatment levels, enhancing decision-making for individuals seeking mental health and addiction care.
+**Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, GraphQL, PostgreSQL, Yarn, Git, Jest, Cypress, Sanity  
 
-#### [Scaling Enterprise Content Management for a Digital Healthcare Platform](/career-portfolio/enterprise-content-management/)
+**Key Achievements**  
+- **85% of users reported increased confidence in treatment decisions via post-launch feedback surveys, improving user experience**  
+- **Streamlined content management, cutting manual update time by 50%, resulting in significant operational efficiency gains**  
+- **30% increase in pageviews and 25% longer session durations, indicating higher engagement with treatment content**
+
+#### [Scaling Enterprise Content Management for Healthcare Directory](/career-portfolio/enterprise-content-management/)
 
 Led the redesign of a 10,000+ page healthcare resource hub to improve content discoverability, SEO, and user experience across treatment options, insurance offerings, and clinic details.
 **Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, WordPress, Sanity, PostgreSQL, GraphQL, Firestore, Redux, Jest, Cypress, Git, GitHub Actions, Netlify
 - **25% increase in core feature interactions** (consultations, bookings) with optimized content and navigation 
  - **Increased NPS by 10 points** based on post-launch surveys, user interviews, and behavior analytics
    
-#### Optimizing User Retention and Referrals Through Personalization](/career-portfolio/saved-centers/)
+#### Bookmarking Feature for Healthcare Providers](/career-portfolio/saved-centers/)
 Developed a feature allowing referring providers to save, manage, and share lists of treatment centers, improving efficiency and user experience.
 **Tech Stack**: React.js, Redux, Node.js, Express.js, PostgreSQL, Tailwind CSS, Segment, Jest, Cypress
 - **50% increase in user engagement**: Half of referring providers interacted with the new "save" feature within the first month.
