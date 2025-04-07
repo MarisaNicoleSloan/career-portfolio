@@ -53,7 +53,7 @@ Farmers & Merchants State Bank, Parkview Health, Indiana Tech, Subway, Ivy Tech,
 
 ## Portfolio
 
-#### [Dynamic Treatment Education Feature for a Digital Healthcare Platform](/career-portfolio/levels-of-care/)
+#### [Dynamic Treatment Education Feature for a Digital Healthcare Platform](/levels-of-care/)
 Developed a dynamic treatment education module for a healthcare provider directory, improving user understanding of available treatment options across 4,000+ pages. The module offered clear, structured data on treatment levels, enhancing decision-making for individuals seeking mental health and addiction care.
 **Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, GraphQL, PostgreSQL, Yarn, Git, Jest, Cypress, Sanity  
 
@@ -62,14 +62,14 @@ Developed a dynamic treatment education module for a healthcare provider directo
 - **Streamlined content management, cutting manual update time by 50%, resulting in significant operational efficiency gains**  
 - **30% increase in pageviews and 25% longer session durations, indicating higher engagement with treatment content**
 
-#### [Scaling Enterprise Content Management for Healthcare Directory](/career-portfolio/enterprise-content-management/)
+#### [Scaling Enterprise Content Management for Healthcare Directory](/enterprise-content-management/)
 
 Led the redesign of a 10,000+ page healthcare resource hub to improve content discoverability, SEO, and user experience across treatment options, insurance offerings, and clinic details.
 **Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, WordPress, Sanity, PostgreSQL, GraphQL, Firestore, Redux, Jest, Cypress, Git, GitHub Actions, Netlify
 - **25% increase in core feature interactions** (consultations, bookings) with optimized content and navigation 
  - **Increased NPS by 10 points** based on post-launch surveys, user interviews, and behavior analytics
    
-#### Bookmarking Feature for Healthcare Providers](/career-portfolio/saved-centers/)
+#### Bookmarking Feature for Healthcare Providers](/saved-centers/)
 Developed a feature allowing referring providers to save, manage, and share lists of treatment centers, improving efficiency and user experience.
 **Tech Stack**: React.js, Redux, Node.js, Express.js, PostgreSQL, Tailwind CSS, Segment, Jest, Cypress
 - **50% increase in user engagement**: Half of referring providers interacted with the new "save" feature within the first month.
