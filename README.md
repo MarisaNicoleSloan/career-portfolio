@@ -1,19 +1,6 @@
 # Software Engineer and Web Product Consultant
 
-## Skills
-
-- Languages and APIs: JavaScript (DOM, ES6+), TypeScript, HTML, CSS, XML, Python, SQL, R REST, GraphQL, gRPC
-- Libraries and Frameworks:
-- - Front-End: React.js, TypeScript, Next.js, Tailwind CSS, SASS, Storybook, Redux
-- - Back-End: Node.js, Express.js
-- Databases and ORM: PostgreSQL, MongoDB, Firestore, Firebase, Prisma, TypeORM
-- Dev Ops and Cloud Computing: Amazon Web Services (Lambda, S3, EC2), Gatsby Cloud, Vercel, Netlify, Docker, Kubernetes, CircleCI
-- Testing and QA: Jest, Postman, Cypress, Selenium
-
-## Certifications
-- [ISTQB Certified Tester, Foundation Level (CTFL)](https://atsqa.org/certified-testers/profile/e34943465bd243a7888b69b7ffdcac49)
-- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/870949cd-a6f4-48fe-8443-541ae36451e6?source=linked_in_profile)
-- [Professional Scrum Master (PSM) 1 Certification](https://www.credly.com/badges/89dc0792-3636-43ed-ac76-9955e66c15b0?source=linked_in_profile)
+Full-stack engineer and web product consultant with experience across SaaS, ecommerce, and marketplaces, supporting organizations from startups to Fortune 500s in digital healthcare and financial services.
 
 ## Experience
 
@@ -28,7 +15,7 @@ Recovery.com | January 2024 – Present
 - Collaborate with leadership to accelerate feature delivery, contributing to $5M+ in product initiatives.
 
 ### Technical SEO Strategist and Manager
-Recovery.com| July 2022 – January 2024 
+Recovery.com | July 2022 – January 2024 
 
 #### Key Achievements
 - Drove 70% YoY organic traffic growth by optimizing a 50M+ URL platform, enhancing performance, site architecture, and conversion pathways
@@ -63,23 +50,66 @@ Asher Agency | June 2019 – May 2021
 #### Enterprise and Mid-Sized Clients
 Farmers & Merchants State Bank, Parkview Health, Indiana Tech, Subway, Ivy Tech, Saint Mary's College, Fantastic Sams, Fort Wayne International Airport
 
-## Projects
+## Portfolio
 
 #### [Levels of Care Module for Treatment Centers](/career-portfolio/levels-of-care/)
  - Developed a mental health and addiction treatment module that simplifies treatment tiers and terminology for patients
  - Feature drove a 30% increase in user engagement within two weeks of launch
 
-#### [Blog Submenu and Category Pages for Resource Library](/career-portfolio/blog-submenu/)
-- Transformed a content library with 400+ posts by developing a user-friendly submenu and category pages, enhancing content exploration and reader retention
-- Implemented dynamic features using React and streamlined WordPress integration, resulting in a 30% increase in page views and a 20% increase in time on page for blog content
+#### [Scaling Enterprise Content Management for a Digital Healthcare Platform](/career-portfolio/enterprise-content-management/)
 
-#### [URL Routing and Page Categories](/career-portfolio/url-routes-page-categories/)
-- Utilized React Router and GraphQL to generate 100+ new pages primarily around insurance providers, enhancing search and simplifying content management
-- Achieved 30% increase in organic traffic, 15% increase in conversion rates, and 10% decrease in customer queries
+Led the redesign of a 10,000+ page healthcare resource hub to improve content discoverability, SEO, and user experience across treatment options, insurance offerings, and clinic details.
+**Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, WordPress, Sanity, PostgreSQL, GraphQL, Firestore, Redux, Jest, Cypress, Git, GitHub Actions, Netlify
+- **25% increase in core feature interactions** (consultations, bookings) with optimized content and navigation 
+ - **Increased NPS by 10 points** based on post-launch surveys, user interviews, and behavior analytics
+   
+#### Optimizing User Retention and Referrals Through Personalization](/career-portfolio/saved-centers/)
+Developed a feature allowing referring providers to save, manage, and share lists of treatment centers, improving efficiency and user experience.
+**Tech Stack**: React.js, Redux, Node.js, Express.js, PostgreSQL, Tailwind CSS, Segment, Jest, Cypress
+- **50% increase in user engagement**: Half of referring providers interacted with the new "save" feature within the first month.
+- **15% higher conversion rate**: Users who saved and shared centers showed increased conversion to contact forms or calls.
 
-#### [Dynamic Breadcrumb Trail Hierarchy](/career-portfolio/breadcrumb-trail/)
-- Employed React, GraphQL, and Postgres to create dynamic breadcrumbs for 8,000 pages, enhancing navigation and reducing bounce rates by 20% while increasing page views by 25%
-- Automated breadcrumb updates saved content managers hundreds of hours and improved overall website usability
+## Certifications
+- [ISTQB Certified Tester, Foundation Level (CTFL)](https://atsqa.org/certified-testers/profile/e34943465bd243a7888b69b7ffdcac49)
+- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/870949cd-a6f4-48fe-8443-541ae36451e6?source=linked_in_profile)
+- [Professional Scrum Master (PSM) 1 Certification](https://www.credly.com/badges/89dc0792-3636-43ed-ac76-9955e66c15b0?source=linked_in_profile)
+
+## Skills and Technologies
+
+### Software Development
+- **Languages and APIs**: JavaScript (DOM, ES6+), TypeScript, HTML, CSS, XML, Python, SQL, R REST, GraphQL, gRPC
+- **Libraries and Frameworks**:
+  - **Front-End**: React.js, TypeScript, Next.js, Tailwind CSS, SASS, Storybook, Redux
+  - **Back-End**: Node.js, Express.js
+- **Databases and ORM**: PostgreSQL, MongoDB, Firestore, Firebase, Prisma, TypeORM
+- **Dev Ops and Cloud Computing**: Amazon Web Services (Lambda, S3, EC2), Gatsby Cloud, Vercel, Netlify, Docker, Kubernetes, CircleCI
+- **Testing and QA**: Jest, Postman, Cypress, Selenium
+- **Performance Optimization**: Caching (CDNs, service workers), lazy loading, memoization, compression (data/image)
+- **Security and Compliance**: Cloudflare (DDoS, WAF), SSL/TLS, CORS, JWT, OAuth, SSO, OWASP, CSP, GDPR, CCPA, HIPAA, PCI-DSS
+- **Software Architecture Diagrams**: Lucidchart, draw.io
+
+- ### Product Management & UX Design
+- **Planning/Roadmapping**: Jira, Aha!
+- **Research/Customer Feedback**: Typeform, Lookback, UserTesting, Hotjar
+- **Journey Mapping/Information Architecture**: Lucidchart, Miro
+- **Wireframes/Mockups/Prototypes**: Figma, Sketch, Adobe CC
+- **Releases**: GitHub, Bitbucket
+- **BI/Analytics**: Mixpanel, Amplitude, GA4, GTM, Tableau, Looker
+- **Accessibility**: W3C, WCAG, ADA
+- **Documentation/Collaboration**: Confluence, Notion, PowerPoint
+
+### Project and Portfolio Management
+- **Scheduling**: Trello, Asana, Basecamp
+- **Methodologies**: Agile (Scrum, Kanban), Waterfall
+- **Change/Risk Management**: JSM, Monday.com
+- **Resource/Time Management**: Workfront, Clockify
+- **Budgeting**: Harvest, QuickBooks
+
+### Customer Experience and Journey Management
+- **CMS**: WordPress, Sanity, Webflow, Shopify
+- **CRM**: HubSpot, Salesforce
+- **CDP/DXP**: Segment, AEM
+- **SEO**: CWVs, GSC, Ahrefs, SEMrush, Screaming Frog
 
 ## Education
 Bachelor of Arts in English (Summa Cum Laude)
