@@ -1,5 +1,6 @@
 # Scaling Enterprise Content Management for a Digital Healthcare Platform
 <b>Role</b>: Development Lead, QA, Project Manager
+
 <b>Collaborators</b>: UX Researcher, Product Designer, Engineering Manager, Product Owner, Chief Producter Officer (for project and budget approval)
 
 ---
