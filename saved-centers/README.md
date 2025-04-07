@@ -2,7 +2,7 @@
 
 <b>Role</b>: Development Lead, Project Manager
 
-<b>Collaborators</b>: Product Designer, Product Manager, B2B Sales Director needing sales enablement support
+<b>Collaborators</b>: Product Designer, Product Manager, B2B Sales Director
 
 ## Project Background
 A gap existed in the user journey: enabling both patients and referring providers to easily save, manage, and share lists of treatment centers. Providers were unable to save their favorite centers for future reference or share them efficiently, hindering their ability to make recommendations.
