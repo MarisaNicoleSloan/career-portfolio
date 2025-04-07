@@ -69,7 +69,7 @@ Led the redesign of a 10,000+ page healthcare resource hub to improve content di
 - **25% increase in core feature interactions** (consultations, bookings) with optimized content and navigation 
  - **Increased NPS by 10 points** based on post-launch surveys, user interviews, and behavior analytics
    
-#### Bookmarking Feature for Healthcare Providers](/saved-centers/)
+#### [Bookmarking Feature for Healthcare Providers](/saved-centers/)
 Developed a feature allowing referring providers to save, manage, and share lists of treatment centers, improving efficiency and user experience.
 **Tech Stack**: React.js, Redux, Node.js, Express.js, PostgreSQL, Tailwind CSS, Segment, Jest, Cypress
 - **50% increase in user engagement**: Half of referring providers interacted with the new "save" feature within the first month.
