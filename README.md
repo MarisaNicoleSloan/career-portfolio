@@ -62,9 +62,9 @@ Developed a dynamic treatment education module for a healthcare provider directo
 - **Streamlined content management, cutting manual update time by 50%, resulting in significant operational efficiency gains**  
 - **30% increase in pageviews and 25% longer session durations, indicating higher engagement with treatment content**
 
-#### [Scaling Enterprise Content Management for Healthcare Directory](/enterprise-content-management/)
+#### [Enterprise Healthcare Site Reconstruction](/enterprise-content-management/)
 
-Led the redesign of a 10,000+ page healthcare resource hub to improve content discoverability, SEO, and user experience across treatment options, insurance offerings, and clinic details.
+Led site reconstruction across 10,000+ pages of a healthcare network, including a resource hub and core offerings (insurance, clinical specialities), to improve content discoverability, SEO, and user experience.
 **Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, WordPress, Sanity, PostgreSQL, GraphQL, Firestore, Redux, Jest, Cypress, Git, GitHub Actions, Netlify
 - **25% increase in core feature interactions** (consultations, bookings) with optimized content and navigation 
  - **Increased NPS by 10 points** based on post-launch surveys, user interviews, and behavior analytics
