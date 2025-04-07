@@ -1,4 +1,4 @@
-# Dynamic Treatment Education Feature for a Digital Healthcare Platform
+# Dynamic Treatment Education Feature for a Digital Healthcare Platform: Driving Adoption Through Product Enablement
 
 ## Project Background
 Implemented a dynamic treatment information module across 4,000+ pages, aiming to improve user understanding of mental health and addiction treatment options. The module aimed to present clear, structured data on the various levels of care available at facilities, such as outpatient therapy and inpatient care.
