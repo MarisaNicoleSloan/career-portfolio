@@ -55,6 +55,7 @@ Farmers & Merchants State Bank, Parkview Health, Indiana Tech, Subway, Ivy Tech,
 
 #### [Dynamic Treatment Education Feature for a Digital Healthcare Platform](/levels-of-care/)
 Developed a dynamic treatment education module for a healthcare provider directory, improving user understanding of available treatment options across 4,000+ pages. The module offered clear, structured data on treatment levels, enhancing decision-making for individuals seeking mental health and addiction care.
+
 **Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, GraphQL, PostgreSQL, Yarn, Git, Jest, Cypress, Sanity  
 
 **Key Achievements**  
@@ -65,12 +66,14 @@ Developed a dynamic treatment education module for a healthcare provider directo
 #### [Enterprise Healthcare Site Reconstruction](/enterprise-content-management/)
 
 Led site reconstruction across 10,000+ pages of a healthcare network, including a resource hub and core offerings (insurance, clinical specialities), to improve content discoverability, SEO, and user experience.
+
 **Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, WordPress, Sanity, PostgreSQL, GraphQL, Firestore, Redux, Jest, Cypress, Git, GitHub Actions, Netlify
 - **25% increase in core feature interactions** (consultations, bookings) with optimized content and navigation 
  - **Increased NPS by 10 points** based on post-launch surveys, user interviews, and behavior analytics
    
 #### [Bookmarking Feature for Healthcare Providers](/saved-centers/)
 Developed a feature allowing referring providers to save, manage, and share lists of treatment centers, improving efficiency and user experience.
+
 **Tech Stack**: React.js, Redux, Node.js, Express.js, PostgreSQL, Tailwind CSS, Segment, Jest, Cypress
 - **50% increase in user engagement**: Half of referring providers interacted with the new "save" feature within the first month.
 - **15% higher conversion rate**: Users who saved and shared centers showed increased conversion to contact forms or calls.
