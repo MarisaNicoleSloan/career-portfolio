@@ -94,7 +94,7 @@ Developed a feature allowing referring providers to save, manage, and share list
 - **Dev Ops and Cloud Computing**: Amazon Web Services (Lambda, S3, EC2), Gatsby Cloud, Vercel, Netlify, Docker, Kubernetes, CircleCI
 - **Testing and QA**: Jest, Postman, Cypress, Selenium
 - **Performance Optimization**: Caching (CDNs, service workers), lazy loading, memoization, compression (data/image)
-- **Security and Compliance**: Cloudflare (DDoS, WAF), SSL/TLS, CORS, JWT, OAuth, SSO, OWASP, CSP, GDPR, CCPA, HIPAA, PCI-DSS
+- **Security and Compliance**: Cloudflare (DDoS, WAF), SSL/TLS, CORS, JWT, OAuth2, SSO, OWASP, CSP, SOC 2 Type II, GDPR, CCPA, HIPAA, PCI DSS, FHIR, HL7
 - **Software Architecture Diagrams**: Lucidchart, draw.io
 
 - ### Product Management & UX Design
