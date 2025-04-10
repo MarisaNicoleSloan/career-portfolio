@@ -5,7 +5,7 @@ Full-stack engineer and web product consultant with experience across SaaS, ecom
 
 ## Experience
 
-### Software Engineer and SEO Integration Lead (Promotion)
+### Software Engineer and SEO Integration Lead
 Recovery.com | January 2024 – Present
 
 #### Key Achievements
@@ -48,7 +48,7 @@ Asher Agency | June 2019 – May 2021
 - Led product development for SEO and content strategy offerings, generating $200K+ in annual revenue and enhancing client retention through agile project management
 - Managed $150K+ projects, translating business requirements into specs, optimizing onboarding, and collaborating with UX teams to boost conversion rates by 15%
 
-#### Enterprise and Mid-Sized Clients
+#### Enterprise and Mid-Market Clients
 Farmers & Merchants State Bank, Parkview Health, Indiana Tech, Subway, Ivy Tech, Saint Mary's College, Fantastic Sams, Fort Wayne International Airport
 
 ## Portfolio
