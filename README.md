@@ -36,7 +36,7 @@ Seer Interactive | November 2021 – July 2022
 #### Enterprise and Strategic Clients
 Paychex, Webroot, American Greetings (sub brands include Jacquie Lawson and Blue Mountain)
 
-### Senior Associate SEO Specialist (Independent Contractor)
+### SEO Specialist (Independent Contractor) | B2B Enterprise Professional Services
 Crowe | May 2021 – November 2021 
 
 - Increased organic traffic 10% YoY by optimizing headless CMS content, ensuring regulatory compliance, and enhancing multilingual SEO with Sitecore, improving performance by 15%
