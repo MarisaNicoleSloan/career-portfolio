@@ -25,7 +25,7 @@ Recovery.com | July 2022 – January 2024
 - Boosted B2B pipeline sales by 12% through campaign assets (microsites, landing pages) with integrated tracking (GTM, Segment, Amplitude)
 - Owned SEO strategy, driving 22% YoY revenue growth by defining KPIs and collaborating cross-functionally
 
-### SEO and Technical SEO Account Manager
+### Enterprise SEO and Technical SEO Account Manager | Financial Services, SaaS, Ecommerce
 Seer Interactive | November 2021 – July 2022 
 
 - Led site migrations for $500K+ SEO clients, reducing downtime by 80%, preserving $200K+ in organic revenue, and ensuring stable production environments through comprehensive QA testing
@@ -33,7 +33,7 @@ Seer Interactive | November 2021 – July 2022
 - Trained dev teams on technical SEO, improving JavaScript execution by 40% and site performance
 - Collaborated with C-suite executives to drive data-informed product strategy, influencing SEO investments and improving user engagement by 10%
 
-#### Enterprise Clients
+#### Enterprise and Strategic Clients
 Paychex, Webroot, American Greetings (sub brands include Jacquie Lawson and Blue Mountain)
 
 ### Senior Associate SEO Specialist (Independent Contractor)
