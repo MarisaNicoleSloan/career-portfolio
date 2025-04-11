@@ -3,6 +3,8 @@
 ## Project Background
 Implemented a multi-step patient assessment form to guide users through a tailored search process, improving navigation and providing relevant treatment provider results.
 
+Disclaimer: Code samples have been abstracted and certain details redacted or generalized to respect confidentiality agreements. This case study is intended to demonstrate technical problem-solving and development approach.
+
 <b>Role</b>: Development Lead, Project Manager
 <b>Collaborators</b>: Product Manager, UX Designers, Clinical Research Director to approval assessment questions and options
 
@@ -44,9 +46,32 @@ Optimized form UI to ensure accessibility and ease of use across devices along w
 - Used TypeScript to ensure type safety and prevent potential runtime errors during form submissions and state transitions.
 - Integrated the Firestore database to store user inputs and dynamically filter the available results based on responses.
 
+````tsx
+// context/FormContext.tsx
+const FormContext = createContext<FormState | null>(null);
+
+export const FormProvider = ({ children }) => {
+  const [formState, setFormState] = useState(initialState);
+
+  return (
+    <FormContext.Provider value={{ formState, setFormState }}>
+      {children}
+    </FormContext.Provider>
+  );
+};
+
 ### Location-Based Filtering:
 - Leveraged GeoIP lookup via the user's IP address to identify the user’s location automatically. Integrated Cloudflare's Geolocation API to enhance this feature.
 - Developed a radius-based filter system using GraphQL queries to fetch data specific to the location, with options for 10, 150, 250, and 500-mile radii or worldwide options.
+````tsx
+query GetProvidersByRadius($lat: Float!, $lng: Float!, $radius: Int!) {
+  providersByLocation(lat: $lat, lng: $lng, radius: $radius) {
+    name
+    distance
+    specialties
+  }
+}
+````
 - Employed a React-based custom component that dynamically updates the results as the user progresses through the form, with real-time filtering happening based on the selected radius.
 
 ### Mobile Optimization:
@@ -70,7 +95,6 @@ Optimized form UI to ensure accessibility and ease of use across devices along w
 ## Results
 - **25% increase in conversions (form completions):** Direct increase in qualified leads due to the implementation of the multi-step assessment form.
 - **40% improvement in search result relevancy:** Users were guided more accurately to treatment providers, improving the accuracy of results.
-- **50% faster page load times on mobile:** Optimized mobile performance, improving user experience and retention.
 - **10% increase in organic search traffic (SEO):** Improved visibility and discoverability, driving more organic traffic to the site.
 - **15% improvement in filter accuracy:** More relevant and precise results for users, enhancing the quality of the search functionality.
 - **20% increase in completed assessments on mobile:** Mobile UI optimization contributed to higher engagement and completion rates.
