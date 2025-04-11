@@ -39,7 +39,7 @@ Paychex, Webroot, American Greetings (sub brands include Jacquie Lawson and Blue
 ### Freelance SEO Specialist | B2B Enterprise Professional Services
 Crowe | May 2021 – November 2021 
 
-- Increased organic traffic 10% YoY by optimizing headless CMS content, ensuring regulatory compliance, and enhancing multilingual SEO with Sitecore, improving performance by 15%
+- Drove a 10% YoY increase in organic traffic for a global enterprise by optimizing 5K+ pages in a headless CMS through on-page and technical improvements, ensuring compliance with clinical, legal, and editorial standards
 - Automated data extraction with Python-based ETL pipelines, reducing reporting time by 25%, and delivered actionable insights to leadership using SQL and Tableau
 
 ### Content and SEO Strategist
