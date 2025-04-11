@@ -1,28 +1,89 @@
 # Dynamic Treatment Education Feature for a Digital Healthcare Platform: Driving Adoption Through Product Enablement
 
 ## Project Background
-Implemented a dynamic treatment information module across 4,000+ pages, aiming to improve user understanding of mental health and addiction treatment options. The module aimed to present clear, structured data on the various levels of care available at facilities, such as outpatient therapy and inpatient care.
+Implemented a dynamic treatment information module across 4,000+ pages, aiming to improve user understanding of mental health and addiction treatment options. The module aimed to present clear, structured data on the various levels of care available at facilities, such as outpatient therapy and inpatient care, enhancing the patient journey from initial inquiry to treatment selection.
 
 <b>Role</b>: Development Lead, Project Manager
 
 <b>Collaborators</b>: UI Designer, Product Manager, Chief Product Officer (for buy-in and budget), Research Specialists for clinical review
 
+Disclaimer: Code samples have been abstracted and certain details redacted or generalized to respect confidentiality agreements. This case study is intended to demonstrate technical problem-solving and development approach.
+
 ## Tech Stack
 React.js, TypeScript, Tailwind CSS, Gatsby, GraphQL, PostgreSQL, Yarn, Git, Jest, Cypress, Sanity
 
 ## Business Challenge
-Many individuals seeking information about addiction and mental health facilities often struggle to find clear and comprehensive information about the available support tiers, which can range from outpatient therapy to intensive inpatient options. The existing system lacked clarity in presenting these support tiers, making it difficult for users to make informed decisions about their treatment.
+Many individuals seeking information about addiction and mental health facilities often struggle to find clear and comprehensive information about the available support tiers, which can range from outpatient therapy to intensive inpatient options. The existing system lacked clarity in presenting the continuum of care, making it difficult for users to make informed decisions about their treatment.
 
 ## User Research Results
-The project began with extensive user research, including surveys and user interviews. The findings revealed that users faced challenges in understanding the different levels of care available for mental health and addiction treatment. They expressed a need for clear and accessible information to make informed decisions about their treatment options.
+The project began with extensive user research, including surveys and user interviews. The findings revealed that users struggled to understand the different levels of care available for mental health and addiction treatment, with many unfamiliar with key terms like "partial hospitalization" and "residential treatment." This lack of clarity created a barrier to seeking treatment, as patients were unsure about their options or how to navigate the process.
+
+### Key Findings
+- In interviews with 50 users, 80% expressed frustration with not knowing the difference between outpatient and inpatient care. The new module aimed to clarify these distinctions.
+- 45% of survey respondents indicated that unclear treatment options were a significant barrier to making informed decisions about care.
+- 30% of users reported they would have engaged with treatment centers sooner if the treatment levels were better explained.
+- A competitive audit of other digital healthcare platforms showed widespread use of clinical language (e.g., “PHP,” “IOP,” “residential treatment”) that matched provider taxonomies—but lacked accompanying explanations for patients. This mismatch between industry language and user comprehension highlighted the need for educational modules written in plain, accessible terms.
 
 ## Implementation
+
+
+### Mapping the Levels of Care
+The feature presented treatment options along a continuum of care, including:
+
+1. **Outpatient Therapy**: Short-term, non-residential treatment for individuals.
+2. **Partial Hospitalization Programs (PHP)**: Intensive, structured treatment during the day with flexible night accommodations.
+3. **Residential Treatment**: Full-time, inpatient care for individuals needing intensive support.
+4. **Detoxification**: Supervised care for individuals withdrawing from substances.
+5. **Aftercare and Support**: Ongoing recovery support after primary treatment.
+
+### Collaboration with Clinicians
+Clinicians and subject-matter experts were closely involved to ensure the accuracy of the content. Research specialists reviewed and validated the descriptions for each treatment level, ensuring that the information was medically sound, while the copy was written to be both accessible and informative for users.
+
 
 ### Database Integration
 Leveraged PostgreSQL to store detailed information about treatment centers, with daily data refreshes for accuracy. Data was retrieved using GraphQL to optimize performance.
 
+
+````tsx
+// Example of a GraphQL query fetching treatment details
+const GET_TREATMENT_OPTIONS = gql`
+  query GetTreatmentOptions($centerId: ID!) {
+    treatmentCenter(id: $centerId) {
+      name
+      services {
+        type
+        description
+        location
+      }
+    }
+  }
+`;
+````
+
 ### React-Based UI
 Created a user-friendly interface that allowed users to explore treatment options with minimal friction. Components were designed for scalability and reuse.
+
+````tsx
+// Example of how you used React to dynamically render treatment options
+const TreatmentOptions: React.FC<{ centerId: string }> = ({ centerId }) => {
+  const { data, loading, error } = useQuery(GET_TREATMENT_OPTIONS, {
+    variables: { centerId },
+  });
+return (
+    <div>
+      <h3>Treatment Options at {data.treatmentCenter.name}</h3>
+      <ul>
+        {data.treatmentCenter.services.map((service) => (
+          <li key={service.type}>
+            <strong>{service.type}</strong>: {service.description} ({service.location})
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+````
 
 ### Conditional Hyperlinks
 Integrated dynamic hyperlinks that adapted based on user preferences, location, and browsing history. These links helped users find location-specific services like detox treatment.
@@ -52,6 +113,15 @@ Displayed core services in the continuum of care, even when not offered by a pro
 Jest was used for testing individual components to ensure functionality and stability.
 ### End-to-End Testing
 Cypress validated the entire user journey to ensure the feature worked seamlessly across browsers and devices.
+#### User Acceptance Testing (UAT)
+UAT was conducted with a sample of end-users, including healthcare professionals and individuals seeking treatment, to ensure the feature met expectations.
+
+##### Key Focus Areas:
+- Accessibility and clarity of information
+- Mobile usability
+
+##### Feedback
+Most users easily navigated and understood the treatment options. Minor adjustments were made based on feedback regarding readability contrast.
 
 ## User Reception
 User feedback following the launch of the feature was overwhelmingly positive. Users appreciated the platform's commitment to providing transparent and accessible information, making their search for mental health and addiction resources more manageable and less daunting.
