@@ -6,6 +6,7 @@ The platform was a digital health service designed to connect people with behavi
 Disclaimer: Code samples have been abstracted and certain details redacted or generalized to respect confidentiality agreements. This case study is intended to demonstrate technical problem-solving and development approach.
 
 <b>Role</b>: Development Lead, Project Manager
+
 <b>Collaborators</b>: Product Manager, UX Designers, Clinical Research Director to approval assessment questions and options
 
 **Tech Stack:** React,js, TypeScript, Tailwind CSS, Gatsby, WordPress, Jest, Cloudflare
