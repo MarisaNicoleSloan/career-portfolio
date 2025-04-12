@@ -16,8 +16,8 @@ Led the redesign of a healthcare resource hub serving over 10,000 pages of medic
 - Backend: WordPress, Sanity, Postgres, GraphQL, Firestore
 - State Management: Local, derived, and synced state via Redux
 - Testing & Optimization: Jest, Cypress
-- CI/CD: GitHub Actions, Netlify, Vercel
-- Version Control: Git, GitHub
+- Cloud and Dev Ops: Gatsby Cloud, Netlify, CI/CD (GitHub Actions)
+- Version Control: Git
 
 ## Business Challenge  
 The existing site struggled with poor content organization, duplicate URLs, and inefficient metadata—hindering SEO, user navigation, and scalability. Manual management of 10,000+ pages led to content drift and a fragmented user experience.
@@ -37,6 +37,18 @@ User testing and data analytics surfaced major friction points:
  - Key user feedback highlighted frustration with unclear category labels and a lack of filtering options.
  - Category labels were unclear, and filter options were limited
  - Keyword and competitor analysis revealed SEO opportunities using rich snippets and structured data
+
+ - ## Project Management & Agile Execution
+
+- Scoped the MVP and defined feature roadmap alongside Product Owner and CPO
+- Authored detailed PRDs to align engineering, content, and design requirements
+- Led sprint planning, story writing, backlog grooming, and delivery tracking in Jira
+- Managed cross-functional standups and sprint reviews with engineering, UX, and stakeholders
+- Defined acceptance criteria and QA checkpoints across multiple agile sprints
+- Created internal release documentation and CMS training materials for editors
+- Facilitated editor onboarding and post-launch retrospectives
+
+---
 
 ## Technical Implementation
 ### Routing & Page Generation
