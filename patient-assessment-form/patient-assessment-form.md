@@ -12,6 +12,9 @@ Disclaimer: Code samples have been abstracted and certain details redacted or ge
 **Tech Stack:** React,js, TypeScript, Tailwind CSS, Gatsby, WordPress, Jest, Cloudflare
 
 ## Business Challenge  
+
+When searching for behavioral healthcare treatment, patients or their loved ones prioritized factors such as location, cost, specialization, and treatment approach. However, the overwhelming number of options and an abundance of complex filters led to confusion and decision fatigue. Patients often struggled to navigate through this flood of choices, especially when they were unsure of exactly what they needed. The lack of clear guidance and personalized filtering exacerbated the issue, making it difficult to connect with the right provider in a timely manner.
+
 Users faced challenges when trying to navigate through a large volume of content to find relevant treatment providers, leading to:  
 
 - **Irrelevant Search Results**: Without personalized filtering, users frequently encountered unsuitable treatment options, causing frustration 
