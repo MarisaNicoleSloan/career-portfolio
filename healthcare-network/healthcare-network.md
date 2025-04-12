@@ -2,7 +2,7 @@
 
 ## Project Background
 
-Led the optimization of **10,000+ pages**, with ongoing improvements to an additional **40,000 pages** to ensure consistency and prevent regressions, supporting a seamless user experience across the entire network.
+Led the optimization of **10,000+ pages** for a digital healthcare marketplace with ongoing improvements to an additional **40,000 pages** to ensure consistency and prevent regressions, supporting a seamless user experience across the entire network.
 
 - **Role:** Development Lead, Technical Architect, Project Manager
 - **Collaborators:** Engineering Manager, Product Manager, Chief Product Officer (for buy-in and approval), Content Authors updating the CMS
@@ -15,7 +15,7 @@ React.js, TypeScript, GraphQL, Gatsby, PostgreSQL, Jest, Graph QL(Apollo Client)
 ---
 
 ## Business Challenge
-In a competitive online landscape, improving search engine visibility is crucial for medical facilities. The goal was to enhance search result presentation—boosting organic traffic, increasing conversions, and improving user engagement.
+With healthcare becoming increasingly competitive online, the health network struggled to maintain visibility in search results. The goal was to optimize content to enhance search result presentation, boost organic traffic, and improve patient engagement, ultimately increasing conversions and supporting patient acquisition through better accessibility of critical information.
 
 ---
 
@@ -64,6 +64,20 @@ Solution: Built categorized sitemap indexes grouped by taxonomy, condition, and 
 - Implemented SSR and optimized bundle delivery to maintain high page speed and make the pages easily crawlable by search engines.
 
 ---
+
+## Agile Project Management and Process Integration
+
+### Eliciting Requirements and PRD Submission
+
+- Collaborated with stakeholders to gather and document project requirements.
+
+- Submitted a Product Requirements Document (PRD) to ensure alignment with business goals and gain stakeholder buy-in.
+
+### Sprint Planning and Timeline Management
+
+- Broke down the project into actionable tasks and managed them through Jira, ensuring progress aligned with the sprint timeline.
+
+- Monitored and adjusted the project timeline to ensure on-time delivery, collaborating closely with cross-functional teams to manage dependencies and risks.
 
 ## Quality Assurance and Performance Testing
 
