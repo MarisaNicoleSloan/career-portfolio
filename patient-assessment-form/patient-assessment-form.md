@@ -1,7 +1,7 @@
 # Optimizing User Journeys for a Digital Healthcare Platform with a Dynamic Patient Assessment Form
 
 ## Project Background
-Implemented a multi-step patient assessment form to guide users through a tailored search process, improving navigation and providing relevant treatment provider results.
+The platform was a digital health service designed to connect people with behavioral health and addiction treatment providers. Users—often in urgent or sensitive situations—had difficulty finding appropriate care due to overwhelming content and unclear pathways. To streamline the experience, I implemented a dynamic, multi-step assessment form that personalized the search and helped users connect with relevant providers more efficiently.
 
 Disclaimer: Code samples have been abstracted and certain details redacted or generalized to respect confidentiality agreements. This case study is intended to demonstrate technical problem-solving and development approach.
 
@@ -22,6 +22,20 @@ Usability tests and user interviews were conducted to uncover pain points, revea
 
 - Users struggled with site navigation and comprehending terminology  
 - Many felt disoriented when attempting to narrow down their search for relevant treatment providers
+
+### Agile Project Management  
+
+**Planning & Setup:**  
+- Wrote product requirements documents (PRDs) in Jira to align stakeholders and define scope  
+- Secured stakeholder buy-in and timeline budget approval prior to kickoff  
+- Broke down the project into prioritized, actionable tasks for the development team  
+**Execution:**  
+- Created user stories with detailed acceptance criteria in Linear to guide development  
+- Collaborated with engineering, UX, and clinical teams to refine user stories and ensure feasibility  
+
+**Delivery & Adoption:**  
+- Presented demos to cross-functional teams and leadership throughout the project  
+- Trained stakeholders on the feature and provided documentation on form inputs and logic to support internal adoption 
 
 ## Implementation
 
