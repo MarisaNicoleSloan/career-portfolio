@@ -102,9 +102,14 @@ query GetProvidersByRadius($lat: Float!, $lng: Float!, $radius: Int!) {
 
 ![Screenshot of Patient Assessment Form](./patient-assessment-form.png)
 
+The form adapts to high-intent and low-intent users, meaning users who know the desired treatment options and they seek and those who are still discovering and articulating their specific needs for provider specialties.
 
+#### High-Intent User Flow
 [Watch the walkthrough video on Loom (opens in new tab)](https://www.loom.com/share/52a1578bd9a249058880b79ac10c5005)
 
+
+#### Low-Intent User Flow
+[Watch the walkthrough video on Loom (opens in new tab)](https://www.loom.com/share/0728c4a8403f441382ae000707d069c6)
 
 ### Performance Considerations:
 - Optimized the intake form’s performance by using lazy loading for certain content blocks and code splitting for the JavaScript bundle to reduce page load time.
