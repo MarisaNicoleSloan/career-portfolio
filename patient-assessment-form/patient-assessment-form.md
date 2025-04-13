@@ -99,12 +99,15 @@ query GetProvidersByRadius($lat: Float!, $lng: Float!, $radius: Int!) {
 
 ### UI/UX Enhancements:
 - Applied Figma designs to ensure a clear and intuitive UI, making sure that the filter wizard’s call-to-action (CTA) was prominently displayed and easy to interact with on both desktop and mobile.
-- Implemented auto-scrolling behavior for users navigating long forms, helping them stay on track and engage with relevant content more effectively.
-- Added Jest and Cypress for front-end testing, ensuring that form interactions and filters were functioning as expected.
+
+![Screenshot of Patient Assessment Form](./patient-assessment-form.png)
+
+[![Watch the video](https://cdn.loom.com/s3/thumbnail/52a1578bd9a249058880b79ac10c5005.jpg)](https://www.loom.com/share/52a1578bd9a249058880b79ac10c5005)
 
 ### Performance Considerations:
 - Optimized the intake form’s performance by using lazy loading for certain content blocks and code splitting for the JavaScript bundle to reduce page load time.
 - Utilized React Suspense for asynchronous data fetching to enhance user experience by showing skeleton loaders while waiting for results to load.
+- Added Jest and Cypress for front-end testing, ensuring that form interactions and filters were functioning as expected.
 
 ### Analytics & Feedback:
 - Integrated Google Analytics to track user interactions with the intake form and assess the success of the new filtering process (e.g., form completions, page scroll depth).
