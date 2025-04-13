@@ -21,11 +21,23 @@ Users faced challenges when trying to navigate through a large volume of content
 - **Overwhelming Navigation**: The absence of clear guidance made it difficult for users to refine their searches or even know where to begin, resulting in confusion and abandonment  
 - **Inefficient Experience**: Users often felt "lost" during the search process, negatively affecting engagement and retention  
 
-## User Feedback Insights  
+## User Feedback and Customer Insights  
+
+When a user lands on the homepage, they have multiple pathways to discovering a provider and then booking an appointment.
+
+One way is to use a search bar powered by Algolia, which contains several built-in facets to tailor results as the user lengthens their search. The taxonomies for search are design for core user needs when selecting a provider, which includes location, care model, and insurance.
+
+This approach brings the user to a faceted search page with several parameters based on their initial inputs.
+
+While this setup is excellent for providers well-versed in the behavioral heatlthcare industry, the problem with this approach for patients is that it relies on the user knowing what care model they need (inpatient vs. outpatient), the type of care (ABA therapy, medication-assisted-treatment (MAT), etc.), and different payment models (what services insurance will and will not cover).
+
+While the taxonomies are carefully curated for each facet, the it's also easy for the user to be overwhelmed by the sheer amount of subcategories associated with each specialty. For example, under the Conditions facet there exists 50+ specializations.
+
 Usability tests and user interviews were conducted to uncover pain points, revealing the following insights:  
 
 - Users struggled with site navigation and comprehending terminology  
 - Many felt disoriented when attempting to narrow down their search for relevant treatment providers
+- Due to this confusion, customers with a profile on the site were unsure of how to best attract traffic to their center profile
 
 ### Agile Project Management  
 
