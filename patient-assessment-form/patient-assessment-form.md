@@ -102,7 +102,9 @@ query GetProvidersByRadius($lat: Float!, $lng: Float!, $radius: Int!) {
 
 ![Screenshot of Patient Assessment Form](./patient-assessment-form.png)
 
-[![Watch the video](https://cdn.loom.com/s3/thumbnail/52a1578bd9a249058880b79ac10c5005.jpg)](https://www.loom.com/share/52a1578bd9a249058880b79ac10c5005)
+
+[Watch the walkthrough video on Loom (opens in new tab)](https://www.loom.com/share/52a1578bd9a249058880b79ac10c5005)
+
 
 ### Performance Considerations:
 - Optimized the intake form’s performance by using lazy loading for certain content blocks and code splitting for the JavaScript bundle to reduce page load time.
