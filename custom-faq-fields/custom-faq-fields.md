@@ -28,6 +28,8 @@ React.js, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress,
 - Implemented a React component to dynamically render FAQs in Sanity. This component displayed the default FAQs with options for editing, allowing Sanity to automatically populate with up-to-date FAQs based on the center’s configuration.
 - Utilized GraphQL to efficiently query only the necessary FAQ data, reducing unnecessary data load and optimizing performance.
 
+[Watch the walkthrough video on Loom (opens in new tab)](https://www.loom.com/share/4a2617416e9940fc85e25684f602ab5b)
+
 ## Automatic Variable Updates
 - Designed and configured AWS Lambda functions to listen for changes in PostgreSQL-stored center data (e.g., pricing or insurance), automatically triggering updates to the relevant FAQ fields in Sanity.
 - Used GraphQL queries to fetch only the updated FAQ data, ensuring accurate, real-time reflections of center-specific changes with minimal manual intervention.
