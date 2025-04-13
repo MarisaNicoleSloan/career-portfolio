@@ -27,7 +27,11 @@ When a user lands on the homepage, they have multiple pathways to discovering a 
 
 One way is to use a search bar powered by Algolia, which contains several built-in facets to tailor results as the user lengthens their search. The taxonomies for search are design for core user needs when selecting a provider, which includes location, care model, and insurance.
 
+![Search Bar Modal](./search-bar-modal.png)
+
 This approach brings the user to a faceted search page with several parameters based on their initial inputs.
+
+![Taxonomies modified through search refinement](./search-refinement-taxonomies.png)
 
 While this setup is excellent for providers well-versed in the behavioral heatlthcare industry, the problem with this approach for patients is that it relies on the user knowing what care model they need (inpatient vs. outpatient), the type of care (ABA therapy, medication-assisted-treatment (MAT), etc.), and different payment models (what services insurance will and will not cover).
 
