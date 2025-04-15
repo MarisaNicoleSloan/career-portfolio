@@ -2,7 +2,7 @@
 
 ### Project Background
 
-The platform is a digital health service designed to connect people with behavioral health and addiction treatment providers. Users—often in urgent or sensitive situations—had difficulty finding appropriate care due to overwhelming content and unclear pathways. As a Development Lead and acting Project Manager for this initiative, I led the implementation of a dynamic, multi-step assessment form that personalized the search and helped users connect with relevant providers more efficiently. This initiative aligned with the product vision of accessible and personalized care.
+The platform was a digital health service designed to connect people with behavioral health and addiction treatment providers. Users—often in urgent or sensitive situations—had difficulty finding appropriate care due to overwhelming content and unclear pathways. As a Development Lead and acting Project Manager for this initiative, I led the implementation of a dynamic, multi-step assessment form that personalized the search and helped users connect with relevant providers more efficiently. This initiative aligned with the product vision of accessible and personalized care.
 
 **Collaborators:** Product Manager, UX Designers, Clinical Research Director (approval of assessment questions and options)
 
