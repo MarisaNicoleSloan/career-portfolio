@@ -89,7 +89,6 @@ This project provided several key takeaways:
 
 * **The importance of user-centered design:** The success of the form highlights the critical role of user research and iterative design in developing effective solutions.
 * **The power of progressive filtering:** Guiding users through a series of simple questions can be more effective than presenting them with a complex set of filters.
-* **The value of data-driven decision-making:** Analytics and user feedback are essential for identifying areas for improvement and optimizing the user experience.
 * **Effective communication and collaboration:** Close collaboration with the product manager, UX designers, and clinical team was crucial for the successful execution of this project.
 
 By focusing on user needs and leveraging technology to create a more personalized and intuitive experience, we were able to significantly improve the platform's effectiveness in connecting patients with the care they need.
