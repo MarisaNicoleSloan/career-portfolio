@@ -5,7 +5,7 @@
 Led the optimization of **10,000+ pages** for a digital healthcare marketplace with ongoing improvements to an additional **40,000 pages** to ensure consistency and prevent regressions, supporting a seamless user experience across the entire network.
 
 - **Role:** Development Lead, Technical Architect, Project Manager
-- **Collaborators:** Engineering Manager, Product Manager, Chief Product Officer (for buy-in and approval), Content Authors updating the CMS
+- **Collaborators:** Engineering Manager, Product Manager, Chief Product Officer, Clinical Research Specialists
 
 ---
 
