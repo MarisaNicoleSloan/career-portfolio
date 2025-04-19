@@ -5,7 +5,7 @@ Implemented a dynamic treatment information module across 4,000+ pages, aiming t
 
 <b>Role</b>: Development Lead, Project Manager
 
-<b>Collaborators</b>: UI Designer, Product Manager, Chief Product Officer (for buy-in and budget), Research Specialists for clinical review
+<b>Collaborators</b>: UI Designer, Product Manager, Chief Product Officer, Clinical Research Specialists
 
 Disclaimer: Code samples have been abstracted and certain details redacted or generalized to respect confidentiality agreements. This case study is intended to demonstrate technical problem-solving and development approach.
 
