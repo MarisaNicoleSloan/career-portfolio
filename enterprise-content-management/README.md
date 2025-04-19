@@ -38,7 +38,7 @@ User testing and data analytics surfaced major friction points:
  - Category labels were unclear, and filter options were limited
  - Keyword and competitor analysis revealed SEO opportunities using rich snippets and structured data
 
- - ## Project Management & Agile Execution
+## Project Management & Agile Execution
 
 - Scoped the MVP and defined feature roadmap alongside Product Owner and CPO
 - Authored detailed PRDs to align engineering, content, and design requirements
