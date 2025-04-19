@@ -2,7 +2,7 @@
 
 **Role**: Development Lead, QA, Project Manager
 
-**Collaborators**: UX Researcher, Product Designer, Engineering Manager, Product Owner, Chief Product Officer (for project and budget approval)
+**Collaborators**: UX Researcher, Product Designer, Engineering Manager, Product Owner, Chief Product Officer
 
 ---
 
