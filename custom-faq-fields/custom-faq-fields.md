@@ -31,9 +31,13 @@ React.js, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress,
 
 ## Data Flow for Core Content Updates
 - <b>User interface and content management</b>: Sanity provides the interface for content managers. CMS is a restrictive interface to update data.
-- <b>Data source</b>: PostgreSQL database stores the core content. Algolia is a search engine specifically used for searching core content (center and location data). Sanity is an interface for managing content that is then automatically synced (replicated) in PostgreSQL  and Algolia. data in Postgres (don't have to write SQL queries). 
+- <b>Digital asset management</b>: Cloudinary is an image hosting provider for content content. All image content updates are synced to Cloudinary and the Algolia collection for the entry.
+- <b>Data source</b>: PostgreSQL database stores the core content. Algolia is a search engine specifically used for searching core content (center and location data). Sanity is an interface for managing content that is then automatically synced (replicated) in PostgreSQL and Algolia.
 - <b>Data retrieval</b>: GraphQL API queries only the necessary data. It bridges between Postgres and WordPress. More developer-friendly way to write queries for data retrieval.
 - <b>Front-end</b>: CMS updates reflect on front end following site build
+- <b>CI/CD</b> U[dates are automatically synced to the production site. Every time a new entry is published a new build is triggered via a CI/CD pipeline.
+- <b>CDN</b>: User traffic is routed through cloudflare, which caches static assets (CSS, JS, images, fonts, 3rd-party libraries)
+- <b>End user</b>: Sees the most recent data updates in the UI
 
 
 ## Implementation
