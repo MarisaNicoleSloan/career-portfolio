@@ -28,6 +28,14 @@ React.js, TypeScript, Node.js, GraphQL, PostgreSQL, Tailwind CSS, Jest, Cypress,
 #### Direct Feedback
 "Our team was spending hours each week just updating basic information across different pages. It felt like we were constantly playing catch-up." - Administrator at a multi-location rehab network
 
+
+## Data Flow for Core Content Updates
+- <b>User interface and content management</b>: Sanity provides the interface for content managers. CMS is a restrictive interface to update data.
+- <b>Data source</b>: PostgreSQL database stores the core content. Algolia is a search engine specifically used for searching core content (center and location data). Sanity is an interface for managing content that is then automatically synced (replicated) in PostgreSQL  and Algolia. data in Postgres (don't have to write SQL queries). 
+- <b>Data retrieval</b>: GraphQL API queries only the necessary data. It bridges between Postgres and WordPress. More developer-friendly way to write queries for data retrieval.
+- <b>Front-end</b>: CMS updates reflect on front end following site build
+
+
 ## Implementation
 
 ### Default FAQ Population
