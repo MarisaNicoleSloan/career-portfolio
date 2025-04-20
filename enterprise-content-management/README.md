@@ -118,7 +118,9 @@ I implemented an automated breadcrumb generation system based on real-time page 
 
 **UX Design Process:**
 
-Led the iterative design process, including user research, wireframing, prototyping, and user testing. UX designers created detailed mockups and explored multiple state changes (hover, focus, active, etc.) in Figma, leveraging a comprehensive design library to ensure consistency and adherence to brand guidelines. These Figma designs served as the blueprint for the user interface of the treatment education module. The final module was placed beneath the center overview panel to ensure visibility without overwhelming the user. The design team initially suggested a grid approach, but this was later revised in favor of a more linear presentation to prioritize clarity based on user feedback and technical considerations. I then took these Figma designs and converted them into the final, responsive UI implementation using Tailwind CSS, ensuring a seamless transition from design to code.
+Led the iterative design process, including user research, wireframing, prototyping, and user testing. UX designers created detailed mockups and explored multiple state changes (hover, focus, active, etc.) in Figma, leveraging a comprehensive design library to ensure consistency and adherence to brand guidelines. These Figma designs served as the blueprint for the user interface of the treatment education module. The final module was placed beneath the center overview panel to ensure visibility without overwhelming the user. 
+
+The design team initially suggested a grid approach. However, feedback from UserTesting indicated that a **linear, column-based presentation was significantly clearer and easier for users to understand the continuum of care**. This direct user feedback led to the prioritization and implementation of the column-based structure for improved comprehension and usability.I then took these Figma designs and converted them into the final, responsive UI implementation using Tailwind CSS, ensuring a seamless transition from design to code.
 
 ![Initial Grid Design Suggestion](https://i.imgur.com/JfzY8PS.png)
 
