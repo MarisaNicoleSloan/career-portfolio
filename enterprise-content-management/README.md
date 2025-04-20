@@ -25,7 +25,6 @@ The digital healthcare platform faced two key challenges that hindered both inte
         * 30% of users reported they would have engaged with treatment centers sooner if the treatment levels were better explained.
     * **Competitive Landscape:** Other digital healthcare platforms used clinical language without sufficient explanation, creating a mismatch with user comprehension.
     * *"I see all these different terms like 'PHP' and 'residential,' but I have no idea what they actually mean for me."* - User Interview Participant
-    * **Key Findings:** A competitive audit highlighted a widespread use of clinical terminology without adequate explanation, underscoring the need for educational modules written in plain language.
 
 ## Core Capabilities Implemented
 
@@ -51,7 +50,7 @@ To address these interconnected challenges, the following core capabilities were
 
 [Watch the walkthrough video on Loom](https://www.loom.com/share/4a2617416e9940fc85e25684f602ab5b)
 
-* **Automatic Variable Updates:** Designed and configured AWS Lambda functions to listen for changes in PostgreSQL-stored center data (e.g., pricing or insurance), automatically triggering updates to the relevant FAQ fields in Sanity. Used GraphQL queries to fetch only the updated FAQ data, ensuring accurate, real-time reflections of center-specific changes with minimal manual intervention.
+* **Automatic Updates for Variable Data:** Designed and configured AWS Lambda functions to listen for changes in PostgreSQL-stored center data (e.g., pricing or insurance), automatically triggering updates to the relevant FAQ fields in Sanity. Used GraphQL queries to fetch only the updated FAQ data, ensuring accurate, real-time reflections of center-specific changes with minimal manual intervention.
 * **Intuitive In-CMS Editing:** Built a user-friendly interface using Tailwind CSS for Sanity. This allowed admins to modify FAQ text directly within the default FAQ framework, eliminating the need to create custom FAQs for every minor change. Focused on providing a responsive UI that worked seamlessly across desktop and mobile devices, ensuring the process of FAQ management was smooth and efficient for admins on all devices.
 
 **Technical Challenges Overcome:**
