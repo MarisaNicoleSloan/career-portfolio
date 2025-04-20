@@ -18,6 +18,13 @@ Many individuals seeking information about addiction and mental health facilitie
 ## User Research Results
 The project began with extensive user research, including surveys and user interviews. The findings revealed that users struggled to understand the different levels of care available for mental health and addiction treatment, with many unfamiliar with key terms like "partial hospitalization" and "residential treatment." This lack of clarity created a barrier to seeking treatment, as patients were unsure about their options or how to navigate the process.
 
+### Competitive Landscape
+- Other digital healthcare platforms used clinical language without sufficient explanation, creating a mismatch with user comprehension.
+
+
+#### Direct Feedback
+"I see all these different terms like 'PHP' and 'residential,' but I have no idea what they actually mean for me." - User Interview Participant
+
 ### Key Findings
 - In interviews with 50 users, 80% expressed frustration with not knowing the difference between outpatient and inpatient care. The new module aimed to clarify these distinctions.
 - 45% of survey respondents indicated that unclear treatment options were a significant barrier to making informed decisions about care.
@@ -25,7 +32,6 @@ The project began with extensive user research, including surveys and user inter
 - A competitive audit of other digital healthcare platforms showed widespread use of clinical language (e.g., “PHP,” “IOP,” “residential treatment”) that matched provider taxonomies—but lacked accompanying explanations for patients. This mismatch between industry language and user comprehension highlighted the need for educational modules written in plain, accessible terms.
 
 ## Implementation
-
 
 ### Mapping the Levels of Care
 The feature presented treatment options along a continuum of care, including:
@@ -39,10 +45,8 @@ The feature presented treatment options along a continuum of care, including:
 ### Collaboration with Clinicians
 Clinicians and subject-matter experts were closely involved to ensure the accuracy of the content. Research specialists reviewed and validated the descriptions for each treatment level, ensuring that the information was medically sound, while the copy was written to be both accessible and informative for users.
 
-
 ### Database Integration
 Leveraged PostgreSQL to store detailed information about treatment centers, with daily data refreshes for accuracy. Data was retrieved using GraphQL to optimize performance.
-
 
 ````tsx
 // Example of a GraphQL query fetching treatment details
@@ -88,7 +92,6 @@ return (
 ### Conditional Hyperlinks
 Integrated dynamic hyperlinks that adapted based on user preferences, location, and browsing history. These links helped users find location-specific services like detox treatment.
 
-
 ## UX Design Process
 Led the iterative design process, including wireframing, prototyping, and user testing. The final module was placed beneath the center overview panel to ensure visibility without overwhelming the user with details.
 
@@ -126,7 +129,7 @@ Most users easily navigated and understood the treatment options. Minor adjustme
 ## User Reception
 User feedback following the launch of the feature was overwhelmingly positive. Users appreciated the platform's commitment to providing transparent and accessible information, making their search for mental health and addiction resources more manageable and less daunting.
 
-Here is one example of the how helped someone achieve more clarity about the continnum of care when perusing profiles of treatment facilities. Please click on the image to view the user interaction.
+Here is one example of how the feature helped someone achieve more clarity about the continnum of care when perusing profiles of treatment facilities. Please click on the image to view the user interaction.
 
 <a href="https://drive.google.com/file/d/1sCRUGweHWsJYjoLGQ0c186nQ_8ylOK9y/view?usp=sharing" title="Levels of Care Module"><img src="https://i.imgur.com/6vbFpC8.png"/></a>
 
@@ -137,3 +140,9 @@ Here is one example of the how helped someone achieve more clarity about the con
 - **85% of users reported feeling more confident** in their treatment decisions after using the module  
 - **50% reduction in manual content updates**, streamlining operations and improving team efficiency  
 - **Faster feedback processing**, with user survey analysis time cut by **30%**, thanks to clearer, structured content
+
+## Lessons Learned & Future Improvements
+- <b>User-Centered Design Validation:</b> The extensive user research and testing phases were critical in ensuring the module effectively addressed user pain points and provided the necessary clarity.
+- <b>Cross-Functional Collaboration:</b> Close collaboration with clinicians, designers, and product managers ensured the accuracy and usability of the treatment information.
+- <b>Iterative Design Benefits:</b> The decision to pivot from the initial grid design based on evolving understanding highlights the value of an iterative design process.
+- <b>Future Enhancements:</b> Explore opportunities to personalize the treatment information based on user profiles and integrate interactive elements to further enhance understanding. Consider incorporating multimedia (e.g., short videos) to explain complex treatment concepts.
