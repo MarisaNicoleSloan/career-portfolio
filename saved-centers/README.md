@@ -11,7 +11,7 @@ A clear gap existed in the patient journey for a healthcare platform's appointme
 
 ## Tech Stack
 - **Frontend**: React.js, Redux, Tailwind CSS
-- **Backend**: Node.js, Express.js, PostgreSQL (for saving center data)
+- **Backend**: Node.js, Express.js, PostgreSQL (for querying center data)
 - **Local Storage (Browser Storage)**: For session-based saving of favorites (no login required)
 - **Analytics & Tracking**: Segment for event tracking
 - **Testing**: Jest, Cypress, and LambdaTest for functional, cross-browser, and UI testing
