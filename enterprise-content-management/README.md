@@ -89,8 +89,7 @@ To improve crawl efficiency, I built categorized sitemap indexes, filtering out 
 I implemented an automated breadcrumb generation system based on real-time page hierarchy, which was paired with the BreadcrumbList schema to improve search result visibility. This allowed for better navigation and enhanced SERP features.
 
 #### Navigation Improvements
-- Implemented dynamic routing using Gatsby's `createPages` API and React Router to create intuitive, category-based URLs (e.g., `/insurance/aetna/`, `/clinics/tx/houston/`), making it easier for patients to find specific information.
-
+- Implemented dynamic routing using Gatsby's `createPages` API and React Router to create intuitive, category-based URLs (e.g., `/insurance/aetna/`, `/clinics/texas/houston/`), making it easier for patients to find specific information.
 ---
 
 ### Performance Optimization: Delivering Fast and Reliable Access
@@ -133,13 +132,15 @@ The module displayed core services in the continuum of care, even when not offer
 
 **Functionality:**
 
-* **Continuum of Care Mapping:** Defined and structured the various levels of care, including:
+* **Continuum of Care Mapping:** The structure and levels of care presented in this module were directly based on the **ASAM (American Society of Addiction Medicine) Continuum of Care for Adult Addiction Treatment**. This widely recognized framework defines a comprehensive range of services, from outpatient therapy to medically managed inpatient care, ensuring a standardized and evidence-based approach to treatment. The specific levels defined and described in the module included:
+  
     1.  **Outpatient Therapy**: Short-term, non-residential treatment for individuals.
     2.  **Partial Hospitalization Programs (PHP)**: Intensive, structured treatment during the day with flexible night accommodations.
     3.  **Residential Treatment**: Full-time, inpatient care for individuals needing intensive support.
     4.  **Detoxification**: Supervised care for individuals withdrawing from substances.
     5.  **Aftercare and Support**: Ongoing recovery support after primary treatment.
-    Clear and accessible descriptions for each level were developed in close collaboration with clinicians and subject-matter experts to ensure accuracy and user comprehension.
+    
+Clear and accessible descriptions for each level were developed in close collaboration with clinicians and subject-matter experts to ensure accuracy and user comprehension.
 
 * **Dynamic Presentation:**
     * Developed a reusable React-based UI component to dynamically display relevant treatment options on center profile pages.
