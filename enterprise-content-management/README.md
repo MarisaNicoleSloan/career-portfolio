@@ -1,4 +1,4 @@
-# Empowering Users and Streamlining Operations Through Integrated Content & Product Enablement Solutions
+# Empowering Users and Streamlining Operations Through Integrated Content & Digital Enablement Solutions
 
 ## Executive Summary
 
