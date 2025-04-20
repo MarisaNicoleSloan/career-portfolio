@@ -27,7 +27,7 @@ The digital healthcare platform faced three key challenges that hindered user ex
 3.  **Poor Content Discoverability and Inconsistent Routing**: Patients struggled to find specific information due to a disorganized structure and unpredictable URLs, potentially delaying access to crucial details about their health and treatment options.
 
     * **User Research Results:**
-        * In interviews with 50 users, 80% expressed frustration with not knowing the difference between outpatient and inpatient care.
+        * In interviews with 50 users, 30% expressed frustration with not knowing the difference between outpatient and inpatient care.
         * 45% of survey respondents indicated that unclear treatment options were a significant barrier to making informed decisions about care.
         * 30% of users reported they would have engaged with treatment centers sooner if the treatment levels were better explained.
     * **Competitive Landscape:** Other digital healthcare platforms used clinical language without sufficient explanation, creating a mismatch with user comprehension.
@@ -183,30 +183,17 @@ Experienced a substantial optimization of the content management process, with s
 
 > "Before this update, I would spend about 60% of my work week just making manual updates across pages. Now that time has been cut in half, allowing me to focus on creating better content instead of just maintaining it." - Content Administrator
 
-
-
 ## Results & Overall Impact
 
-The implementation of these integrated content and product enablement capabilities yielded significant positive results across the platform:
-
-* **Automated FAQ Management led to:**
-    * Significantly reduced manual errors and administrative overhead.
-    * **50% faster FAQ updates** for administrators.
-    * **80% less manual maintenance** required for FAQs.
-    * **50% reduction in FAQ management time** for content teams.
-    * Improved content accuracy across over 20,000 pages, likely contributing to a **20% boost in organic traffic** to center pages due to better SEO.
-
-* **Dynamic Treatment Education Module resulted in:**
-    * Empowered users to make more informed decisions and increased platform interaction.
-    * **30% increase in pageviews** on pages featuring the treatment module.
-    * **25% increase in time spent per session**, indicating deeper user engagement with treatment information.
-    * **85% of users reporting feeling more confident** in their treatment decisions after using the module.
-    * Contributed to a **15% lower bounce rate** across center pages by providing more relevant and actionable information.
-    * **50% reduction in manual content updates** related to treatment information due to the structured and dynamic nature of the module.
+- **30% increase in pageviews** on pages featuring the treatment module.
+- **25% increase in time spent per session**, indicating deeper user engagement with treatment information.
+- **45% of users reporting feeling more confident** in their treatment decisions after using the module.
+- * **15% lower bounce rate** across center pages by providing more relevant and actionable information.
+- **30% reduction in manual content updates** related to treatment information due to the structured and dynamic nature of the module.
 
 ## Lessons Learned & Future Enhancements
 
-* **Integrated Solutions are Powerful:** Addressing related challenges with interconnected capabilities (efficient content management directly supports better user-facing information) leads to more holistic and impactful outcomes.
+* **Integrated Solutions are a Powerful Force for the Bottom Line:** Addressing related challenges with interconnected capabilities (efficient content management directly supports better user-facing information) leads to more holistic and impactful outcomes.
 * **User-Centricity Drives Adoption:** Focusing on the needs of both internal users (admins needing efficient tools) and external users (patients needing clear information) is crucial for the success of any platform enhancement.
 * **Data-Driven Iteration is Key:** Leveraging user research, feedback, and platform analytics to refine and improve features is essential for continuous optimization. The pivot in the treatment module design based on evolving understanding highlights this.
 * **Cross-Functional Collaboration is Essential:** The success of both initiatives relied heavily on the collaboration between development, product, design, clinical, and customer success teams.
