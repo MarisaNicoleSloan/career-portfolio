@@ -55,8 +55,8 @@ To address these interconnected challenges, the following core capabilities were
 * **Digital asset management**: Cloudinary is an image hosting provider for content content. All image content updates are synced to Cloudinary and the Algolia collection for the entry.
 * **Data source**: PostgreSQL database stores the core content. Algolia is a search engine specifically used for searching core content (center and location data). Sanity is an interface for managing content that is then automatically synced (replicated) in PostgreSQL and Algolia.
 * **Data retrieval**: GraphQL API queries only the necessary data. It bridges between Postgres and WordPress. More developer-friendly way to write queries for data retrieval.
-* **Front-end**: CMS updates reflect on front end following site build
-* **CDN**: User traffic is routed through cloudflare, which caches static assets (CSS, JS, images, fonts, 3rd-party libraries)
+* **Front-end**: CMS updates reflect on front end following each new site build
+* **CDN**: User traffic is routed through a CDN (Cloudflare), which caches static assets (CSS, JS, images, fonts, 3rd-party libraries)
 * **End user**: Sees the most recent data updates in the UI
 
 **Functionality:**
