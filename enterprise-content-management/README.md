@@ -2,11 +2,11 @@
 
 ## Executive Summary
 
-This case study highlights the implementation of integrated platform capabilities that enhanced user education and streamlined internal operations across over **20,000 pages** of a digital healthcare platform. Addressing inefficient content management and a lack of clarity in treatment information, the automation of FAQ and other key content management significantly reduced administrative workload and improved content accuracy. Concurrently, a dynamic treatment information module enhanced user understanding of treatment options, leading to increased engagement and confidence platform-wide. These strategic improvements optimized both internal processes and the user experience, resulting in enhanced efficiency, user empowerment, and positive platform metrics.
+This case study highlights the implementation of integrated platform capabilities that enhanced user education, streamlined internal operations, and improved content discoverability across over **20,000 pages** of a digital healthcare platform. Addressing inefficient content management, a lack of clarity in treatment information, and poor site navigation, strategic solutions were developed and deployed. The automation of content types, including FAQs, hero content, more custom fields, significantly reduced administrative workload and improved content accuracy. Concurrently, a dynamic treatment information module enhanced user understanding of treatment options, while comprehensive SEO optimizations and performance enhancements improved site visibility and user experience platform-wide. These integrated improvements optimized internal processes, empowered users, and resulted in positive platform metrics and user feedback.
 
 ## Business Challenge
 
-The digital healthcare platform faced two key challenges that hindered both internal efficiency and the user experience:
+The digital healthcare platform faced three key challenges that hindered user experience and adoption as well as internal efficiency:
 
 1.  **Inefficient Content Management:** Maintaining accurate and up-to-date information, particularly default FAQs across a vast number of center pages, was a time-consuming and error-prone process. Custom FAQs often overrode default content, leading to inconsistencies and increased administrative burden.
     * **Internal Pain Points:**
@@ -35,17 +35,17 @@ The digital healthcare platform faced two key challenges that hindered both inte
 This project was managed using Agile methodologies, ensuring a transparent and efficient development process focused on delivering value iteratively. Key activities included:
 
 * **Requirements Gathering and Alignment:** Collaborated with stakeholders to gather and document project requirements, which were formalized in detailed Product Requirements Documents (PRDs). These PRDs ensured clear alignment with business goals and facilitated stakeholder buy-in across engineering, content, and design teams.
-* **MVP Definition and Roadmapping:** Worked closely with the Product Owner and Chief Product Officer to scope the Minimum Viable Product (MVP) and define a prioritized feature roadmap, focusing on delivering core value early and iteratively.
+* **MVP Definition and Roadmapping:** Worked closely with the Product Owner and Chief Product Officer to scope the Minimum Viable Product (MVP) and define a prioritized feature roadmap, focusing on delivering core value early and often.
 * **Sprint Planning and Execution:** Led sprint planning sessions, facilitated story writing and backlog grooming within Jira, and managed task progress to ensure alignment with sprint timelines.
 * **Cross-Functional Collaboration:** Managed daily standups and sprint reviews with engineering, UX, and stakeholders, fostering seamless communication and shared understanding across cross-functional teams. Proactively managed dependencies and risks through close collaboration.
 * **Quality Assurance and Acceptance:** Defined clear acceptance criteria and QA checkpoints across multiple agile sprints to maintain high quality and ensure alignment with user needs throughout the development lifecycle.
-* **Release and Post-Launch Support:** Created comprehensive internal release documentation and tailored Content Management System (CMS) training materials for content editors to facilitate a smooth transition and adoption. Facilitated editor onboarding and conducted post-launch retrospectives to identify areas for continuous improvement.
+* **Release and Post-Launch Support:** Created comprehensive internal release documentation and tailored Content Management System (CMS) training materials for content editors to facilitate a smooth onboarding experience.
 
 ## Core Capabilities Implemented
 
 To address these interconnected challenges, the following core capabilities were designed and implemented:
 
-### 1. Automated & Centralized FAQ Management
+### 1. Automated & Centralized Content Management
 
 **Goal:** To streamline the management of default FAQs, ensure accuracy, and reduce administrative workload.
 
@@ -66,7 +66,8 @@ To address these interconnected challenges, the following core capabilities were
 [Watch the walkthrough video on Loom](https://www.loom.com/share/4a2617416e9940fc85e25684f602ab5b)
 
 * **Automatic Updates for Variable Data:** Designed and configured AWS Lambda functions to listen for changes in PostgreSQL-stored center data (e.g., pricing or insurance), automatically triggering updates to the relevant FAQ fields in Sanity. Used GraphQL queries to fetch only the updated FAQ data, ensuring accurate, real-time reflections of center-specific changes with minimal manual intervention.
-* **Intuitive In-CMS Editing:** Built schemas as user-friendly custom fields in Sanity, which allowed admins to modify FAQ text directly within the default FAQ framework, eliminating the need to create custom FAQs for every minor change. Focused on providing a responsive UI that worked seamlessly across desktop and mobile devices, ensuring the process of FAQ management was smooth and efficient for admins on all devices.
+* **Intuitive In-CMS Editing:** Built schemas as user-friendly custom fields in Sanity, which allowed admins to modify content directly within the default framework, eliminating the need for manual code changes.
+* - **To further enhance content creation flexibility, I **expanded the Sanity type definitions to enable rich text functionality** for various CMS fields, allowing content editors to include formatting, links, and other rich media directly within the Sanity interface. 
 
 ### SEO & Structured Data: Improving Visibility and Trust
 
