@@ -132,6 +132,18 @@ The module displayed core services in the continuum of care, even when not offer
 * **End-to-End Testing:** Cypress validated the entire user journey to ensure the feature worked seamlessly across browsers and devices.
 * **User Acceptance Testing (UAT):** UAT was conducted with a sample of end-users, including healthcare professionals and individuals seeking treatment, to ensure the feature met expectations. Key focus areas included accessibility, clarity of information, and mobile usability. Feedback from UAT led to minor adjustments regarding readability contrast.
 
+
+## Internal Navigation on Resource Hub
+
+### Before Implementation
+![Before Screenshot](https://i.imgur.com/qvLhXCk.png)
+*Before: Cluttered navigation with inconsistent categories and overwhelming options made finding specific information difficult for patients, resulting in high bounce rates and frustrated users.*
+
+### After Implementation
+![After Screenshot](https://i.imgur.com/xONWX3N.jpg)
+*After: Applied a Jobs to Be Done approach to redesign navigation around patient goals, improving usability through clear categorization, intuitive filtering, and consistent hierarchy*
+
+
 ## User Feedback: Positive Impact on Patients and Administrators
 
 ### Patients
