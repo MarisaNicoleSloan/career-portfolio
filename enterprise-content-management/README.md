@@ -30,6 +30,17 @@ The digital healthcare platform faced two key challenges that hindered both inte
     * Keyword and competitor analysis identified significant opportunities to improve organic visibility by leveraging rich snippets and structured data for healthcare-related searches. This could directly improve patient access to reliable information.
     * *"I see all these different terms like 'PHP' and 'residential,' but I have no idea what they actually mean for me."* - User Interview Participant
 
+## Agile Project Management
+
+This project was managed using Agile methodologies, ensuring a transparent and efficient development process focused on delivering value iteratively. Key activities included:
+
+* **Requirements Gathering and Alignment:** Collaborated with stakeholders to gather and document project requirements, which were formalized in detailed Product Requirements Documents (PRDs). These PRDs ensured clear alignment with business goals and facilitated stakeholder buy-in across engineering, content, and design teams.
+* **MVP Definition and Roadmapping:** Worked closely with the Product Owner and Chief Product Officer to scope the Minimum Viable Product (MVP) and define a prioritized feature roadmap, focusing on delivering core value early and iteratively.
+* **Sprint Planning and Execution:** Led sprint planning sessions, facilitated story writing and backlog grooming within Jira, and managed task progress to ensure alignment with sprint timelines.
+* **Cross-Functional Collaboration:** Managed daily standups and sprint reviews with engineering, UX, and stakeholders, fostering seamless communication and shared understanding across cross-functional teams. Proactively managed dependencies and risks through close collaboration.
+* **Quality Assurance and Acceptance:** Defined clear acceptance criteria and QA checkpoints across multiple agile sprints to maintain high quality and ensure alignment with user needs throughout the development lifecycle.
+* **Release and Post-Launch Support:** Created comprehensive internal release documentation and tailored Content Management System (CMS) training materials for content editors to facilitate a smooth transition and adoption. Facilitated editor onboarding and conducted post-launch retrospectives to identify areas for continuous improvement.
+
 ## Core Capabilities Implemented
 
 To address these interconnected challenges, the following core capabilities were designed and implemented:
@@ -50,13 +61,12 @@ To address these interconnected challenges, the following core capabilities were
 
 **Functionality:**
 
-* **Dynamic Default FAQ Population:** Developed a Node.js backend API to fetch default FAQ data from PostgreSQL. The API ensured that FAQs were correctly mapped to center-specific configurations. Implemented a React component to dynamically render FAQs in Sanity. This component displayed the default FAQs with options for editing, allowing Sanity to automatically populate with up-to-date FAQs based on the center’s configuration. Utilized GraphQL to efficiently query only the necessary FAQ data, reducing unnecessary data load and optimizing performance.
+* **Dynamic Default FAQ Population:** Developed a Node.js backend API to fetch default FAQ data from PostgreSQL. The API ensured that FAQs were correctly mapped to center-specific configurations. This component displayed the default FAQs with options for editing, allowing Sanity to automatically populate with up-to-date FAQs based on the center’s configuration. Utilized GraphQL to efficiently query only the necessary FAQ data, reducing unnecessary data load and optimizing performance.
 
 [Watch the walkthrough video on Loom](https://www.loom.com/share/4a2617416e9940fc85e25684f602ab5b)
 
 * **Automatic Updates for Variable Data:** Designed and configured AWS Lambda functions to listen for changes in PostgreSQL-stored center data (e.g., pricing or insurance), automatically triggering updates to the relevant FAQ fields in Sanity. Used GraphQL queries to fetch only the updated FAQ data, ensuring accurate, real-time reflections of center-specific changes with minimal manual intervention.
-* **Intuitive In-CMS Editing:** Built a user-friendly interface using Tailwind CSS for Sanity. This allowed admins to modify FAQ text directly within the default FAQ framework, eliminating the need to create custom FAQs for every minor change. Focused on providing a responsive UI that worked seamlessly across desktop and mobile devices, ensuring the process of FAQ management was smooth and efficient for admins on all devices.
-
+* **Intuitive In-CMS Editing:** Built schemas as user-friendly custom fields in Sanity, which allowed admins to modify FAQ text directly within the default FAQ framework, eliminating the need to create custom FAQs for every minor change. Focused on providing a responsive UI that worked seamlessly across desktop and mobile devices, ensuring the process of FAQ management was smooth and efficient for admins on all devices.
 
 ### SEO & Structured Data: Improving Visibility and Trust
 
@@ -70,6 +80,16 @@ To address these interconnected challenges, the following core capabilities were
     - Breadcrumbs
 - Validated all structured data using Google Rich Results Test and Search Console, ensuring accurate representation in search results and enhancing trust.
 - Automated schema injection at build time via Gatsby, ensuring consistent and accurate structured data across thousands of pages without manual intervention. This improves the likelihood of patients finding reliable health information through search engines.
+
+#### Crawlability and Indexing
+To improve crawl efficiency, I built categorized sitemap indexes, filtering out low-value pages like parameterized and noindex pages. This ensured a more effective use of crawl budgets and reduced unnecessary indexing delays.
+
+#### Breadcrumb Automation
+I implemented an automated breadcrumb generation system based on real-time page hierarchy, which was paired with the BreadcrumbList schema to improve search result visibility. This allowed for better navigation and enhanced SERP features.
+
+#### Navigation Improvements
+- Implemented dynamic routing using Gatsby's `createPages` API and React Router to create intuitive, category-based URLs (e.g., `/insurance/aetna/`, `/clinics/tx/houston/`), making it easier for patients to find specific information.
+
 ---
 
 ### Performance Optimization: Delivering Fast and Reliable Access
@@ -77,8 +97,7 @@ To address these interconnected challenges, the following core capabilities were
 - Refactored data queries and optimized asset loading to achieve a Time to Interactive (TTI) of under 2 seconds, ensuring rapid access to critical health information for patients.
 - Implemented Cloudflare CDN for efficient content caching and lazy loading of assets, minimizing page load times and improving the overall user experience, especially on slower connections.
 - Structured GraphQL queries on a per-route basis to prevent over-fetching of data and reduce build times, contributing to a faster and more efficient website.
-
-
+- Implemented SSR and optimized bundle delivery to maintain high page speed and make the pages easily crawlable by search engines.
 
 **Technical Challenges Overcome:**
 
