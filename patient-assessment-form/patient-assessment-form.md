@@ -10,7 +10,7 @@ The platform was a digital health service designed to connect people with behavi
 
 * Disclaimer: Code samples have been abstracted, and certain details redacted or generalized to respect confidentiality agreements. This case study demonstrates technical problem-solving and development approach.
 
-### The Problem
+### Business Challenge
 
 When searching for behavioral healthcare treatment, patients or their loved ones prioritize factors such as location, cost, specialization, and treatment approach. However, users faced significant challenges in navigating the platform:
 
