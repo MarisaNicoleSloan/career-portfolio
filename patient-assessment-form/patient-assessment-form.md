@@ -2,8 +2,9 @@
 
 ### Project Background
 
-The platform was a digital health service designed to connect people with behavioral health and addiction treatment providers. Users—often in urgent or sensitive situations—had difficulty finding appropriate care due to overwhelming content and unclear pathways. As a Development Lead and acting Project Manager for this initiative, I led the implementation of a dynamic, multi-step assessment form that personalized the search and helped users connect with relevant providers more efficiently. This initiative aligned with the product vision of accessible and personalized care.
+The platform was a digital health service designed to connect people with behavioral health and addiction treatment providers. Users—often in urgent or sensitive situations—had difficulty finding appropriate care due to overwhelming content and unclear pathways. In alignment with the company product vision of accessible and personalized care, I led the implementation of a dynamic, multi-step assessment form that personalized the search and helped users connect with relevant providers more efficiently.
 
+**Role:**  Development Lead, Project Manager
 **Collaborators:** Product Manager, UX Designers, Clinical Research Director, Chief Product Officer
 
 **Tech Stack:** React.js, TypeScript, Tailwind CSS, Gatsby, WordPress, Jest, Cloudflare
@@ -15,7 +16,7 @@ The platform was a digital health service designed to connect people with behavi
 When searching for behavioral healthcare treatment, patients or their loved ones prioritize factors such as location, cost, specialization, and treatment approach. However, users faced significant challenges in navigating the platform:
 
 * **Irrelevant Search Results:** Without personalized filtering, users frequently encountered unsuitable treatment options, causing frustration. The existing search bar, while excellent for providers familiar with the behavioral healthcare industry, relied on users knowing specific care models, treatment types, and insurance details.
-* **Overwhelming Navigation:** The absence of clear guidance made it difficult for users to refine their searches or even know where to begin, resulting in confusion and abandonment. Users were overwhelmed by the sheer amount of subcategories, such as the 50+ specializations under the "Conditions" facet.
+* **Overwhelming Navigation:** The absence of clear guidance made it difficult for users to refine their searches or even know where to begin, resulting in confusion and abandonment. Users were overwhelmed by the sheer amount of subcategories, such as the 50+ specializations under the "Conditions" facet, contributing to an average user session of under 2 minutes before abandonment on the browse page.
 * **Inefficient Experience:** Users often felt "lost" during the search process, negatively affecting engagement and retention.
 
 Usability tests and user interviews confirmed these pain points. For example, users reported feeling disoriented when attempting to narrow down their search, and customers with a profile on the site were unsure how to best attract traffic to their center profile. These findings highlighted that the existing search experience, while robust, did not effectively cater to patients unfamiliar with the complexities of behavioral healthcare terminology and options.
@@ -27,13 +28,13 @@ To address these challenges, I led the development of a dynamic, multi-step asse
 The key features and implementation details of the solution include:
 
 * **Multi-Step Form Development:**
-    * Developed using React.js, the form dynamically renders content and manages complex state using React's Context API for efficient cross-component data flow. TypeScript was used to ensure type safety and prevent runtime errors.
+    * Developed using React, the form dynamically renders content and manages complex state using React's Context API for efficient cross-component data flow, **which streamlined data sharing between form steps and improved the responsiveness of the user interface.** TypeScript was used to ensure type safety and prevent runtime errors. TypeScript was used to ensure type safety and prevent runtime errors.
     * Implemented logic using React hooks to conditionally display subsequent questions and tailor results based on user input.
     * Integrated with the Firestore database to store user inputs and dynamically filter the available results.
     * The form was integrated into the `/browse/` page, a primary entry point for users seeking providers.
 * **Location-Based Filtering:**
     * Leveraged GeoIP lookup via the user's IP address, integrated with Cloudflare's Geolocation API, to automatically identify the user’s location.
-    * Developed a radius-based filter system using GraphQL queries to fetch data specific to the location. The `GetProvidersByRadius` GraphQL query was optimized with indexed fields in our database to ensure efficient retrieval of providers within the specified radius. Caching mechanisms were implemented at the Cloudflare level to reduce latency for frequently accessed location-based searches.
+    * Developed a radius-based filter system using GraphQL queries to fetch data specific to the location. The `GetProvidersByRadius` GraphQL query was optimized with indexed fields in our database to ensure efficient retrieval of providers within the specified radius. Caching mechanisms were implemented at the Cloudflare level to reduce latency for frequently accessed location-based searches, **ensuring quick results for users in time-sensitive situations.**
     * Implemented a React-based custom component that dynamically updates the results as the user progresses through the form, with real-time filtering based on the selected radius.
 
     ```graphql
@@ -51,7 +52,7 @@ The key features and implementation details of the solution include:
     * Stored all responses in Firestore to dynamically filter and tailor the results based on user input.
     * Developed logic using React hooks to show conditional content and adjust results according to the answers provided, improving the accuracy and relevance of search results.
 * **UI/UX Enhancements:**
-    * Applied Figma designs to ensure a clear and intuitive UI, with a prominent call-to-action (CTA) for the filter wizard.
+    * Applied Figma designs to ensure a clear and intuitive UI, with a prominent call-to-action (CTA) for the filter wizard. **Collaboration with UX designers involved regular feedback sessions and shared Figma prototypes to ensure the form was both user-friendly and technically feasible.**
     * Redesigned the form and filter layout with Tailwind CSS to be responsive, ensuring that the intake process was accessible and user-friendly across all screen sizes.
     * Used CSS Grid and Flexbox for flexible layouts to accommodate varying mobile screen sizes and optimize for a smooth, single-page experience.
     * Optimized image and asset loading through Cloudflare's CDN to improve load times on mobile devices.
@@ -92,4 +93,14 @@ This project provided several key takeaways:
 * **Effective communication and collaboration:** Close collaboration with the product manager, UX designers, and clinical team was crucial for the successful execution of this project.
 
 By focusing on user needs and leveraging technology to create a more personalized and intuitive experience, we were able to significantly improve the platform's effectiveness in connecting patients with the care they need.
+
+### Future Enhancements
+
+Building on the success of the dynamic patient assessment form, future iterations will focus on further personalization and optimization of the user journey. Potential enhancements include:
+
+* **Personalized Recommendations:** Leveraging assessment data to provide more tailored provider suggestions beyond the initial search results.
+* **Integration with User Profiles:** Allowing users to save their assessment preferences for streamlined future searches and personalized content delivery.
+* **Expansion of Assessment Criteria:** Incorporating additional relevant questions based on user feedback and clinical insights to further refine search accuracy.
+* **A/B Testing and Iteration:** Continuously testing and optimizing the form questions and flow to improve conversion rates and search result relevancy.
+* **Exploration of AI-Powered Matching:** Investigating the potential of AI and machine learning to provide more sophisticated and nuanced provider matching based on assessment data and provider profiles.
 
