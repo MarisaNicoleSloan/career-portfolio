@@ -130,8 +130,6 @@ The design team initially suggested a grid approach. However, feedback from User
 
 The final module was implemented on every center profile directly beneath the center overview panel, prioritizing user education about treatment options before delving into specific center specialties.
 
-![Final Module Placement](https://i.imgur.com/GJSVieA.png)
-
 The module displayed core services in the continuum of care, even when not offered by a provider, to educate users. Links to location-specific pages enhanced relevance.
 
 ![Final Iteration of the Continuum of Care Module](https://i.imgur.com/6PtX7Nh.png)
