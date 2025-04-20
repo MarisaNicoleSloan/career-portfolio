@@ -33,6 +33,8 @@ To address these challenges, the product and engineering teams proposed a featur
 - **Share Centers:** Share saved lists via links (planned for future iterations).  
 - **Local Storage:** Use local storage to persist saved centers across sessions, eliminating the need for login.  
 
+The initial prioritization focused on the "Save" and "View" functionalities to address the most immediate pain points identified in user research – the inability to save and easily access preferred centers. The "Share Centers" functionality was planned for a future iteration to allow for validation of the core saving mechanism and gather user feedback before tackling the complexities of sharing.
+
 ## Implementation
 
 ### Frontend Development
@@ -167,7 +169,7 @@ Employed **Cypress** for end-to-end testing, ensuring the save functionality wor
 Worked closely with internal stakeholders and a pilot group of referring providers to validate feature usability and business requirements. Feedback from UAT helped fine-tune the saved centers layout and wording before public release.
 
 ## Results
-- **50% increase in user engagement**: Half of referring providers interacted with the new save functionality post-launch
+- **50% increase in user engagement**: Half of referring providers interacted with the new save functionality post-launch, a significant shift from the 80% who previously relied on manual tracking
 - **35% of users saved at least 3 centers**: Demonstrating the value of the feature for organizing and comparing centers
 - **12% increase in average time spent on site**: Users spent more time refining their searches and engaging with centers before saving them
 - **15% higher conversion rate**: Users who saved and shared centers had a higher conversion rate (contact forms or calls)
