@@ -113,6 +113,7 @@ useEffect(() => {
 ```
 
 ### Backend Development
+
 #### API Development
 Built an API using the Ghost API to manage center data. A common challenge with API integration was handling CORS errors when the frontend tried to fetch data from the backend. This was resolved by modifying the API to include the necessary CORS headers.
 
@@ -151,12 +152,17 @@ const trackFavoriteToggle = (center: Center): void => {
 
 #### API Testing
 Conducted thorough API testing using **Postman** to ensure all endpoints were functioning correctly, verifying the response structure and data accuracy.
+
 #### Unit & Integration Testing
+
 Used **Jest** to test React components and Redux store interactions, ensuring proper state management.
+
 #### Cross-Browser Testing
 Used **LambdaTest** to ensure consistent functionality and styling across major browsers, including Chrome, Firefox, Safari, and Edge.
+
 #### UI Testing
 Employed **Cypress** for end-to-end testing, ensuring the save functionality worked correctly across pages and that saved centers appeared as expected.
+
 #### User Acceptance Testing (UAT)
 Worked closely with internal stakeholders and a pilot group of referring providers to validate feature usability and business requirements. Feedback from UAT helped fine-tune the saved centers layout and wording before public release.
 
@@ -167,3 +173,12 @@ Worked closely with internal stakeholders and a pilot group of referring provide
 - **15% higher conversion rate**: Users who saved and shared centers had a higher conversion rate (contact forms or calls)
 - **Productivity Gains**: Referring providers saved an average of 10 minutes per client consultation by using the saved centers feature instead of manually copying and pasting URLs
 - **High Feature Adoption**: Over 20,000 "favorite toggled" events tracked in the first month, providing valuable insights into popular centers and informing future product enhancements
+
+## Lessons Learned & Future Improvements
+- <b>Prioritize User Workflow:</b> The importance of deeply understanding and prioritizing the user's workflow (in this case, the referring provider) was crucial to the success of this feature.
+
+- <b>Iterative Development with User Feedback:</b> The iterative approach, incorporating feedback from internal stakeholders and the pilot group, allowed for valuable adjustments and a more refined final product.
+
+- <b>Value of a Robust Testing Strategy:</b> The combination of unit, integration, cross-browser, and end-to-end testing ensured a high-quality, reliable feature across different environments.
+
+- <b>Future Enhancements:</b> Implement the "Share Centers" functionality to further streamline the referral process.
