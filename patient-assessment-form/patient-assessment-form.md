@@ -5,6 +5,7 @@
 The platform was a digital health service designed to connect people with behavioral health and addiction treatment providers. Users—often in urgent or sensitive situations—had difficulty finding appropriate care due to overwhelming content and unclear pathways. In alignment with the company product vision of accessible and personalized care, I led the implementation of a dynamic, multi-step assessment form that personalized the search and helped users connect with relevant providers more efficiently.
 
 **Role:**  Development Lead, Project Manager
+
 **Collaborators:** Product Manager, UX Designers, Clinical Research Director, Chief Product Officer
 
 **Tech Stack:** React.js, TypeScript, Tailwind CSS, Gatsby, WordPress, Jest, Cloudflare
