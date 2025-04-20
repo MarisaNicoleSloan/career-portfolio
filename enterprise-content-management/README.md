@@ -1,6 +1,10 @@
 # Empowering Users and Streamlining Operations Through Integrated Content & Digital Enablement Solutions
 
-## Executive Summary
+<b>Role:</b> Developement Lead, Project Manager
+
+<b>Collaborators:</b> Product Designer, UX Designer, Product Manager, Chief Product Officer, Clinical Research Director
+
+## Project Background
 
 This case study highlights the implementation of integrated platform capabilities that enhanced user education, streamlined internal operations, and improved content discoverability across over **20,000 pages** of a digital healthcare platform. Addressing inefficient content management, a lack of clarity in treatment information, and poor site navigation, strategic solutions were developed and deployed. The automation of content types, including FAQs, hero content, more custom fields, significantly reduced administrative workload and improved content accuracy. Concurrently, a dynamic treatment information module enhanced user understanding of treatment options, while comprehensive SEO optimizations and performance enhancements improved site visibility and user experience platform-wide. These integrated improvements optimized internal processes, empowered users, and resulted in positive platform metrics and user feedback.
 
