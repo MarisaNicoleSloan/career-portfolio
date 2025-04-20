@@ -20,7 +20,7 @@ In an increasingly competitive healthcare market, the health network needed to e
 ---
 
 ## User Research Insights
-I conductive extensive user research alongside the product team, including:
+I conducted extensive user research alongside the product team, including:
 
 Surveys: Gained feedback from patients and healthcare professionals to identify pain points and expectations.
 
