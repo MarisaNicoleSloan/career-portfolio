@@ -45,10 +45,10 @@ To manage the heart icon's state, I used Redux to ensure consistency across all 
 Used browser local storage to persist favorites across sessions, ensuring users could save centers without needing a login. However, local storage can only store data up to a certain limit, which led to issues when users saved a large number of centers. To resolve this, I limited the saved data to only essential center information (name, ID, and URL).
 
 #### API Optimization
-Initially, I used fetch to interact with the backend API. However, as the project progressed, I encountered challenges with managing request cancellations and handling error responses. For example, canceling requests when a user quickly navigated between different pages caused potential issues with unnecessary API calls.
+Initially, I used `fetch` to interact with the backend API. However, as the project progressed, I encountered challenges with managing request cancellations and handling error responses. For example, canceling requests when a user quickly navigated between different pages caused potential issues with unnecessary API calls.
 
 
-After switching to axios, I was able to handle requests more effectively, especially with support for request cancellation and easier error handling. This change also made it easier to manage request configurations, such as headers, and to handle different response formats. This was particularly useful when dealing with more complex API responses that required custom error handling.
+After switching to `axios`, I was able to handle requests more effectively, especially with support for request cancellation and easier error handling. This change also made it easier to manage request configurations, such as headers, and to handle different response formats. This was particularly useful when dealing with more complex API responses that required custom error handling.
 
 This change improved the reliability and maintainability of the API interactions, allowing for easier handling of edge cases like timeouts and retries.
 
@@ -62,9 +62,6 @@ Ensured saved centers persisted across page refreshes using Redux. One challenge
 
 #### API Development
 Built an API using the Ghost API to manage center data. A common challenge with API integration was handling CORS errors when the frontend tried to fetch data from the backend. This was resolved by modifying the API to include the necessary CORS headers.
-
-#### Deployment to Vercel
-Deployed the API to **Vercel**, ensuring smooth integration with the frontend
 
 #### Repository Management
 The frontend (React app) and backend (API) were in separate repositories. The two branches were then merged together to enable seamless communication between the UI and API and ensure a smooth deployment pipeline. 
@@ -95,6 +92,9 @@ Employed **Cypress** for end-to-end testing, ensuring the save functionality wor
 
 #### User Acceptance Testing (UAT)
 Worked closely with internal stakeholders and a pilot group of referring providers to validate feature usability and business requirements. Feedback from UAT helped fine-tune the saved centers layout and wording before public release.
+
+### Deployment
+The API changes were deployed to Vercel to optimize Next.js performance as well as to take advantage of Vercel's global CDN and edge caching capabilities
 
 ## Results
 - **20% increase in user engagement**: Half of referring providers interacted with the new save functionality post-launch, a significant shift from the 80% who previously relied on manual tracking
