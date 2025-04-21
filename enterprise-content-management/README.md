@@ -188,7 +188,7 @@ Experienced a substantial optimization of the content management process, with s
 - **30% increase in pageviews** on pages featuring the treatment module.
 - **25% increase in time spent per session**, indicating deeper user engagement with treatment information.
 - **45% of users reporting feeling more confident** in their treatment decisions after using the module.
-- * **15% lower bounce rate** across center pages by providing more relevant and actionable information.
+- **15% lower bounce rate** across center pages by providing more relevant and actionable information.
 - **30% reduction in manual content updates** related to treatment information due to the structured and dynamic nature of the module.
 
 ## Lessons Learned & Future Enhancements
