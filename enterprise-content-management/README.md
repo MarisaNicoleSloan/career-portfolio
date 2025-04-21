@@ -62,6 +62,8 @@ To address these interconnected challenges, the following core capabilities were
 * **Front-end**: CMS updates reflect on front end following each new site build
 * **CDN**: User traffic is routed through a CDN (Cloudflare), which caches static assets (CSS, JS, images, fonts, 3rd-party libraries)
 * **End user**: Sees the most recent data updates in the UI
+![image](https://github.com/user-attachments/assets/937194b3-f0ca-40c9-b77c-3bdbe27a1ff1)
+
 
 **Functionality:**
 
