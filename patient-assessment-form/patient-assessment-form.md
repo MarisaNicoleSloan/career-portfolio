@@ -16,7 +16,8 @@ When searching for behavioral healthcare treatment, patients or their loved ones
 
 * **Irrelevant Search Results:** Without personalized filtering, users frequently encountered unsuitable treatment options, causing frustration. The existing search bar, while excellent for providers familiar with the behavioral healthcare industry, relied on users knowing specific care models, treatment types, and insurance details.
 * **Overwhelming Navigation:** The absence of clear guidance made it difficult for users to refine their searches or even know where to begin, resulting in confusion and abandonment. Users were overwhelmed by the sheer amount of subcategories, such as the 50+ specializations under the "Conditions" facet, contributing to an average user session of under 2 minutes before abandonment on the browse page.
-* **Inefficient Experience:** Users often felt "lost" during the search process, negatively affecting engagement and retention.
+
+  ![mobile-faceted-search](https://github.com/user-attachments/assets/f8cb1d5c-44af-4486-a7d0-c9de3073fb92)
 
 Usability tests and user interviews confirmed these pain points. For example, users reported feeling disoriented when attempting to narrow down their search, and customers with a profile on the site were unsure how to best attract traffic to their center profile. These findings highlighted that the existing search experience, while robust, did not effectively cater to patients unfamiliar with the complexities of behavioral healthcare terminology and options.
 
