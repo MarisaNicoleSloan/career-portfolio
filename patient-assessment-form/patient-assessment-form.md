@@ -41,11 +41,15 @@ The key features and implementation details of the solution include:
     * Added multiple questions to the intake form to gather relevant user data, such as treatment preferences and user intent (e.g., self, loved one, or professional).
     * Stored all responses in Firestore to dynamically filter and tailor the results based on user input.
     * Developed logic using React hooks to show conditional content and adjust results according to the answers provided, improving the accuracy and relevance of search results.
-* **UI/UX Enhancements:**
-    * Applied Figma designs to ensure a clear and intuitive UI, with a prominent call-to-action (CTA) for the filter wizard. **Collaboration with UX designers involved regular feedback sessions and shared Figma prototypes to ensure the form was both user-friendly and technically feasible.**
+ **UI/UX Enhancements:**
+    * Collaboration with UX designers involved regular feedback sessions and shared Figma prototypes to ensure the form was both user-friendly and technically feasible.
     * Redesigned the form and filter layout with Tailwind CSS to be responsive, ensuring that the intake process was accessible and user-friendly across all screen sizes.
     * Used CSS Grid and Flexbox for flexible layouts to accommodate varying mobile screen sizes and optimize for a smooth, single-page experience.
     * Optimized image and asset loading through Cloudflare's CDN to improve load times on mobile devices.
+  
+ ![patient-assessment-form](https://github.com/user-attachments/assets/3a1b31f7-a4c6-41c7-85a7-3f11b84377bb)
+
+  
 
 The form is designed to adapt to both high-intent users (those who know their desired treatment options) and low-intent users (those who are still exploring their needs).
 
