@@ -149,11 +149,19 @@ The module displayed core services in the continuum of care, even when not offer
 
 ### Before Implementation
 ![Before Screenshot](https://i.imgur.com/qvLhXCk.png)
-*Before: Cluttered navigation with inconsistent categories and overwhelming options made finding specific information difficult for patients, resulting in high bounce rates and frustrated users.*
+The resource hub lacked any structured navigation. Information was presented in a disorganized manner, making it extremely difficult for patients to find specific details. The absence of clear categories and overwhelming options led to high bounce rates and frustrated users, as they struggled to navigate the vast amount of content.*
 
 ### After Implementation
 ![After Screenshot](https://i.imgur.com/xONWX3N.jpg)
-*After: Applied a Jobs to Be Done approach to redesign navigation around patient goals, improving usability through clear categorization, intuitive filtering, and consistent hierarchy*
+A new navigation structure was implemented based on a Jobs to Be Done framework, introducing clear top-level categories such as "Understand Needs," "Explore Options," and "Gather Information," with relevant sub-categories like "Substances" and "Dual Diagnosis." This marked a significant improvement from the previous state, which lacked any organized navigation. By focusing on the core jobs patients were trying to accomplish, we provided a much-needed structure to the resource hub.
+
+The introduction of this goal-oriented navigation, with its clear categorization, intuitive filtering (as seen in the screenshot), and consistent hierarchy, drastically improved usability. This directly addressed the previous challenges of high bounce rates and user frustration.
+
+While search data informed the initial selection of these categories, future iterations would benefit from deeper user research to further refine the taxonomy based on patient mental models and language. This iterative approach will ensure the navigation continues to evolve and best serve the needs of our users.
+
+The implementation of this redesigned navigation involved close collaboration with the Product Designer and UX Designer, translating detailed specifications into a functional and visually appealing UI using Tailwind CSS. The design meticulously incorporated the primary, secondary, and tertiary color palettes from our brand's design system to define the default, pressed, and hover states of each category. This attention to detail ensured clear visual feedback for user interactions.
+
+Adhering to the brand style guide's emphasis on conveying "Hope, growth, Connection, & Calm," the color choices and overall aesthetic of the navigation were carefully selected. Furthermore, a key consideration was ensuring accessible text and clear visual distinction between UI elements and surfaces, contributing to an inclusive user experience. This thoughtful design process, combined with the structured Jobs to Be Done framework, played a significant role in the improved usability and positive user feedback.
 
 
 **Testing and Validation:**
