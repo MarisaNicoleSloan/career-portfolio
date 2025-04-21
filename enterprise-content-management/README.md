@@ -138,7 +138,7 @@ The module displayed core services in the continuum of care, even when not offer
 
 * **Continuum of Care Mapping:** The structure and levels of care presented in this module were directly based on the **ASAM (American Society of Addiction Medicine) Continuum of Care for Adult Addiction Treatment**. This widely recognized framework defines a comprehensive range of services, from outpatient therapy to medically managed inpatient care, ensuring a standardized and evidence-based approach to treatment. The specific levels defined and described in the module included:
   
-    1.  **Outpatient Therapy**: Short-term, non-residential treatment for individuals.
+    1.  **Outpatient Services**: Short-term, non-residential treatment for individuals.
     2.  **Partial Hospitalization Programs (PHP)**: Intensive, structured treatment during the day with flexible night accommodations.
     3.  **Residential Treatment**: Full-time, inpatient care for individuals needing intensive support.
     4.  **Detoxification**: Supervised care for individuals withdrawing from substances.
