@@ -1,7 +1,7 @@
 # Marisa Sloan
 ## Software Engineer and Product Consultant, PSM, ISTQB
 
-Full-stack engineer and product consultant with experience across SaaS, ecommerce, and marketplaces, supporting organizations from startups to Fortune 500s in digital healthcare.
+Full-stack engineer and product consultant in healthtech with experience across SaaS, ecommerce, and marketplaces, supporting organizations from startups to Fortune 500s.
 
 ## Experience
 
