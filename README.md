@@ -5,7 +5,7 @@ Full-stack engineer and product consultant in healthtech with experience across 
 
 ## Experience
 
-### Software Engineer and SEO Integration Lead
+### Software Engineer and SEO Integration Lead | Product Development & Engineering
 Recovery.com | January 2024 – Present
 
 #### Key Achievements
@@ -15,7 +15,7 @@ Recovery.com | January 2024 – Present
 - Automate testing (TDD, BDD, E2E) and CI/CD pipelines, reducing defects by 20% and improving release efficiency.
 - Collaborate with leadership to accelerate feature delivery, contributing to $5M+ in product initiatives.
 
-### Technical SEO Strategist and Manager
+### Technical SEO Strategist and Manager | Product Development & Engineering
 Recovery.com | July 2022 – January 2024 
 
 #### Key Achievements
