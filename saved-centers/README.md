@@ -4,8 +4,6 @@
 
 <b>Collaborators</b>: Product Designer, Product Manager, B2B Sales Director
 
-> **Disclaimer**: Code samples have been abstracted and certain details redacted or generalized to respect confidentiality agreements. This case study is intended to demonstrate technical problem-solving and development approach.
-
 ## Project Background
 A clear gap existed in the patient journey for a healthcare platform's appointment service: enabling both patients and referring providers to easily save, manage, and share lists of treatment centers. Providers were unable to save their favorite centers for future reference or share them efficiently, hindering their ability to make recommendations.
 
@@ -43,62 +41,14 @@ I collaborated closely with the product designer to create a seamless desktop an
 
 To manage the heart icon's state, I used Redux to ensure consistency across all components, addressing the challenge of synchronizing the icon’s saved status across multiple components.
 
-```tsx
-// TypeScript version with type annotations
-interface Center {
-  id: string;
-  name: string;
-  url: string;
-}
-
-const toggleFavorite = (id: string): void => {
-  dispatch({ type: 'TOGGLE_FAVORITE', payload: id });
-};
-
-```
 #### Local Storage Integration
 Used browser local storage to persist favorites across sessions, ensuring users could save centers without needing a login. However, local storage can only store data up to a certain limit, which led to issues when users saved a large number of centers. To resolve this, I limited the saved data to only essential center information (name, ID, and URL).
-
-```tsx
-const saveToLocalStorage = (center: Center): void => {
-  const savedCenters: Center[] = JSON.parse(localStorage.getItem('favorites') || '[]');
-  if (!savedCenters.find(c => c.id === center.id)) {
-    savedCenters.push({ name: center.name, id: center.id, url: center.url });
-    localStorage.setItem('favorites', JSON.stringify(savedCenters));
-  }
-};
-```
 
 #### API Optimization
 Initially, I used fetch to interact with the backend API. However, as the project progressed, I encountered challenges with managing request cancellations and handling error responses. For example, canceling requests when a user quickly navigated between different pages caused potential issues with unnecessary API calls.
 
-```tsx
-const fetchCenters = async (): Promise<void> => {
-  try {
-    const response = await fetch('/api/centers');
-    const data: Center[] = await response.json();
-    setCenters(data);
-  } catch (error) {
-    console.error('Error fetching centers:', error);
-  }
-};
-```
 
 After switching to axios, I was able to handle requests more effectively, especially with support for request cancellation and easier error handling. This change also made it easier to manage request configurations, such as headers, and to handle different response formats. This was particularly useful when dealing with more complex API responses that required custom error handling.
-
-```tsx
-import axios from 'axios';
-
-const fetchCenters = async (): Promise<void> => {
-  try {
-    const response = await axios.get<Center[]>('/api/centers');
-    setCenters(response.data);
-  } catch (error) {
-    console.error("Error fetching centers:", error);
-  }
-};
-
-```
 
 This change improved the reliability and maintainability of the API interactions, allowing for easier handling of edge cases like timeouts and retries.
 
@@ -108,24 +58,10 @@ Developed a page to manage saved centers. The challenge here was ensuring the pa
 #### State Persistence
 Ensured saved centers persisted across page refreshes using Redux. One challenge was managing the state when users navigated between pages or applied filters. This was solved by saving the state in the Redux store and using useEffect to rehydrate the state on page load.
 
-```tsx
-useEffect(() => {
-  dispatch(loadFavoritesFromLocalStorage());
-}, []);
-```
-
 ### Backend Development
 
 #### API Development
 Built an API using the Ghost API to manage center data. A common challenge with API integration was handling CORS errors when the frontend tried to fetch data from the backend. This was resolved by modifying the API to include the necessary CORS headers.
-
-```tsx
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', 'GET, POST');
-  next();
-});
-```
 
 #### Deployment to Vercel
 Deployed the API to **Vercel**, ensuring smooth integration with the frontend
@@ -142,14 +78,6 @@ Initially, local storage handled saved centers, but as part of the future user a
 #### Analytics Integration and Validation
 Integrated Segment to track user interactions. One challenge was ensuring event data was tracked accurately across multiple components, especially when users toggled favorites. To resolve this, I added event triggers on each toggle action.
 
-```tsx
-const trackFavoriteToggle = (center: Center): void => {
-  analytics.track('Favorite Toggled', {
-    centerId: center.id,
-    centerName: center.name,
-  });
-};
-```
 ### Testing
 
 #### API Testing
