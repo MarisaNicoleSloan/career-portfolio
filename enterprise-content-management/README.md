@@ -94,7 +94,7 @@ I implemented an automated breadcrumb generation system based on real-time page 
 
 #### Navigation Improvements
 - Implemented dynamic routing using Gatsby's `createPages` API and React Router to create intuitive, category-based URLs (e.g., `/insurance/aetna/`, `/clinics/texas/houston/`), making it easier for patients to find specific information.
----
+
 
 ### Performance Optimization: Delivering Fast and Reliable Access
 
@@ -109,16 +109,19 @@ I implemented an automated breadcrumb generation system based on real-time page 
 * **Performance Optimization:** Initial GraphQL queries were causing performance bottlenecks. Optimized queries by implementing pagination and selective field fetching, reducing average response time from 3s to 200ms.
 * **Editing Workflow:** Created a custom React component for Sanity that preserved core FAQ content while allowing variable sections to be edited, solving the challenge of balancing standardization with customization.
 
-**Testing and Quality Assurance:**
-
-* Developed unit tests using Jest to ensure the integrity of the FAQ population and editing features. Tests were designed to validate that default FAQs were correctly populated in Sanity and that edits were saved without errors.
-* Ran Cypress integration tests to simulate real-world scenarios and ensure that changes to center configurations (such as pricing or insurance) properly triggered updates to FAQs, ensuring end-to-end functionality across the system.
-* - Integrated automated schema validation, code linting, and the execution of all tests into GitHub Actions and Netlify deploy previews, ensuring continuous quality assurance throughout the development lifecycle.
-* - Implemented WCAG 2.1 AA compliance throughout the interface, ensuring accessibility for users with disabilities.
-
 ### 2. Dynamic Treatment Education Module
 
 **Goal:** To enhance user understanding of available treatment options and facilitate informed decision-making.
+
+* **Continuum of Care Mapping:** The structure and levels of care presented in this module were directly based on the **ASAM (American Society of Addiction Medicine) Continuum of Care for Adult Addiction Treatment**. This widely recognized framework defines a comprehensive range of services, from outpatient therapy to medically managed inpatient care, ensuring a standardized and evidence-based approach to treatment. The specific levels defined and described in the module included:
+  
+    1.  **Outpatient Services**: Short-term, non-residential treatment for individuals.
+    2.  **Partial Hospitalization Programs (PHP)**: Intensive, structured treatment during the day with flexible night accommodations.
+    3.  **Residential Treatment**: Full-time, inpatient care for individuals needing intensive support.
+    4.  **Detoxification**: Supervised care for individuals withdrawing from substances.
+    5.  **Aftercare and Support**: Ongoing recovery support after primary treatment.
+    
+Clear and accessible descriptions for each level were developed in close collaboration with clinicians and subject-matter experts to ensure accuracy and user comprehension.
 
 **UX Design Process:**
 
@@ -136,26 +139,10 @@ The module displayed core services in the continuum of care, even when not offer
 
 **Functionality:**
 
-* **Continuum of Care Mapping:** The structure and levels of care presented in this module were directly based on the **ASAM (American Society of Addiction Medicine) Continuum of Care for Adult Addiction Treatment**. This widely recognized framework defines a comprehensive range of services, from outpatient therapy to medically managed inpatient care, ensuring a standardized and evidence-based approach to treatment. The specific levels defined and described in the module included:
-  
-    1.  **Outpatient Services**: Short-term, non-residential treatment for individuals.
-    2.  **Partial Hospitalization Programs (PHP)**: Intensive, structured treatment during the day with flexible night accommodations.
-    3.  **Residential Treatment**: Full-time, inpatient care for individuals needing intensive support.
-    4.  **Detoxification**: Supervised care for individuals withdrawing from substances.
-    5.  **Aftercare and Support**: Ongoing recovery support after primary treatment.
-    
-Clear and accessible descriptions for each level were developed in close collaboration with clinicians and subject-matter experts to ensure accuracy and user comprehension.
-
 * **Dynamic Presentation:**
     * Developed a reusable React-based UI component to dynamically display relevant treatment options on center profile pages.
     * Leveraged PostgreSQL to store detailed information about treatment centers, with daily data refreshes for accuracy. Data was retrieved using optimized GraphQL queries.
 * **Contextual Linking:** Integrated dynamic hyperlinks that adapted based on user preferences, location, and browsing history, guiding them to relevant, location-specific services like detox treatment.
-
-**Testing and Validation:**
-
-* **Unit Testing:** Jest was used for testing individual React components to ensure functionality and stability.
-* **End-to-End Testing:** Cypress validated the entire user journey to ensure the feature worked seamlessly across browsers and devices.
-* **User Acceptance Testing (UAT):** UAT was conducted with a sample of end-users, including healthcare professionals and individuals seeking treatment, to ensure the feature met expectations. Key focus areas included accessibility, clarity of information, and mobile usability. Feedback from UAT led to minor adjustments regarding readability contrast.
 
 
 ## Internal Navigation on Resource Hub
@@ -168,6 +155,20 @@ Clear and accessible descriptions for each level were developed in close collabo
 ![After Screenshot](https://i.imgur.com/xONWX3N.jpg)
 *After: Applied a Jobs to Be Done approach to redesign navigation around patient goals, improving usability through clear categorization, intuitive filtering, and consistent hierarchy*
 
+
+**Testing and Validation:**
+
+* **Unit Testing:** Jest was used for testing individual React components to ensure functionality and stability.
+* **End-to-End Testing:** Cypress validated the entire user journey to ensure the feature worked seamlessly across browsers and devices.
+* **User Acceptance Testing (UAT):** UAT was conducted with a sample of end-users, including healthcare professionals and individuals seeking treatment, to ensure the feature met expectations. Key focus areas included accessibility, clarity of information, and mobile usability. Feedback from UAT led to minor adjustments regarding readability contrast.
+
+* **Testing and Quality Assurance:**
+
+- **Unit Testing (Jest):** Validated individual React components and FAQ functionality, ensuring default FAQs were populated and editable without errors.
+- **End-to-End Testing (Cypress):** Simulated real-world user journeys and verified cross-browser/device performance, including updates to center configurations and FAQ logic.
+- **User Acceptance Testing (UAT):** Conducted with healthcare professionals and end-users to evaluate clarity, accessibility, and mobile usability. Feedback led to contrast improvements for better readability.
+- **Continuous Integration:** Integrated automated schema validation, code linting, and test execution into GitHub Actions and Netlify deploy previews.
+- **Accessibility Compliance:** Implemented WCAG 2.1 AA standards to support users with disabilities.
 
 ## User Feedback: Positive Impact on Patients and Administrators
 
