@@ -10,8 +10,6 @@ The platform was a digital health service designed to connect people with behavi
 
 **Tech Stack:** React.js, TypeScript, Tailwind CSS, Gatsby, WordPress, Jest, Cloudflare
 
-* Disclaimer: Code samples have been abstracted, and certain details redacted or generalized to respect confidentiality agreements. This case study demonstrates technical problem-solving and development approach.
-
 ### Business Challenge
 
 When searching for behavioral healthcare treatment, patients or their loved ones prioritize factors such as location, cost, specialization, and treatment approach. However, users faced significant challenges in navigating the platform:
@@ -37,16 +35,6 @@ The key features and implementation details of the solution include:
     * Leveraged GeoIP lookup via the user's IP address, integrated with Cloudflare's Geolocation API, to automatically identify the user’s location.
     * Developed a radius-based filter system using GraphQL queries to fetch data specific to the location. The `GetProvidersByRadius` GraphQL query was optimized with indexed fields in our database to ensure efficient retrieval of providers within the specified radius. Caching mechanisms were implemented at the Cloudflare level to reduce latency for frequently accessed location-based searches, **ensuring quick results for users in time-sensitive situations.**
     * Implemented a React-based custom component that dynamically updates the results as the user progresses through the form, with real-time filtering based on the selected radius.
-
-    ```graphql
-    query GetProvidersByRadius($lat: Float!, $lng: Float!, $radius: Int!) {
-      providersByLocation(lat: $lat, lng: $lng, radius: $radius) {
-        name
-        distance
-        specialties
-      }
-    }
-    ```
 
 * **User Intent and Preference Questions:**
     * Added multiple questions to the intake form to gather relevant user data, such as treatment preferences and user intent (e.g., self, loved one, or professional).
