@@ -33,10 +33,10 @@ Seer Interactive | November 2021 – July 2022
 - Trained dev teams on technical SEO, improving JavaScript execution by 40% and site performance
 - Collaborated with C-suite executives to drive data-informed product strategy, influencing SEO investments and improving user engagement by 10%
 
-#### Enterprise and Strategic Clients
+#### Enterprise and Strategic Accounts
 Paychex, Webroot, American Greetings (sub brands include Jacquie Lawson and Blue Mountain)
 
-### Freelance SEO Specialist | B2B Enterprise Professional Services
+### Enterprise SEO Specialist | B2B Professional Services
 Crowe | May 2021 – November 2021 
 
 - Drove a 10% YoY increase in organic traffic for a global enterprise by optimizing 5K+ pages in a headless CMS through on-page and technical improvements, ensuring compliance with clinical, legal, and editorial standards
@@ -92,7 +92,7 @@ Developed a feature allowing referring providers to save, manage, and share list
   - **Back-End**: Node.js, Express.js
 - **Databases and ORM**: PostgreSQL, MongoDB, DynamoDB, Firestore, Firebase, Prisma, TypeORM
 - **Dev Ops and Cloud Computing**: AWS (Lambda, S3, EC2, RDS), Gatsby Cloud, Vercel, Netlify, Heroku, Docker, Kubernetes, Terraform, CI/CD (Jenkins, GitHub Actions, CircleCI)
-- **Testing and QA**: Jest, Postman, Cypress, Selenium
+- **Testing and QA**: Jest, Postman, Cypress, Selenium, Playwright
 - **Performance Optimization**: Caching (CDNs, service workers), lazy loading, memoization, compression (data/image)
 - **Security and Compliance**: Cloudflare (DDoS, WAF), SSL/TLS, CORS, JWT, OAuth2, SSO, OWASP, CSP, SOC 2 Type II, GDPR, CCPA, HIPAA, PCI DSS, FHIR, HL7
 - **Software Architecture Diagrams**: Lucidchart, draw.io
