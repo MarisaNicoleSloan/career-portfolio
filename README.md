@@ -21,7 +21,7 @@ Recovery.com | July 2022 – January 2024
 #### Key Achievements
 - Drove 70% YoY organic traffic growth by optimizing a 50M+ URL platform, enhancing performance, site architecture, and conversion pathways
 - Led seamless site migrations and domain consolidations, ensuring zero downtime across 50+ properties
-- Developed full-stack features (TypeScript, React.js, Node.js, Next.js, PostgreSQL, Tailwind CSS), increasing ARPU by 20% annually
+- Developed full-stack features (TypeScript, React.js, Node.js, Next.js, PostgreSQL, Tailwind CSS, Jest), increasing ARPU by 20% annually
 - Boosted B2B pipeline sales by 12% through campaign assets (microsites, landing pages) with integrated tracking (GTM, Segment, Amplitude)
 - Owned SEO strategy, driving 22% YoY revenue growth by defining KPIs and collaborating cross-functionally
 
