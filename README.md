@@ -29,7 +29,7 @@ Recovery.com | July 2022 – January 2024
 Seer Interactive | November 2021 – July 2022 
 
 - Led enterprise site migrations for $500K+ projects, planning and QA testing staging environments to ensure smooth transitions
-- Increased organic traffic 25% YoY, boosting keyword rankings 15%, CTR 30%, and generating $460K+ in revenue through SEO optimizations
+- Increased organic traffic 25% YoY via performance enhancements, including code splitting, lazy loading, and image optimization
 - Trained dev teams on technical SEO, improving JavaScript execution by 20% and improving page load by 15%
 - Collaborated with C-suite executives to drive data-informed product strategy, influencing SEO investments and improving user engagement by 10%
 
