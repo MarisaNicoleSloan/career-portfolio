@@ -9,18 +9,18 @@ Full-stack engineer and product consultant in healthtech with experience across 
 Recovery.com | January 2024 – Present
 
 #### Key Achievements
-- Develop AI-powered features for a healthcare platform serving 4M+ users, enhancing patient-provider connections through intelligent search and real-time assessments.
-- Optimize API performance and database queries, improving reliability and speed during peak traffic.
-- Implement security practices (OAuth, JWT, SSL/TLS) to ensure HIPAA compliance and patient data protection.
-- Automate testing (TDD, BDD, E2E) and CI/CD pipelines, reducing defects by 20% and improving release efficiency.
-- Collaborate with leadership to accelerate feature delivery, contributing to $5M+ in product initiatives.
+- Develop AI-powered features for a healthcare platform serving 4M+ users, enhancing patient-provider connections through intelligent search and real-time assessments
+- Optimize API performance and database queries, improving reliability and speed during peak traffic
+- Implement security practices (OAuth, JWT, SSL/TLS) to ensure HIPAA compliance and patient data protection
+- Automate testing (TDD, BDD, E2E) and CI/CD pipelines, reducing defects by 20% and improving release efficiency
+- Collaborate with leadership to accelerate feature delivery, contributing to $5M+ in product initiatives
 
 ### Technical SEO Strategist and Manager | Product Development & Engineering
 Recovery.com | July 2022 – January 2024 
 
 #### Key Achievements
 - Drove 70% YoY organic traffic growth by optimizing a 50M+ URL platform, enhancing performance, site architecture, and conversion pathways
-- Led seamless site migrations and domain consolidations, ensuring zero downtime across 50+ properties
+- Led seamless site migrations and domain consolidations, ensuring zero downtime through comprehensive QA testing
 - Developed full-stack features (TypeScript, React.js, Node.js, Next.js, PostgreSQL, Tailwind CSS, Jest), increasing ARPU by 20% annually
 - Boosted B2B pipeline sales by 12% through campaign assets (microsites, landing pages) with integrated tracking (GTM, Segment, Amplitude)
 - Owned SEO strategy, driving 22% YoY revenue growth by defining KPIs and collaborating cross-functionally
@@ -28,7 +28,7 @@ Recovery.com | July 2022 – January 2024
 ### Enterprise SEO and Technical SEO Account Manager | Financial Services, SaaS, Ecommerce
 Seer Interactive | November 2021 – July 2022 
 
-- Led site migrations for $500K+ projects, ensuring no downtime through comprehensive QA testing
+- Led enterprise site migrations for $500K+ projects, planning and QA testing staging environments to ensure smooth transitions
 - Increased organic traffic 25% YoY, boosting keyword rankings 15%, CTR 30%, and generating $460K+ in revenue through SEO optimizations
 - Trained dev teams on technical SEO, improving JavaScript execution by 20% and improving page load by 15%
 - Collaborated with C-suite executives to drive data-informed product strategy, influencing SEO investments and improving user engagement by 10%
