@@ -28,9 +28,9 @@ Recovery.com | July 2022 – January 2024
 ### Enterprise SEO and Technical SEO Account Manager | Financial Services, SaaS, Ecommerce
 Seer Interactive | November 2021 – July 2022 
 
-- Led site migrations for $500K+ SEO clients, reducing downtime by 80%, preserving $200K+ in organic revenue, and ensuring stable production environments through comprehensive QA testing
+- Led site migrations for $500K+ projects, ensuring no downtime through comprehensive QA testing
 - Increased organic traffic 25% YoY, boosting keyword rankings 15%, CTR 30%, and generating $460K+ in revenue through SEO optimizations
-- Trained dev teams on technical SEO, improving JavaScript execution by 40% and site performance
+- Trained dev teams on technical SEO, improving JavaScript execution by 20% and improving page load by 15%
 - Collaborated with C-suite executives to drive data-informed product strategy, influencing SEO investments and improving user engagement by 10%
 
 #### Enterprise and Strategic Accounts
@@ -40,7 +40,7 @@ Paychex, Webroot, American Greetings (sub brands include Jacquie Lawson and Blue
 Crowe | May 2021 – November 2021 
 
 - Drove a 10% YoY increase in organic traffic for a global enterprise by optimizing 5K+ pages in a headless CMS through on-page and technical improvements, ensuring compliance with clinical, legal, and editorial standards
-- Automated data extraction with Python-based ETL pipelines, reducing reporting time by 25%, and delivered actionable insights to leadership using SQL and Tableau
+- Automated data extraction with Python-based ETL pipelines, reducing reporting time by 15%, and delivered actionable insights to leadership using SQL and Tableau
 
 ### Content and SEO Strategist
 Asher Agency | June 2019 – May 2021
