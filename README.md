@@ -10,7 +10,7 @@ Recovery.com | January 2024 – Present
 
 #### Key Achievements
 - Develop AI-powered features for a healthcare platform serving 4M+ users, enhancing patient-provider connections through intelligent search and real-time assessments
-- Optimize API performance and database queries, improving reliability and speed during peak traffic
+- Optimize API performance and database queries, improving reliability and responsiveness during peak traffic
 - Implement security practices (OAuth, JWT, SSL/TLS) to ensure HIPAA compliance and patient data protection
 - Automate testing (TDD, BDD, E2E) and CI/CD pipelines, reducing defects by 20% and improving release efficiency
 - Collaborate with leadership to accelerate feature delivery, contributing to $5M+ in product initiatives
@@ -28,7 +28,7 @@ Recovery.com | July 2022 – January 2024
 ### Enterprise SEO and Technical SEO Account Manager | Financial Services, SaaS, Ecommerce
 Seer Interactive | November 2021 – July 2022 
 
-- Led enterprise site migrations for $500K+ projects, planning and QA testing staging environments to ensure smooth transitions
+- Led enterprise site migrations, planning and QA testing staging environments to ensure smooth transitions
 - Increased organic traffic 25% YoY via performance enhancements, including code splitting, lazy loading, and image optimization
 - Trained dev teams on technical SEO, improving JavaScript execution by 20% and improving page load by 15%
 - Collaborated with C-suite executives to drive data-informed product strategy, influencing SEO investments and improving user engagement by 10%
@@ -41,6 +41,7 @@ Crowe | May 2021 – November 2021
 
 - Drove a 10% YoY increase in organic traffic for a global enterprise by optimizing 5K+ pages in a headless CMS through on-page and technical improvements, ensuring compliance with clinical, legal, and editorial standards
 - Automated data extraction with Python-based ETL pipelines, reducing reporting time by 15%, and delivered actionable insights to leadership using SQL and Tableau
+- Integrated SEO priorities into engineering and UX workflows, tailoring recommendations to the tech stack and collaborating with developers to ensure technical feasibility
 
 ### Content and SEO Strategist
 Asher Agency | June 2019 – May 2021
