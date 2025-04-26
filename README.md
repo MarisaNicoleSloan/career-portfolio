@@ -83,12 +83,13 @@ Developed a feature allowing referring providers to save, manage, and share list
 ## Skills and Technologies
 
 ### Software Development
-- **Languages and APIs**: JavaScript (DOM, ES6+), TypeScript, HTML, CSS, XML, Python, SQL, R REST, GraphQL, gRPC, Algolia
+- **Languages and APIs**: JavaScript (Vanilla, ES6+), TypeScript, HTML, CSS, XML, Python, SQL, R, REST, GraphQL, gRPC, tRPC, Algolia
 - **Libraries and Frameworks**:
   - **Front-End**: React.js, TypeScript, Next.js, Tailwind CSS, SASS, Storybook, Redux
   - **Back-End**: Node.js, Express.js
 - **Databases and ORM**: PostgreSQL, MongoDB, DynamoDB, Firestore, Firebase, Prisma, TypeORM
-- **Dev Ops and Cloud Computing**: AWS (Lambda, S3, EC2, RDS), Gatsby Cloud, Vercel, Netlify, Heroku, Docker, Kubernetes, Terraform, CI/CD (Jenkins, GitHub Actions, CircleCI)
+- **Cloud and Serverless Computing**: AWS (Lambda, S3, EC2), GCP, Netlify, Vercel, Gatsby Cloud
+- **Dev Ops**: Docker, CI/CD (Jenkins, GitHub Actions, CircleCI)
 - **Testing and QA**: Jest, Postman, Cypress, Selenium, Playwright
 - **Performance Optimization**: Caching (CDNs, service workers), lazy loading, memoization, compression (data/image)
 - **Security and Compliance**: Cloudflare (DDoS, WAF), SSL/TLS, CORS, JWT, OAuth2, SSO, OWASP, CSP, SOC 2 Type II, GDPR, CCPA, HIPAA, PCI DSS, FHIR, HL7
@@ -101,7 +102,7 @@ Developed a feature allowing referring providers to save, manage, and share list
 - **Wireframes/Mockups/Prototypes**: Figma, Sketch, Adobe CC
 - **Releases**: GitHub, Bitbucket
 - **BI/Analytics**: Mixpanel, Amplitude, GA4, GTM, Tableau, Looker
-- **Accessibility**: W3C, WCAG, ADA
+- **Accessibility**: WCAG, WAI-ARIA
 - **Documentation/Collaboration**: Confluence, Notion, PowerPoint
 
 ### Project and Portfolio Management
@@ -115,7 +116,7 @@ Developed a feature allowing referring providers to save, manage, and share list
 - **CMS**: WordPress, Sanity, Webflow, Shopify
 - **CRM**: HubSpot, Salesforce
 - **CDP/DXP**: Segment, AEM
-- **SEO**: CWVs, GSC, Ahrefs, SEMrush, Screaming Frog
+- **SEO**: Core Web Vitals(CWVs), GSC, Ahrefs, SEMrush, Screaming Frog, BrightEdge, Sitebulb
 
 ## Education
 Bachelor of Arts in English (Summa Cum Laude)
