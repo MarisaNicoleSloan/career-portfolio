@@ -9,29 +9,24 @@ Full-stack engineer and product consultant in healthtech with experience across 
 Recovery.com | January 2024 – Present
 
 #### Key Achievements
-- Develop AI-powered features for a healthcare platform serving 4M+ users, enhancing patient-provider connections through intelligent search and real-time assessments
-- Optimize API performance and database queries, improving reliability and responsiveness during peak traffic
-- Implement security practices (OAuth, JWT, SSL/TLS) to ensure HIPAA compliance and patient data protection
-- Automate testing (TDD, BDD, E2E) and CI/CD pipelines, reducing defects by 20% and improving release efficiency
-- Collaborate with leadership to accelerate feature delivery, contributing to $5M+ in product initiatives
-
-### Technical SEO Strategist and Manager | Product Development & Engineering
-Recovery.com | July 2022 – January 2024 
-
-#### Key Achievements
-- Drove 70% YoY organic traffic growth by optimizing a 50M+ URL platform, enhancing performance, site architecture, and conversion pathways
+- Lead full-cycle development projects on business-critical capabilities for a global healthcare platform (250K+ MAU, 50+ countries), using React, TypeScript, Node.js, Next.js, and PostgreSQL
+- Accelerate patient acquisition by streamlining user journeys to relevant providers and real-time assessments via Algolia's AI personalization (NLP, behavioral data, geolocation)
+- Expand product suite by developing performant and HIPAA-compliant APIs and using serverless deployments for seamless data connectivity across monolithic and microservices architectures
+- Boost release efficiency through CI/CD enhancements, including test automation and containerization (Docker)
+- Contribute to product-market fit by collaborating with product, design, and customers to build and validate key features (education, comparison, assessments, preferences, support)
+- Drove 40% YoY organic traffic growth by optimizing a 50M+ URL platform, enhancing performance, site architecture, and conversion pathways
 - Led seamless site migrations and domain consolidations, ensuring zero downtime through comprehensive QA testing
-- Developed full-stack features (TypeScript, React.js, Node.js, Next.js, PostgreSQL, Tailwind CSS, Jest), increasing ARPU by 20% annually
+- Increased ARPU by 20% by developing full-stack features (TypeScript, React.js, Node.js, PostgreSQL) for the flagship product
 - Boosted B2B pipeline sales by 12% through campaign assets (microsites, landing pages) with integrated tracking (GTM, Segment, Amplitude)
 - Owned SEO strategy, driving 22% YoY revenue growth by defining KPIs and collaborating cross-functionally
 
 ### Enterprise SEO and Technical SEO Account Manager | Financial Services, SaaS, Ecommerce
 Seer Interactive | November 2021 – July 2022 
 
-- Led enterprise site migrations, planning and QA testing staging environments to ensure smooth transitions
+- Led enterprise site migrations, planning and QA testing staging environments to ensure smooth transitions with no downtime
 - Increased organic traffic 25% YoY via performance enhancements, including code splitting, lazy loading, and image optimization
-- Trained dev teams on technical SEO, improving JavaScript execution by 20% and improving page load by 15%
-- Collaborated with C-suite executives to drive data-informed product strategy, influencing SEO investments and improving user engagement by 10%
+- Trained development teams on front-end performance and Core Web Vitals optimization, improving average page load speed by 15% and reducing user abandonment rates by 20%
+- Managed 6-figure client relationships, leading 50+ stakeholder meetings and securing 100% client retention
 
 #### Enterprise and Strategic Accounts
 Paychex, Webroot, American Greetings (sub brands include Jacquie Lawson and Blue Mountain)
@@ -40,14 +35,15 @@ Paychex, Webroot, American Greetings (sub brands include Jacquie Lawson and Blue
 Crowe | May 2021 – November 2021 
 
 - Drove a 10% YoY increase in organic traffic for a global enterprise by optimizing 5K+ pages in a headless CMS through on-page and technical improvements, ensuring compliance with clinical, legal, and editorial standards
-- Automated data extraction with Python-based ETL pipelines, reducing reporting time by 15%, and delivered actionable insights to leadership using SQL and Tableau
+- Developed Python-based ETL pipelines to automate data extraction from GSC, GA4, and SEMrush, reducing manual reporting time by 25%
+-  Transformed large-scale digital marketing datasets into data visualizations with SQL and Tableau, delivering actionable insights to executive leadership
 - Integrated SEO priorities into engineering and UX workflows, tailoring recommendations to the tech stack and collaborating with developers to ensure technical feasibility
 
 ### Content and SEO Strategist
 Asher Agency | June 2019 – May 2021
 
-- Led product development for SEO and content strategy offerings, generating $200K+ in annual revenue and enhancing client retention through agile project management
-- Managed $150K+ projects, translating business requirements into specs, optimizing onboarding, and collaborating with UX teams to boost conversion rates by 15%
+- Launched agency's first technical SEO and content strategy offerings, increasing annual revenue by 10%
+- Managed projects across the SDLC, collaborating with executive and cross-functional teams (designers, developers, customer success), securing 100% client retention
 
 #### Enterprise and Mid-Market Clients
 Farmers & Merchants State Bank, Parkview Health, Indiana Tech, Subway, Ivy Tech, Saint Mary's College, Fantastic Sams, Fort Wayne International Airport
@@ -55,7 +51,7 @@ Farmers & Merchants State Bank, Parkview Health, Indiana Tech, Subway, Ivy Tech,
 ## Portfolio
 
 #### [Dynamic Treatment Education Feature for a Digital Healthcare Platform](/levels-of-care/)
-Developed a dynamic treatment education module for a healthcare provider directory, improving user understanding of available treatment options across 4,000+ pages. The module offered clear, structured data on treatment levels, enhancing decision-making for individuals seeking mental health and addiction care.
+Developed a dynamic treatment education module for a healthcare provider directory, improving user understanding of available treatment options across 20,000+ pages. The module offered clear, structured data on treatment levels, enhancing decision-making for individuals seeking mental health and addiction care.
 
 **Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, GraphQL, PostgreSQL, Yarn, Git, Jest, Cypress, Sanity  
 
@@ -66,7 +62,7 @@ Developed a dynamic treatment education module for a healthcare provider directo
 
 #### [Enterprise Healthcare Site Reconstruction](/enterprise-content-management/)
 
-Led site reconstruction across 10,000+ pages of a healthcare network, including a resource hub and core offerings (insurance, clinical specialities), to improve content discoverability, SEO, and user experience.
+Led site reconstruction across 20,000+ pages of a healthcare network, including a resource hub and core offerings (insurance, clinical specialities), to improve content discoverability, SEO, and user experience.
 
 **Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, WordPress, Sanity, PostgreSQL, GraphQL, Firestore, Redux, Jest, Cypress, Git, GitHub Actions, Netlify
 - **25% increase in core feature interactions** (consultations, bookings) with optimized content and navigation 
@@ -110,7 +106,7 @@ Developed a feature allowing referring providers to save, manage, and share list
 
 ### Project and Portfolio Management
 - **Scheduling**: Trello, Asana, Basecamp
-- **Methodologies**: Agile (Scrum, Kanban), Waterfall
+- **Methodologies**: Agile (Scrum, Kanban), Waterfall, Shape Up
 - **Change/Risk Management**: JSM, Monday.com
 - **Resource/Time Management**: Workfront, Clockify
 - **Budgeting**: Harvest, QuickBooks
@@ -123,4 +119,4 @@ Developed a feature allowing referring providers to save, manage, and share list
 
 ## Education
 Bachelor of Arts in English (Summa Cum Laude)
-Ball State University, May 2019
+Ball State University, August 2015 – May 2019
