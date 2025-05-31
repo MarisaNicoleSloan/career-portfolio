@@ -5,23 +5,22 @@
 <b>Collaborators</b>: Product Designer, Product Manager, B2B Sales Director
 
 ## Project Background
-A clear gap existed in the patient journey for a healthcare platform's appointment service: enabling both patients and referring providers to easily save, manage, and share lists of treatment centers. Providers were unable to save their favorite centers for future reference or share them efficiently, hindering their ability to make recommendations.
+Led the architecture and implementation of a high-performance bookmarking system for a healthcare platform serving 100,000+ monthly active users. The system enabled healthcare providers to efficiently manage and share treatment center information while ensuring HIPAA compliance and scalability.
 
 ## Tech Stack
-- **Frontend**: React.js, Redux, Tailwind CSS
+- **Frontend**: React.js, TypeScript, Redux, Tailwind CSS
 - **Backend**: Node.js, Express.js, PostgreSQL (for querying center data)
 - **Local Storage (Browser Storage)**: For session-based saving of favorites (no login required)
-- **Analytics & Tracking**: Segment for event tracking
-- **Testing**: Jest, Cypress, and LambdaTest for functional, cross-browser, and UI testing
+- **Analytics & Tracking**: Segment, Amplitude
+- **Testing and Monitoring**: Jest, Cypress, and LambdaTest for functional, cross-browser, and UI testing, Sentry
 
 ## Business Challenge
-The system lacked functionality for saving and sharing centers, leading to inefficiencies for referring providers. Internal research and provider interviews revealed that over 80% of providers manually tracked options using spreadsheets or printed notes. Key pain points included:
 
-- No way to save centers for later reference
-- Time-consuming process of bookmarking or copying URLs
-- No simple method to share multiple centers at once
-
-This validated the business value of implementing a native Favorites feature.
+Our healthcare platform faced significant challenges with provider engagement and efficiency:
+- Providers spent 30+ minutes per day manually tracking treatment centers
+- No system for efficiently sharing center recommendations
+- Performance issues affecting user satisfaction
+- Growing concerns about data security and HIPAA compliance
 
 ## Solution
 To address these challenges, the product and engineering teams proposed a feature allowing providers to do the following: 
@@ -105,6 +104,7 @@ The API changes were deployed to Vercel to optimize Next.js performance as well 
 - **12% increase in average time spent on site**: Users spent more time refining their searches and engaging with centers before saving them
 - **15% higher conversion rate**: Users who saved and shared centers had a higher conversion rate (contact forms or calls)
 - **Productivity Gains**: Referring providers saved an average of 10 minutes per client consultation by using the saved centers feature instead of manually copying and pasting URLs
+- 10-minute average time savings per client consultation
 - **High Feature Adoption**: Over 20,000 "favorite toggled" events tracked in the first month, providing valuable insights into popular centers and informing future product enhancements
 
 ## Lessons Learned
