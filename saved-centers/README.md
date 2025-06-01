@@ -10,7 +10,7 @@ Led the architecture and implementation of a high-performance bookmarking system
 ## Tech Stack
 - **Frontend**: React.js, TypeScript, Redux, Tailwind CSS
 - **Backend**: Node.js, Express.js, PostgreSQL (for querying center data)
-- **Local Storage (Browser Storage)**: For session-based saving of favorites (no login required)
+- **Local Storage**: For session-based saving of favorites (no login required)
 - **Analytics & Tracking**: Segment, Amplitude
 - **Testing and Monitoring**: Jest, Cypress, and LambdaTest for functional, cross-browser, and UI testing, Sentry
 
@@ -37,28 +37,24 @@ The initial prioritization focused on the "Save" and "View" functionalities to a
 
 ### Frontend Development
 #### UX Collaboration on a Modular Design System
-I collaborated closely with the product designer to create a seamless desktop and mobile experience using a component-based architecture. Designs in Figma reflected a robust design system focused on clarity and responsiveness. I built interactive elements, like the heart icon that enlarged on hover as an optimistic UI pattern to provide immediate visual feedback. Each component was aligned with our shared design library for scalable reuse across the application.
+I collaborated closely with the product designer to create a seamless desktop and mobile experience using a component-based architecture. Leveraging a robust design system (reflected in Figma) focused on clarity and responsiveness, and drawing from Google's Material Design, I developed interactive elements, like an optimistic UI heart icon that enlarged on hover. To ensure consistent state management and synchronize its saved status across components, I utilized Redux. All components adhered to our shared design library for scalable reuse.
 
 To manage the heart icon's state, I used Redux to ensure consistency across all components, addressing the challenge of synchronizing the icon’s saved status across multiple components.
 
 #### Local Storage Integration
-Used browser local storage to persist favorites across sessions, ensuring users could save centers without needing a login. However, local storage can only store data up to a certain limit, which led to issues when users saved a large number of centers. To resolve this, I limited the saved data to only essential center information (name, ID, and URL).
+Used browser local storage to persist users' favorite center selections across sessions, ensuring users could save centers without needing a login. When users saved a large number of centers, exceeding storage limits became a challenge. To address this, I optimized data storage by limiting saved information to only essential center details (name, ID, and URL), ensuring continuous functionality.
 
 #### API Optimization
 
-Initially, I used `fetch` to interact with the backend API. However, as the project progressed, I encountered challenges with managing request cancellations and handling error responses. For example, canceling requests when a user quickly navigated between different pages caused potential issues with unnecessary API calls.
-
-After switching to `axios`, I was able to handle requests more effectively, especially with support for request cancellation and easier error handling. This change also made it easier to manage request configurations, such as headers, and to handle different response formats. This was particularly useful when dealing with more complex API responses that required custom error handling.
-
-This change improved the reliability and maintainability of the API interactions, allowing for easier handling of edge cases like timeouts and retries.
+I optimized API interactions by transitioning from fetch to axios. While fetch presented difficulties with request cancellations and robust error handling (e.g., during rapid UI navigation), axios streamlined these processes. It provided built-in support for request cancellation and simplified error management, along with enhanced control over configurations and response formats. This significantly improved the reliability and maintainability of API calls, especially for complex scenarios and edge cases.
 
 #### Saved Centers Page
-Developed a page to manage saved centers. The challenge here was ensuring the page remained responsive while displaying a dynamic number of saved centers. Using Tailwind CSS, I created a flexible layout that adjusted based on screen size, making it easy for users to interact with the saved centers on both desktop and mobile devices.
+I developed a dedicated page to manage saved centers. The challenge involved maintaining responsiveness while displaying a dynamic number of items. Leveraging Tailwind CSS, I engineered a flexible layout that dynamically adjusted to screen sizes, ensuring an optimal user experience on both desktop and mobile devices.
 
 ![saved-list-desktop](https://github.com/user-attachments/assets/3b37f19f-933b-4b0d-a2ab-4887998a5bec)
 
 #### State Persistence
-Ensured saved centers persisted across page refreshes using Redux. One challenge was managing the state when users navigated between pages or applied filters. This was solved by saving the state in the Redux store and using useEffect to rehydrate the state on page load.
+I ensured saved centers persisted across page refreshes by implementing Redux. A key challenge was consistently managing state during user navigation and filter application. I resolved this by efficiently saving and rehydrating the application state in the Redux store on page load, maintaining a seamless user experience.
 
 ### Backend Development
 
@@ -69,25 +65,25 @@ Developed an API using the Ghost API to manage center data, enabling seamless fr
 Initially, the frontend (React app) and backend (API) were developed and managed in separate repositories. To streamline the deployment pipeline and ensure seamless communication between the UI and API, the necessary code and changes from the API repository were integrated into the core frontend repository. This approach effectively unified the application's codebase, allowing for a more cohesive build and deployment process.
 
 #### Staging Environment
-Implemented a staging environment to test the complete API and UI integration before moving to production. This helped identify any integration issues early in the development process.
+A dedicated staging environment, powered by Gatsby and Netlify, was established for comprehensive testing of the API and UI integration. This crucial step allowed for early identification and resolution of issues in a production-like setting, ensuring a reliable deployment to the live application.
 
 #### Database Updates
 Initially, local storage handled saved centers, but as part of the future user authentication features, I designed the backend to allow server-side storage. The challenge was migrating data from local storage to the backend without causing data loss. This was done by creating an endpoint to synchronize local favorites with the database once the user logged in.
 
 #### Analytics Integration and Validation
-Integrated Segment to track user interactions. One challenge was ensuring event data was tracked accurately across multiple components, especially when users toggled favorites. To resolve this, I added event triggers on each toggle action.
+I integrated Segment for tracking user interactions. A key challenge was ensuring accurate event data capture across various UI components, particularly with user actions like toggling favorites. I resolved this by implementing precise event triggers on each toggle, guaranteeing reliable data collection.
 
 ### Testing
 
 #### API Testing
-Conducted thorough API testing using **Postman** to ensure all endpoints were functioning correctly, verifying the response structure and data accuracy.
+Conducted thorough API testing using **Postman**, validating endpoint functionality, data accuracy, and error handling to ensure the API's overall reliability.
 
 #### Unit & Integration Testing
 
-Used **Jest** to test React components and Redux store interactions, ensuring proper state management.
+I implemented comprehensive unit and integration tests using **Jest** to validate React component behavior. This ensured proper state management and robust application functionality.
 
 #### Cross-Browser Testing
-Used **LambdaTest** to ensure consistent functionality and styling across major browsers, including Chrome, Firefox, Safari, and Edge.
+I leveraged **LambdaTest** to conduct thorough cross-browser testing, ensuring consistent application functionality and styling across all major browsers and various screen sizes/breakpoints, including Chrome, Firefox, Safari, and Edge, guaranteeing a uniform user experience.
 
 #### UI Testing
 Employed **Cypress** for end-to-end testing, ensuring the save functionality worked correctly across pages and that saved centers appeared as expected.
@@ -96,7 +92,7 @@ Employed **Cypress** for end-to-end testing, ensuring the save functionality wor
 Worked closely with internal stakeholders and a pilot group of referring providers to validate feature usability and business requirements. Feedback from UAT helped fine-tune the saved centers layout and wording before public release.
 
 ### Deployment
-The API changes were deployed to Vercel to optimize Next.js performance as well as to take advantage of Vercel's global CDN and edge caching capabilities
+The API changes were deployed to Vercel to optimize Next.js performance as well as to take advantage of Vercel's global CDN and edge caching capabilities.
 
 ## Results
 - **20% increase in user engagement**: Half of referring providers interacted with the new save functionality post-launch, a significant shift from the 80% who previously relied on manual tracking
