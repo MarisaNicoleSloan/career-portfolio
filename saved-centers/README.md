@@ -63,10 +63,10 @@ Ensured saved centers persisted across page refreshes using Redux. One challenge
 ### Backend Development
 
 #### API Development
-Built an API using the Ghost API to manage center data. A common challenge with API integration was handling CORS errors when the frontend tried to fetch data from the backend. This was resolved by modifying the API to include the necessary CORS headers.
+Developed an API using the Ghost API to manage center data, enabling seamless frontend integration. A common challenge encountered was resolving CORS errors that hindered data fetching from the backend. This was overcome by implementing CORS header solutions directly within the API, configuring it to include necessary headers like Access-Control-Allow-Origin. This effectively resolved cross-origin communication, ensuring reliable data flow to the frontend.
 
 #### Repository Management
-The frontend (React app) and backend (API) were in separate repositories. The two branches were then merged together to enable seamless communication between the UI and API and ensure a smooth deployment pipeline. 
+Initially, the frontend (React app) and backend (API) were developed and managed in separate repositories. To streamline the deployment pipeline and ensure seamless communication between the UI and API, the necessary code and changes from the API repository were integrated into the core frontend repository. This approach effectively unified the application's codebase, allowing for a more cohesive build and deployment process.
 
 #### Staging Environment
 Implemented a staging environment to test the complete API and UI integration before moving to production. This helped identify any integration issues early in the development process.
