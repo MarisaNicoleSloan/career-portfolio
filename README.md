@@ -14,7 +14,7 @@ Recovery.com | January 2024 – Present
 - Boost release efficiency through CI/CD enhancements, including test automation and containerization (Docker)
 - Contribute to product-market fit by collaborating with product, design, and customers to build and validate key features (education, comparison, assessments, preferences, support)
 
-### Technical SEO Strategist and Manager | Product Development & Engineering
+### Technical SEO Strategist | Product Development & Engineering
 
 #### Key Achievements
 Recovery.com | July 2022 – January 2024
@@ -24,7 +24,7 @@ Recovery.com | July 2022 – January 2024
 - Boosted B2B pipeline sales by 12% through campaign assets (microsites, landing pages) with integrated tracking (GTM, Segment, Amplitude)
 - Owned SEO strategy, driving 22% YoY revenue growth by defining KPIs and collaborating cross-functionally
 
-### Enterprise SEO and Technical SEO Account Manager | Financial Services, SaaS, Ecommerce
+### SEO and Technical SEO Account Manager | Financial Services, SaaS, Ecommerce
 Seer Interactive | November 2021 – July 2022 
 
 - Led enterprise site migrations, planning and QA testing staging environments to ensure smooth transitions with no downtime
