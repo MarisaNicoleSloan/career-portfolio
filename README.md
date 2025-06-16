@@ -11,9 +11,12 @@ Recovery.com | January 2024 – Present
 #### Key Achievements
 - Lead full-cycle development projects on business-critical capabilities for a global healthcare platform (250K+ MAU, 50+ countries), using React, TypeScript, Node.js, Next.js, and PostgreSQL
 - Accelerate patient acquisition by streamlining user journeys to relevant providers and real-time assessments via Algolia's AI personalization (NLP, behavioral data, geolocation)
-- Expand product suite by developing performant and HIPAA-compliant APIs and using serverless deployments for seamless data connectivity across monolithic and microservices architectures
+- Expand product suite by using HIPAA-compliant APIs, ensuring seamless data connectivity
 - Boost release efficiency through CI/CD enhancements, including test automation and containerization (Docker)
 - Contribute to product-market fit by collaborating with product, design, and customers to build and validate key features (education, comparison, assessments, preferences, support)
+
+### Technical SEO Strategist and Manager | Product Development & Engineering
+Recovery.com | July 2022 – January 2024
 - Drove 40% YoY organic traffic growth by optimizing a 50M+ URL platform, enhancing performance, site architecture, and conversion pathways
 - Led seamless site migrations and domain consolidations, ensuring zero downtime through comprehensive QA testing
 - Increased ARPU by 20% by developing full-stack features (TypeScript, React.js, Node.js, PostgreSQL) for the flagship product
@@ -35,7 +38,6 @@ Paychex, Webroot, American Greetings (sub brands include Jacquie Lawson and Blue
 Crowe | May 2021 – November 2021 
 
 - Drove a 10% YoY increase in organic traffic for a global enterprise by optimizing 5K+ pages in a headless CMS through on-page and technical improvements, ensuring compliance with clinical, legal, and editorial standards
-- Developed Python-based ETL pipelines to automate data extraction from GSC, GA4, and SEMrush, reducing manual reporting time by 25%
 -  Transformed large-scale digital marketing datasets into data visualizations with SQL and Tableau, delivering actionable insights to executive leadership
 - Integrated SEO priorities into engineering and UX workflows, tailoring recommendations to the tech stack and collaborating with developers to ensure technical feasibility
 
