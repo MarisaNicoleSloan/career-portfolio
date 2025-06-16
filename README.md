@@ -59,7 +59,7 @@ Developed a dynamic treatment education module for a healthcare provider directo
 **Tech Stack**: React.js, TypeScript, Tailwind CSS, Gatsby, GraphQL, PostgreSQL, Yarn, Git, Jest, Cypress, Sanity  
 
 **Key Achievements**  
-- **85% of users reported increased confidence in treatment decisions via post-launch feedback surveys, improving user experience**  
+- **35% of users reported increased confidence in treatment decisions via post-launch feedback surveys, improving user experience**  
 - **Streamlined content management, cutting manual update time by 50%, resulting in significant operational efficiency gains**  
 - **30% increase in pageviews and 25% longer session durations, indicating higher engagement with treatment content**
 
