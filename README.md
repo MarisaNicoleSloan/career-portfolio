@@ -16,6 +16,8 @@ Recovery.com | January 2024 – Present
 - Contribute to product-market fit by collaborating with product, design, and customers to build and validate key features (education, comparison, assessments, preferences, support)
 
 ### Technical SEO Strategist and Manager | Product Development & Engineering
+
+#### Key Achievements
 Recovery.com | July 2022 – January 2024
 - Drove 40% YoY organic traffic growth by optimizing a 50M+ URL platform, enhancing performance, site architecture, and conversion pathways
 - Led seamless site migrations and domain consolidations, ensuring zero downtime through comprehensive QA testing
