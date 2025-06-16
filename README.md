@@ -8,7 +8,6 @@ Full-stack engineer and product consultant in healthtech with experience across 
 ### Software Engineer and SEO Integration Lead | Product Development & Engineering
 Recovery.com | January 2024 – Present
 
-#### Key Achievements
 - Lead full-cycle development projects on business-critical capabilities for a global healthcare platform (250K+ MAU, 50+ countries), using React, TypeScript, Node.js, Next.js, and PostgreSQL
 - Accelerate patient acquisition by streamlining user journeys to relevant providers and real-time assessments via Algolia's AI personalization (NLP, behavioral data, geolocation)
 - Expand product suite by using HIPAA-compliant APIs, ensuring seamless data connectivity
