@@ -42,7 +42,7 @@ Crowe | May 2021 – November 2021
 -  Transformed large-scale digital marketing datasets into data visualizations with SQL and Tableau, delivering actionable insights to executive leadership
 - Integrated SEO priorities into engineering and UX workflows, tailoring recommendations to the tech stack and collaborating with developers to ensure technical feasibility
 
-### Content and SEO Strategist
+### Web Content Strategist
 Asher Agency | June 2019 – May 2021
 
 - Launched agency's first technical SEO and content strategy offerings, increasing annual revenue by 10%
