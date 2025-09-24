@@ -32,17 +32,17 @@ Seer Interactive | November 2021 – July 2022
 - Trained development teams on front-end performance and Core Web Vitals optimization, improving average page load speed by 15% and reducing user abandonment rates by 20%
 - Managed 6-figure client relationships, leading 50+ stakeholder meetings and securing 100% client retention
 
-#### Enterprise and Strategic Accounts
+#### Enterprise Accounts
 Paychex, Webroot, American Greetings (sub brands include Jacquie Lawson and Blue Mountain)
 
-### Enterprise SEO Specialist | B2B Professional Services
+### SEO Specialist | B2B Professional Services
 Crowe | May 2021 – November 2021 
 
 - Drove a 10% YoY increase in organic traffic for a global enterprise by optimizing 5K+ pages in a headless CMS through on-page and technical improvements, ensuring compliance with clinical, legal, and editorial standards
 -  Transformed large-scale digital marketing datasets into data visualizations with SQL and Tableau, delivering actionable insights to executive leadership
 - Integrated SEO priorities into engineering and UX workflows, tailoring recommendations to the tech stack and collaborating with developers to ensure technical feasibility
 
-### Web Content Strategist
+### Digital Copywriter
 Asher Agency | June 2019 – May 2021
 
 - Launched agency's first technical SEO and content strategy offerings, increasing annual revenue by 10%
